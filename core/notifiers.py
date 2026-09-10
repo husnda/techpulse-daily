@@ -1,3 +1,4 @@
+import html
 import json
 import urllib.request
 import urllib.parse
@@ -81,40 +82,82 @@ def send_feishu_card(webhook_url, digest_data):
         return resp.read().decode("utf-8")
 
 def send_telegram(bot_token, chat_id, digest_data):
+    bot_token = str(bot_token).strip()
+    chat_id = str(chat_id).strip()
     date_str = digest_data.get("date", "")
     gh_items = digest_data.get("github_items", [])[:6]
     hn_items = digest_data.get("hn_items", [])[:6]
     ai_overview = digest_data.get("ai_overview")
     
+    # 1. Prepare HTML message
     lines = [f"<b>🛰️ TechPulse Daily 技术早报 ({date_str})</b>\n"]
     if ai_overview:
-        lines.append(f"<b>🧠 今日风向速览：</b>\n<i>{ai_overview}</i>\n")
+        safe_ai = html.escape(ai_overview)
+        lines.append(f"<b>🧠 今日风向速览：</b>\n<i>{safe_ai}</i>\n")
         
     lines.append("<b>🚀 GitHub Trending 开源热点：</b>")
     for i, it in enumerate(gh_items, 1):
         stars = f"+{it.get('stars_today', 0):,}"
-        lines.append(f"{i}. <a href=\"{it['url']}\">{it['full_name']}</a> ({it.get('language', 'Code')}) ⭐ {stars}")
+        safe_name = html.escape(it.get('full_name', ''))
+        safe_lang = html.escape(it.get('language', 'Code'))
+        lines.append(f"{i}. <a href=\"{it['url']}\">{safe_name}</a> ({safe_lang}) ⭐ {stars}")
         
     lines.append("\n<b>🔥 Hacker News 极客深度讨论：</b>")
     for i, it in enumerate(hn_items, 1):
-        lines.append(f"{i}. <a href=\"{it['url']}\">{it['title']}</a> (🔥 {it['points']} pts / <a href=\"{it['hn_url']}\">{it['comments_count']} 评</a>)")
+        safe_title = html.escape(it.get('title', ''))
+        lines.append(f"{i}. <a href=\"{it['url']}\">{safe_title}</a> (🔥 {it['points']} pts / <a href=\"{it['hn_url']}\">{it['comments_count']} 评</a>)")
         
-    text = "\n".join(lines)
+    html_text = "\n".join(lines)
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
-    payload = {
+    
+    payload_html = {
         "chat_id": chat_id,
-        "text": text,
+        "text": html_text,
         "parse_mode": "HTML",
-        "disable_web_page_preview": True
+        "link_preview_options": {"is_disabled": True}
     }
+    
+    # Try HTML mode first
     req = urllib.request.Request(
         url,
-        data=json.dumps(payload).encode("utf-8"),
+        data=json.dumps(payload_html).encode("utf-8"),
         headers={"Content-Type": "application/json"}
     )
-    with urllib.request.urlopen(req, timeout=15) as resp:
-        return resp.read().decode("utf-8")
-
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return resp.read().decode("utf-8")
+    except urllib.error.HTTPError as e:
+        err_body = e.read().decode("utf-8", errors="ignore")
+        logger.warning(f"Telegram HTML send failed ({err_body}), trying plain text fallback...")
+        
+        # Fallback to plain text if HTML entity parsing failed
+        plain_lines = [f"🛰️ TechPulse Daily 技术早报 ({date_str})\n"]
+        if ai_overview:
+            plain_lines.append(f"今日风向速览：\n{ai_overview}\n")
+        plain_lines.append("GitHub Trending 开源热点：")
+        for i, it in enumerate(gh_items, 1):
+            stars = f"+{it.get('stars_today', 0):,}"
+            plain_lines.append(f"{i}. {it['full_name']} ({it.get('language', 'Code')}) ⭐{stars}\n   {it['url']}")
+        plain_lines.append("\nHacker News 极客深度讨论：")
+        for i, it in enumerate(hn_items, 1):
+            plain_lines.append(f"{i}. {it['title']} (🔥{it['points']} pts / {it['comments_count']} 评)\n   {it['url']}")
+            
+        payload_plain = {
+            "chat_id": chat_id,
+            "text": "\n".join(plain_lines),
+            "link_preview_options": {"is_disabled": True}
+        }
+        req_plain = urllib.request.Request(
+            url,
+            data=json.dumps(payload_plain).encode("utf-8"),
+            headers={"Content-Type": "application/json"}
+        )
+        try:
+            with urllib.request.urlopen(req_plain, timeout=15) as resp_plain:
+                return resp_plain.read().decode("utf-8")
+        except urllib.error.HTTPError as e2:
+            err2 = e2.read().decode("utf-8", errors="ignore")
+            raise Exception(f"Telegram API Error {e2.code}: {err2}")
 def send_wecom(webhook_url, digest_data):
     date_str = digest_data.get("date", "")
     gh_items = digest_data.get("github_items", [])[:5]
