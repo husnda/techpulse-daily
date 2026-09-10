@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://github.com</link><description>每日聚合 GitHub Daily Trending 开源项目与 Hacker News 高分深度技术讨论</description><language>zh-cn</language><lastBuildDate>Thu, 10 Sep 2026 03:08:34 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://github.com/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://github.com#2026-09-10</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 0 auto; color: #1f2937; line-height: 1.6;"&gt;
+
+    &lt;div style="background: linear-gradient(135deg, #1e293b, #0f172a); color: #f8fafc; padding: 24px; border-radius: 12px; margin-bottom: 24px;"&gt;
+        &lt;h1 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 700; color: #38bdf8;"&gt;🛰️ TechPulse Daily 技术早报&lt;/h1&gt;
+        &lt;div style="font-size: 14px; color: #94a3b8;"&gt;📅 日期：2026-09-10 &amp;nbsp;|&amp;nbsp; ⚡ GitHub 开源热点 &amp; Hacker News 极客精选&lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;h2 style="font-size: 18px; color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin: 24px 0 16px 0;"&gt;🚀 GitHub Trending 热门开源项目&lt;/h2&gt;
+&lt;div style="display: flex; flex-direction: column; gap: 12px;"&gt;
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://github.com/ayghri/i-have-adhd" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;1. ayghri/i-have-adhd&lt;/a&gt;
+                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;A skill to stop your coding agent from burying the answer. ADHD-friendly output.&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;⭐ 今日 &lt;strong&gt;+4,650&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;34,971&lt;/strong&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://github.com/cathrynlavery/diagram-design" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;2. cathrynlavery/diagram-design&lt;/a&gt;
+                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;💻 &lt;strong&gt;HTML&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;⭐ 今日 &lt;strong&gt;+2,249&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;36,748&lt;/strong&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://github.com/liquidslr/system-design-notes" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;3. liquidslr/system-design-notes&lt;/a&gt;
+                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;Systems / Infra&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;Notes of the book System Desgin Interview - An Insider's Guide&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;💻 &lt;strong&gt;N/A&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;⭐ 今日 &lt;strong&gt;+1,397&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;18,091&lt;/strong&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://github.com/affaan-m/ECC" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;4. affaan-m/ECC&lt;/a&gt;
+                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;💻 &lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;⭐ 今日 &lt;strong&gt;+1,133&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;255,250&lt;/strong&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://github.com/freestylefly/awesome-gpt-image-2" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;5. freestylefly/awesome-gpt-image-2&lt;/a&gt;
+                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;💻 &lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;⭐ 今日 &lt;strong&gt;+705&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;30,168&lt;/strong&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://github.com/obra/superpowers" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;6. obra/superpowers&lt;/a&gt;
+                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;An agentic skills framework &amp;amp; software development methodology that works.&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;💻 &lt;strong&gt;Shell&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;⭐ 今日 &lt;strong&gt;+688&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;284,094&lt;/strong&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://github.com/Tencent/teamai-cli" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;7. Tencent/teamai-cli&lt;/a&gt;
+                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;Dev Tools&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;Make Every Team AI Native&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;💻 &lt;strong&gt;TypeScript&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;⭐ 今日 &lt;strong&gt;+556&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;3,120&lt;/strong&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://github.com/openai/plugins" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;8. openai/plugins&lt;/a&gt;
+                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;OpenAI Plugins&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;💻 &lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;⭐ 今日 &lt;strong&gt;+498&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;6,230&lt;/strong&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://github.com/vastsa/PI-Desktop" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;9. vastsa/PI-Desktop&lt;/a&gt;
+                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;💻 &lt;strong&gt;TypeScript&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;⭐ 今日 &lt;strong&gt;+417&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;1,752&lt;/strong&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://github.com/TauricResearch/TradingAgents" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;10. TauricResearch/TradingAgents&lt;/a&gt;
+                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;TradingAgents: Multi-Agents LLM Financial Trading Framework&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;⭐ 今日 &lt;strong&gt;+367&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;104,044&lt;/strong&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;11. rohitg00/ai-engineering-from-scratch&lt;/a&gt;
+                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;Web / Frontend&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;Learn it. Build it. Ship it for others.&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;⭐ 今日 &lt;strong&gt;+343&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;53,766&lt;/strong&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://github.com/earthtojake/text-to-cad" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;12. earthtojake/text-to-cad&lt;/a&gt;
+                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;A library of agent skills for CAD, CAE and CAM&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;⭐ 今日 &lt;strong&gt;+124&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;15,094&lt;/strong&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+&lt;/div&gt;
+&lt;h2 style="font-size: 18px; color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin: 32px 0 16px 0;"&gt;🔥 Hacker News 科技前沿与深度讨论&lt;/h2&gt;
+&lt;div style="display: flex; flex-direction: column; gap: 12px;"&gt;
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://www.apple.com/iphone-duo/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;1. iPhone Duo&lt;/a&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech Giants&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;apple.com&lt;/span&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;956&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630931" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;1751 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://opusfived.dev/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;2. Claude, change the “Add to Cart” button to blue&lt;/a&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;AI &amp; ML&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;opusfived.dev&lt;/span&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;1039&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49623754" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;406 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://tailwindcss.com/blog/tailwind-is-joining-shopify" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;3. Shopify acquires Tailwind&lt;/a&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;AI &amp; ML&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;tailwindcss.com&lt;/span&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;913&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49626190" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;366 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://www.newyorker.com/culture/infinite-scroll/flock-wants-a-closely-surveilled-world-with-no-exit" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;4. Flock Wants a Closely Surveilled World with No Exit&lt;/a&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech &amp; Science&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;newyorker.com&lt;/span&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;551&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49624394" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;526 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;5. AirPods 5&lt;/a&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;AI &amp; ML&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;apple.com&lt;/span&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;395&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630253" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;317 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://spectrum.ieee.org/are-self-driving-cars-safe" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;6. Growing proof that autonomous cars save lives&lt;/a&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech &amp; Science&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;spectrum.ieee.org&lt;/span&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;242&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49629886" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;441 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://www.nomanssky.com/cosmos-update/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;7. No Man's Sky Cosmos&lt;/a&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech &amp; Science&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;nomanssky.com&lt;/span&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;311&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49628493" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;330 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://tautology.town/2026/06/01/card-networks.html" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;8. What do Visa and Mastercard do? An intro to card networks&lt;/a&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech &amp; Science&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;tautology.town&lt;/span&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;401&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49614280" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;231 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;9. iPhone 18 Pro and iPhone 18 Pro Max&lt;/a&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech Giants&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;apple.com&lt;/span&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;299&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630151" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;310 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://grapheneos.social/@GrapheneOS/117231186011306184" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;10. Copyright does more harm than good and should be abolished&lt;/a&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech &amp; Science&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;grapheneos.social&lt;/span&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;302&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49622042" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;299 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;11. DeepSeek launching v4.1 flash cheaper and more capable than v4 pro&lt;/a&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;AI &amp; ML&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;news.ycombinator.com&lt;/span&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;397&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;204 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://xlii.space/eng/malicious-software-on-google-ads/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;12. How I advertise malicious software on Google Ads&lt;/a&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech Giants&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;xlii.space&lt;/span&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;362&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49624856" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;221 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+&lt;/div&gt;
+&lt;div style="margin-top: 24px; padding-top: 12px; border-top: 1px solid #f1f5f9; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 11:08:34&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>
