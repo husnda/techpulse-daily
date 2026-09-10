@@ -1,0 +1,62 @@
+name: TechPulse Daily Digest
+
+on:
+  schedule:
+    # 每天北京时间早上 08:30 (UTC 00:30) 定时自动运行
+    - cron: '30 0 * * *'
+  workflow_dispatch: # 支持在 GitHub 仓库界面一键手动触发
+
+permissions:
+  contents: write # 允许提交生成的 RSS 与网页文件
+  pages: write    # 允许发布到 GitHub Pages
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run TechPulse Daily Pipeline
+        env:
+          # 推送通知密钥（按需在 GitHub Repo -> Settings -> Secrets 中配置）
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+          DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
+          DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+          BARK_DEVICE_KEY: ${{ secrets.BARK_DEVICE_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
+        run: |
+          python main.py --run
+
+      - name: Deploy outputs to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./outputs
+          publish_branch: gh-pages
+          force_orphan: false
+
+      - name: Commit & Push Archives to Repository
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add outputs/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update daily digest [$(date +'%Y-%m-%d')]" && git push origin main)

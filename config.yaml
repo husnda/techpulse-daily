@@ -1,0 +1,92 @@
+# ==============================================================================
+# TechPulse Daily - 每日技术早报配置文件
+# 聚合 GitHub Daily Trending 开源热点与 Hacker News 极客深度讨论
+# ==============================================================================
+
+app:
+  title: "TechPulse Daily"
+  tagline: "GitHub Trending & Hacker News 每日精选早报"
+  language: "zh-CN"
+  output_dir: "outputs"
+
+# ------------------------------------------------------------------------------
+# 数据源 1：GitHub Daily Trending 配置
+# ------------------------------------------------------------------------------
+github:
+  enabled: true
+  max_items: 12                  # 每日精选开源项目上限
+  min_stars_today: 30            # 过滤今日新增 Star 低于此阈值的项目
+  languages: []                  # 指定语言列表，留空表示全语言。如: ["python", "rust", "go", "typescript"]
+
+# ------------------------------------------------------------------------------
+# 数据源 2：Hacker News 前沿科技热榜
+# ------------------------------------------------------------------------------
+hackernews:
+  enabled: true
+  max_items: 12                  # 精选讨论热榜上限
+  min_points: 80                 # 点赞分数门槛（过滤低关注讨论）
+  time_range_hours: 24           # 时间范围（小时）
+
+# ------------------------------------------------------------------------------
+# RSS / Web 生成配置
+# ------------------------------------------------------------------------------
+rss:
+  enabled: true
+  feed_title: "TechPulse Daily | GitHub Trending & Hacker News 精选"
+  feed_description: "每日聚合全球高星开源项目与 Hacker News 深度技术热点"
+  feed_link: "https://github.com" # 若使用 GitHub Pages 托管，建议填你的页面地址，如 https://username.github.io/repo
+  feed_filename: "feed.xml"       # 生成的 RSS 文件名 (同时会自动生成 rss.xml)
+  max_feed_items: 30             # RSS Feed 中保留的历史期数
+
+# ------------------------------------------------------------------------------
+# 可选：AI 智能提炼与中文简报 (支持 OpenAI / DeepSeek / Ollama 等兼容接口)
+# ------------------------------------------------------------------------------
+ai_summary:
+  enabled: false                 # 是否启用大模型每日智能风向速览
+  provider: "openai"             # openai / deepseek / custom
+  api_base: "https://api.openai.com/v1"
+  api_key: ""                    # 也可通过环境变量 OPENAI_API_KEY 注入
+  model: "gpt-4o-mini"
+  temperature: 0.3
+
+# ------------------------------------------------------------------------------
+# 推送通道配置（按需启用，可同时启用多个）
+# ------------------------------------------------------------------------------
+notifications:
+  # 1. 飞书自定义机器人 Webhook（富文本卡片排版，体验极佳）
+  feishu:
+    enabled: false
+    webhook_url: ""              # 环境变量 FEISHU_WEBHOOK 可自动覆盖
+
+  # 2. Telegram 机器人通知
+  telegram:
+    enabled: false
+    bot_token: ""                # 环境变量 TELEGRAM_BOT_TOKEN
+    chat_id: ""                  # 环境变量 TELEGRAM_CHAT_ID
+
+  # 3. 企业微信群机器人 Webhook
+  wecom:
+    enabled: false
+    webhook_url: ""              # 环境变量 WECOM_WEBHOOK
+
+  # 4. 钉钉群机器人 Webhook
+  dingtalk:
+    enabled: false
+    webhook_url: ""              # 环境变量 DINGTALK_WEBHOOK
+    secret: ""                   # 加签秘钥（若开启加签安全设置）
+
+  # 5. Bark (iOS 手机系统级弹窗推送)
+  bark:
+    enabled: false
+    device_key: ""               # 环境变量 BARK_DEVICE_KEY
+    server_url: "https://api.day.app"
+
+  # 6. 邮件每日早报推送 (SMTP)
+  email:
+    enabled: false
+    smtp_host: "smtp.qq.com"     # 如 smtp.qq.com, smtp.163.com, smtp.gmail.com
+    smtp_port: 465
+    use_ssl: true
+    sender_email: ""
+    sender_password: ""          # 邮箱授权码/应用密码
+    receiver_emails: []          # 接收者邮箱列表
