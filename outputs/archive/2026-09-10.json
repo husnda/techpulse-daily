@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-10 06:23:08",
+  "generated_at": "2026-09-10 06:25:11",
   "top_highlight": "iPhone Duo",
   "ai_overview": null,
   "github_items": [
@@ -13,7 +13,7 @@
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
       "stars_today": 4650,
-      "stars_total": 35496,
+      "stars_total": 35501,
       "forks": 2066,
       "topic": "AI / LLM"
     },
@@ -26,7 +26,7 @@
       "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
       "stars_today": 2249,
-      "stars_total": 36918,
+      "stars_total": 36920,
       "forks": 2342,
       "topic": "AI / LLM"
     },
@@ -39,7 +39,7 @@
       "description": "Notes of the book System Desgin Interview - An Insider's Guide",
       "language": "N/A",
       "stars_today": 1397,
-      "stars_total": 18222,
+      "stars_total": 18223,
       "forks": 3433,
       "topic": "Systems / Infra"
     },
@@ -52,7 +52,7 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
       "stars_today": 1133,
-      "stars_total": 255353,
+      "stars_total": 255354,
       "forks": 38241,
       "topic": "AI / LLM"
     },
@@ -65,7 +65,7 @@
       "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
       "language": "JavaScript",
       "stars_today": 705,
-      "stars_total": 30327,
+      "stars_total": 30330,
       "forks": 2933,
       "topic": "AI / LLM"
     },
@@ -91,7 +91,7 @@
       "description": "Make Every Team AI Native",
       "language": "TypeScript",
       "stars_today": 556,
-      "stars_total": 3254,
+      "stars_total": 3256,
       "forks": 205,
       "topic": "Dev Tools"
     },
@@ -130,7 +130,7 @@
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
       "stars_today": 367,
-      "stars_total": 104174,
+      "stars_total": 104178,
       "forks": 19994,
       "topic": "AI / LLM"
     },
@@ -156,7 +156,7 @@
       "description": "A library of agent skills for CAD, CAE and CAM",
       "language": "Python",
       "stars_today": 124,
-      "stars_total": 15167,
+      "stars_total": 15168,
       "forks": 1567,
       "topic": "AI / LLM"
     }
