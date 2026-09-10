@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://husnda.github.io/techpulse-daily</link><description>每日聚合全球高星开源项目与 Hacker News 深度技术热点</description><language>zh-cn</language><lastBuildDate>Thu, 10 Sep 2026 09:06:04 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://husnda.github.io/techpulse-daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-10.html</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.5; max-width: 820px; margin: 0 auto;"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://husnda.github.io/techpulse-daily</link><description>每日聚合全球高星开源项目与 Hacker News 深度技术热点</description><language>zh-cn</language><lastBuildDate>Thu, 10 Sep 2026 09:18:12 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://husnda.github.io/techpulse-daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-10.html</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.5; max-width: 820px; margin: 0 auto;"&gt;
 
     &lt;div style="border-bottom: 1px solid #e5e7eb; padding-bottom: 16px; margin-bottom: 20px;"&gt;
         &lt;div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;"&gt;
@@ -9,7 +9,7 @@
         &lt;div style="font-size: 12.5px; color: #64748b; display: flex; gap: 12px; flex-wrap: wrap;"&gt;
             &lt;span&gt;📦 &lt;strong&gt;12&lt;/strong&gt; 个开源项目 (+13,127 Stars)&lt;/span&gt;
             &lt;span&gt;·&lt;/span&gt;
-            &lt;span&gt;🔥 &lt;strong&gt;12&lt;/strong&gt; 篇深度讨论 (6,330 评论)&lt;/span&gt;
+            &lt;span&gt;🔥 &lt;strong&gt;12&lt;/strong&gt; 篇深度讨论 (6,355 评论)&lt;/span&gt;
             &lt;span&gt;·&lt;/span&gt;
             &lt;span&gt;每日 08:30 定时更新&lt;/span&gt;
         &lt;/div&gt;
@@ -18,7 +18,7 @@
 
         &lt;div style="background: #f8fafc; border-left: 3px solid #0284c7; padding: 14px 18px; border-radius: 4px; margin-bottom: 24px;"&gt;
             &lt;div style="font-size: 13px; font-weight: 700; color: #0369a1; margin-bottom: 6px;"&gt;🧠 今日技术风向速览&lt;/div&gt;
-            &lt;div style="font-size: 13.5px; color: #334155; line-height: 1.65;"&gt;苹果秋季新品发布掀起全球数码硬件热潮，折叠屏&lt;strong&gt;iPhone Duo&lt;/strong&gt;与&lt;strong&gt;AirPods 5&lt;/strong&gt;引发激烈技术与形态讨论；商业前端领域迎来重磅整合，&lt;strong&gt;Shopify宣布收购Tailwind Labs&lt;/strong&gt;并停售其商业套件。同时，开源社区的聚焦点正从底层模型加速转向&lt;strong&gt;AI Agent技能编排&lt;/strong&gt;与工程化落地实践。&lt;/div&gt;
+            &lt;div style="font-size: 13.5px; color: #334155; line-height: 1.65;"&gt;前端生态迎来重大整合，&lt;strong&gt;Shopify 宣布正式收购 Tailwind Labs&lt;/strong&gt;，商业化模式的变动在社区引发广泛震动。硬件与消费电子领域，&lt;strong&gt;苹果秋季发布会&lt;/strong&gt;全面更新 iPhone 系列与 AirPods 产品线，引爆关于 eSIM、接口与硬件迭代诚意的热烈争论。同时，&lt;strong&gt;AI 智能体开发工作流与提示工程框架&lt;/strong&gt;在开源社区持续井喷，工程化落地正向深度协作与细分场景加速渗透。&lt;/div&gt;
         &lt;/div&gt;
         
 &lt;div style="margin-bottom: 32px;"&gt;
@@ -38,9 +38,9 @@
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +4,650&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 36,043&lt;/span&gt;
+                    &lt;span&gt;★ 36,089&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 2,094&lt;/span&gt;
+                    &lt;span&gt;⑂ 2,097&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;Python&lt;/span&gt;
                 &lt;/div&gt;
@@ -50,7 +50,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-1" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;针对编程AI助手废话过多的痛点，强制模型输出精简、行动导向且带编号的ADHD友好型回复。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;通过外挂式Skill/Plugin注入Prompt约束层，在输入端重构Prompt引导逻辑，从源头杜绝客套寒暄与冗长解释。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专为编程助手设计的指令扩展插件，杜绝大模型的寒暄废话，提供直奔主题、高度结构化的极简输出。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;通过规范 Prompt 上下文约束 Agent 的回复模式，强制实行“行动优先、步骤编号、拒绝过度解释”的认知负荷优化策略。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -68,9 +68,9 @@
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +2,249&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 37,088&lt;/span&gt;
+                    &lt;span&gt;★ 37,105&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 2,355&lt;/span&gt;
+                    &lt;span&gt;⑂ 2,356&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;HTML&lt;/span&gt;
                 &lt;/div&gt;
@@ -80,7 +80,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-2" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专为Claude Code等编程智能体设计的排版级图表规范，输出美观且自包含的HTML与SVG图表。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;采用布局语法与语义系统模式解耦设计，不依赖任何庞大前端运行时或Figma导出即可渲染复杂的系统架构与流转图。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;面向现代编码智能体（Claude Code、Codex 等）的企业级无依赖自包含 HTML/SVG 架构图绘制库。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;将系统语义行为与物理布局解耦，摆脱对重型设计工具或 Mermaid 的依赖，并支持将旧架构图转写为高质感矢量图。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -98,9 +98,9 @@
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +1,397&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 18,340&lt;/span&gt;
+                    &lt;span&gt;★ 18,344&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 3,441&lt;/span&gt;
+                    &lt;span&gt;⑂ 3,443&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;N/A&lt;/span&gt;
                 &lt;/div&gt;
@@ -110,7 +110,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-3" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;系统设计经典面试红宝书《System Design Interview》的精炼笔记与架构图谱整理。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;以结构化提炼的方式系统梳理了高并发、高可用及海量存储等现代分布式系统的核心模式与设计权衡。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;系统设计经典参考书《System Design Interview》的精炼技术笔记与架构演进指南。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;系统性梳理高并发、高可用及分布式系统架构的核心考点与设计权衡模式。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -128,7 +128,7 @@
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +1,133&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 255,442&lt;/span&gt;
+                    &lt;span&gt;★ 255,454&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;⑂ 38,248&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
@@ -140,7 +140,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-4" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;面向多Agent协同编排的操作载体框架，为各类自主编程智能体提供统一的运行环境与状态管理。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;引入Harness OS架构抽象，解耦模型调度层与底层操作系统调用，支持多语言与跨平台会话隔离。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;为 AI 编程智能体提供标准化操作上下文、规范与执行 harness 的开源多语言底座系统。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;为各类模型代理提供统一的沙箱运行时约束与标准化动作协议，提升自主编码任务的完成稳定性。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -158,7 +158,7 @@
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +705&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 30,479&lt;/span&gt;
+                    &lt;span&gt;★ 30,489&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;⑂ 2,950&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
@@ -170,7 +170,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-5" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;采用“Prompt as Code”工程化范式的工业级图像生成Prompt引擎与逆向模板库。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;收录超500个工业逆向案例，将自然语言提示词解耦为可复用、参数化的代码模组以实现稳定视觉输出。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;主打“Prompt 即代码”的工业级图像生成提示词工程引擎与逆向模版资产库。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;收录 500+ 经逆向验证的高精度案例与工业级模板，将图像生成提示词转变为可复现、模块化的参数工程。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -181,14 +181,14 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#6&lt;/span&gt;
                     &lt;a href="https://github.com/obra/superpowers" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;obra/superpowers&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;AI/智能体&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;效率工具&lt;/span&gt;
             &lt;/div&gt;
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;"&gt;An agentic skills framework &amp;amp; software development methodology that works.&lt;/p&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +688&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 284,301&lt;/span&gt;
+                    &lt;span&gt;★ 284,309&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;⑂ 25,428&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
@@ -200,7 +200,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-6" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;面向Claude Code、Cursor等多种AI Agent的完整软件工程方法论与技能约束套件。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;强制智能体跳出盲目写代码的循环，引入“对话需求澄清-短规格书评审-分步落地”的规范化开发流。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;一套适用于各大主流编程 Agent 的完整软件开发工程方法论与可组合技能包。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;重构了 Agent 的默认执行逻辑，强制其在编写代码前主动探寻需求、生成短小规格说明并等待人工确认，实现可控的人机协作闭环。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -211,16 +211,16 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#7&lt;/span&gt;
                     &lt;a href="https://github.com/Tencent/teamai-cli" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;Tencent/teamai-cli&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;AI/智能体&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;效率工具&lt;/span&gt;
             &lt;/div&gt;
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;"&gt;Make Every Team AI Native&lt;/p&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +556&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 3,381&lt;/span&gt;
+                    &lt;span&gt;★ 3,391&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 213&lt;/span&gt;
+                    &lt;span&gt;⑂ 214&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;TypeScript&lt;/span&gt;
                 &lt;/div&gt;
@@ -230,7 +230,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-7" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;腾讯开源的企业级AI工程化CLI工具，统一管理跨平台代码助手的技能、规则、知识库与MCP生态。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;基于Git代码仓作为统一配置源，实现跨Cursor、Claude Code等异构Agent环境的Prompt规则与MCP工具链自动分发同步。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;腾讯开源的企业级团队 AI 资产统一管理工具，集中维护跨开发工具的 Rules、MCP 和 Skills。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;采用 Git 仓库作为唯一的规则与上下文分发源，无缝打通 Claude Code、Cursor 等多样化 Agent 终端。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -248,7 +248,7 @@
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +498&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 6,320&lt;/span&gt;
+                    &lt;span&gt;★ 6,322&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;⑂ 834&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
@@ -260,7 +260,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-8" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;OpenAI官方维护的Codex插件规范与精选示例库，覆盖多场景的开发辅助套件。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;定义了包含plugin.json、MCP接口、hooks及本地Skills的标准扩展清单规范，建立了模块化的插件市场标准。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;OpenAI 官方维护的精选 Codex 插件与技能实现集锦。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;通过统一的清单规范与 hooks、MCP 及 skills 架构，展示了从设计系统互联（Figma）到移动端/全栈快速构建的工程插件实践。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -271,14 +271,14 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#9&lt;/span&gt;
                     &lt;a href="https://github.com/vastsa/PI-Desktop" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;vastsa/PI-Desktop&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;效率工具&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;AI/智能体&lt;/span&gt;
             &lt;/div&gt;
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;"&gt;Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins&lt;/p&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +417&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 1,967&lt;/span&gt;
+                    &lt;span&gt;★ 1,973&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;⑂ 172&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
@@ -290,7 +290,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-9" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专为AI代码智能体打造的Local-first桌面工作区，提供免账号、无中间转发的本地隔离开发环境。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;采用BYOM（自带模型）与本地文件直接挂载设计，规避云端中继泄露风险，赋予开发者完整的控制权与审计能力。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;本地优先的桌面端 AI 编程智能体工作空间，强调无中继转发与无编辑器绑定。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;用户自带模型并直接运行于本地工程目录，在保障代码安全与完全掌控力的同时驱动多 Agent 自主作业。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -308,7 +308,7 @@
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +367&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 104,303&lt;/span&gt;
+                    &lt;span&gt;★ 104,313&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;⑂ 20,002&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
@@ -320,7 +320,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-10" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;基于多Agent协同博弈的量化金融交易与多维度市场深度研究框架。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;结合arXiv前沿学术研究成果，将不同专业领域的金融分析策略解耦为自治Agent并形成决策委员会机制。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;面向量化金融与交易决策场景的多智能体协同研究框架。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;基于学术研究成果构建多角色金融分析与策略推演智能体网络，实现市场分析与模拟决策的自动化。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -338,9 +338,9 @@
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +343&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 53,979&lt;/span&gt;
+                    &lt;span&gt;★ 53,983&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 9,397&lt;/span&gt;
+                    &lt;span&gt;⑂ 9,398&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;Python&lt;/span&gt;
                 &lt;/div&gt;
@@ -350,7 +350,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-11" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;从零底层逐步掌握AI系统工程的系统化开源参考手册与进阶路线图。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;涵盖20个进阶阶段与500+模块化课时，摒弃单纯调用黑盒API，注重深度解析工程架构原理与全栈落地实战。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;从零基础构建 AI 工程全链路知识体系的多语言实战参考指南。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;涵盖 500 多节微课与 20 个阶段，以从原理到生产落地的递进式路径拆解大模型应用开发。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -368,7 +368,7 @@
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +124&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 15,244&lt;/span&gt;
+                    &lt;span&gt;★ 15,252&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;⑂ 1,570&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
@@ -380,7 +380,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-12" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;面向机器人与物理结构设计的代码库，为Agent提供生成与切片CAD/CAM/URDF工件的能力。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;打通自然语言到精确工程几何体的流水线，集成URDF/SDF机器人描述文件与切片算法的程序化生成支持。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;为 AI 智能体打造的 CAD、CAE 及机器人描述模型（URDF/SDF）生成与切片技能库。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;打通自然语言到物理工程建模的链路，让智能体可以直接从工程文件中检验几何结构并对接下游 CAM 工作流。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -399,9 +399,9 @@
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 1,185 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 1,189 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49630931" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 2,092 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49630931" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 2,096 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;apple.com&lt;/span&gt;
                 &lt;/div&gt;
@@ -411,7 +411,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-1" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;苹果正式公布iPhone Duo折叠形态设备，支持Apple Pencil书写，预购起售价与产品规格全线公开。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;海外开发者极度不满其彻底取消实体SIM卡槽对跨国移动办公的阻碍，同时缺少类似Pixel+Termux的底层终端支持令极客用户失望。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;苹果全新双屏形态设备 iPhone Duo 正式发布，带来大屏生产力及手写笔支持。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;海外用户强烈吐槽设备彻底取消实体 SIM 卡插槽，同时开发者感叹其封闭的 iOS 环境依然无法替代运行 Termux 的 Pixel 设备。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -426,9 +426,9 @@
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 1,110 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 1,111 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49623754" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 429 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49623754" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 430 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;opusfived.dev&lt;/span&gt;
                 &lt;/div&gt;
@@ -438,7 +438,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-2" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;开发者建立讽刺性交互网站“只把按钮改成蓝色”，调侃Claude等编程Agent在简单UI修改时频现过度重构与自作主张的恶疾。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;部分用户强烈共鸣甚至表示已被逼转向Codex，但也有开发者质疑网站过度夸张，称自身规范化提示词从未出现类似严重失控。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;极简网页讽刺当前大模型编码助手在面对“仅修改按钮颜色”的微小需求时往往自作聪明破坏已有代码。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;社区评论两极分化，部分人共鸣模型过度生成与失控带来的挫败感，另一些开发者则认为该讽刺脱离实际且夸大其词。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -453,9 +453,9 @@
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 1,021 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 1,024 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49626190" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 390 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49626190" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 393 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;tailwindcss.com&lt;/span&gt;
                 &lt;/div&gt;
@@ -465,7 +465,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-3" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;电商巨头Shopify宣布正式收购Tailwind Labs，Tailwind CSS全面融入Shopify生态并立即停售Tailwind Plus商业产品。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;社区感叹独立开源小团队面临商业化困境最终走向巨头整合的必然宿命，既担忧框架丧失中立性，也欣慰其找到了稳定的长期维护兜底。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;Tailwind Labs 宣布被电商巨头 Shopify 收购，团队将把精力聚焦于电商核心产品的样式研发。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;开发者普遍担忧开源基础设施被大厂收编后的独立性，同时对官方立即停售全部商业化模版产品的举措感到惋惜。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -492,7 +492,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-4" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;《纽约客》长文深度披露车牌识别巨头Flock在全美扩张的无死角监控网络及其潜在的公民自由隐患。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;一部分用户认为普遍布控极大遏制了街头犯罪，但多数开发者警惕商业数据长期保留滥用，并指出英美等国已悄然形成缺乏制约的全景敞视监狱。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;《纽约客》长文深度披露车牌识别监控系统 Flock 的激进扩张，揭示无处不在的无缝监控危机。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;公众就社区治安犯罪控制与公民隐私权丧失展开激烈交锋，并探讨英国 ANPR 等现存监控体系的先例与教训。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -507,9 +507,9 @@
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 335 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 336 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49629886" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 588 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49629886" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 593 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;spectrum.ieee.org&lt;/span&gt;
                 &lt;/div&gt;
@@ -519,7 +519,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-5" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;IEEE Spectrum引述最新聚合统计数据，指出自动驾驶车辆在真实道路环境下展现出比人类驾驶显著更低伤亡率的趋势。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;读者质疑文章数据样本多来自车企PR粉饰且缺乏严谨独立测试，许多人认为高级驾驶辅助（ADAS）配合人类监管已足够，无需完全无人化。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;IEEE Spectrum 文章引用汇总安全研究数据，论证自动驾驶汽车在减少道路死亡事故方面的显著成效。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;不少开发者质疑数据分析样本过小并抨击车企 PR 叙事，主张成熟的 ADAS 辅助驾驶搭配人类司机才是当下最安全合理的方案。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -534,9 +534,9 @@
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 448 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 449 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49630253" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 369 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49630253" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 373 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;apple.com&lt;/span&gt;
                 &lt;/div&gt;
@@ -546,7 +546,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-6" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;苹果发布全新AirPods 5，主打开放式机身下的行业顶尖主动降噪与全新多端口声学架构。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;社区调侃苹果将滑动调音量等旧技术包装成重磅创新，并激烈争论短柄化设计牺牲了麦克风收音与电池仓容积是否本末倒置。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;苹果发布半入耳式降噪耳机 AirPods 5，搭载全新多孔声学架构与手势滑动音量调节。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;用户吐槽音量调节功能姗姗来迟且被包装为重大创新，同时抱怨耳机柄缩短导致电池容量和麦克风拾音受限。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -557,13 +557,13 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#7&lt;/span&gt;
                     &lt;a href="https://tautology.town/2026/06/01/card-networks.html" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;What do Visa and Mastercard do? An intro to card networks&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;科技社会&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;系统架构&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 514 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 517 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49614280" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 297 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49614280" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 298 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;tautology.town&lt;/span&gt;
                 &lt;/div&gt;
@@ -573,7 +573,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-7" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;深度长文拆解Visa与Mastercard的运作机制，清晰界定了卡组织与发卡行、收单行及支付网关的业务权责边界。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;开发者热议卡组织凭借底层网络近乎垄断的地位抽取高额“数字通行税”，探讨建立直接连接央行的免中介数字清算系统的可能性。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;科普长文抽丝剥茧拆解 Visa 和 Mastercard 在现代金融支付网络中所扮演的清算路由枢纽本质。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;讨论聚焦于卡组织凭借清算通道垄断向实体经济征收高额“过桥费”，并延伸出由央行构建直接账户基础设施的构想。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -590,7 +590,7 @@
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 380 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49628493" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 390 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49628493" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 392 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;nomanssky.com&lt;/span&gt;
                 &lt;/div&gt;
@@ -600,7 +600,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-8" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;《无人深空》迎来7.0版本“Cosmos”重大更新，引入空间站指挥官管理体系、星系联盟与废弃巨舰打捞机制。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;玩家社区惊叹Hello Games历经十年持续免费更新超大型内容的资金来源与工程坚守，对其庞大演进的代码库架构深表好奇与钦佩。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;《无人深空》迎来十周年重磅 7.0“Cosmos”更新，允许玩家担任空间站长、组建银河联盟及深空废船打捞。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;玩家社区对 Hello Games 持续十年的免费大型更新商业模式表示难以置信，纷纷探究其团队的代码架构与技术演进。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -615,9 +615,9 @@
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 355 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 356 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49630151" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 388 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49630151" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 389 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;apple.com&lt;/span&gt;
                 &lt;/div&gt;
@@ -627,7 +627,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-9" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;苹果推出iPhone 18 Pro系列，搭载A20 Pro芯片、可变光圈主摄、微型Dynamic Island与新型均热板散热架构。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;核心极客用户对缺乏颠覆性创新的微调升级产生明显审美疲劳，认为在既定换代周期下苹果创新已陷入边际效用递减的常规修补。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;苹果发布 iPhone 18 Pro 系列，搭载 A20 Pro 芯片、可变光圈相机模组及新型均热板散热系统。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;大众普遍认为常规硬件升级缺乏颠覆性吸引力，换机动力不足，且小屏旗舰 mini 系列的回归呼声依旧存在。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -638,13 +638,13 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#10&lt;/span&gt;
                     &lt;a href="https://xlii.space/eng/malicious-software-on-google-ads/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;How I advertise malicious software on Google Ads&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;隐私安全&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;开发者热议&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 400 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49624856" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 242 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49624856" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 245 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;xlii.space&lt;/span&gt;
                 &lt;/div&gt;
@@ -654,7 +654,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-10" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;macOS Rust原生终端复用器RACE开发者控诉其纯静态落地页因不明机制被Google Ads误判为分发恶意软件并遭全面封号。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;社区集中炮轰谷歌客户支持机制的高度黑盒化与傲慢冷血，必须依赖发帖登上HN引发舆论才能人工介入恢复，给独立开发者带来巨大不确定性。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;独立开发者分享其开源 Rust 终端多路复用器在 Google Ads 被误判为恶意软件遭到封禁的申诉经历。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;评论区抨击 Google 自动化风控与客服体系的官僚化与不透明，并对面向极客的开发者工具是否有必要投放 Google 广告提出质疑。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -665,11 +665,11 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#11&lt;/span&gt;
                     &lt;a href="https://www.anthropic.com/institute/econ-scenarios" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;What will our economic future look like?&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;人工智能&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;科技社会&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 208 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 209 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;a href="https://news.ycombinator.com/item?id=49626373" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 399 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
@@ -681,7 +681,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-11" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;Anthropic经济学团队发布交互式经济推演模型，量化评估AI能力跨越对美国就业岗位重塑与宏观生产力增长的潜在路径。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;舆论对AI实验室涉足宏观经济预测抱持怀疑态度，同时大量前端开发者因该报告交互页面糟糕的滚动劫持体验而大加抨击。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;Anthropic 经济学研究团队发布未来宏观经济推演模型，量化评估 AI 对就业、GDP 及劳动生产率的深远冲击。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;除了对 AI 带来的劳动力结构动荡存在争论外，大量用户猛烈抨击该官方展示页面糟糕且反直觉的“滚动劫持”交互体验。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -698,7 +698,7 @@
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 405 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 213 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 214 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;news.ycombinator.com&lt;/span&gt;
                 &lt;/div&gt;
@@ -708,10 +708,10 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-12" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;DeepSeek悄然上线v4.1 Flash模型，官方标称在保持极低调用价格的同时性能全面超越上一代v4 Pro顶配版本。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;技术社区惊叹于其高性价比模型持续“下克上”跨越旗舰款的迭代速率与工程优化能力，纷纷表示其将进一步重构底层API价格战。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;DeepSeek 悄然在控制台宣布上线 v4.1 Flash 模型，主打成本更低且综合推理表现反超 v4 Pro。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;开发者们对轻量模型快速迭代逆袭旗舰模型的研发节奏感到兴奋，期待低成本高智力模型在端侧与代理系统的大规模普及。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 &lt;/div&gt;&lt;/div&gt;
-&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 09:06:04 ｜ 每日 08:30 更新&lt;/div&gt;
+&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 09:18:12 ｜ 每日 08:30 更新&lt;/div&gt;
 &lt;/div&gt;</description></item></channel></rss>
