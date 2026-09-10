@@ -1,15 +1,15 @@
 # 🛰️ TechPulse Daily 技术早报 (2026-09-10)
 
-> ⚡ 本期精选 **12** 个 GitHub 热门开源项目 (今日 +13,127 Stars) 与 **12** 篇 Hacker News 深度讨论 (6,009 条评论)
+> ⚡ 本期精选 **12** 个 GitHub 热门开源项目 (今日 +13,127 Stars) 与 **12** 篇 Hacker News 深度讨论 (6,010 条评论)
 
 ## 🚀 GitHub Trending 热门开源项目
 
 ### 1. [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) `[AI / LLM]`
-- **语言**: **Python** ｜ **今日增速**: ⭐ +4,650 ｜ **总星标**: 35,659 ｜ **Forks**: 2,074
+- **语言**: **Python** ｜ **今日增速**: ⭐ +4,650 ｜ **总星标**: 35,664 ｜ **Forks**: 2,074
 - **简介**: A skill to stop your coding agent from burying the answer. ADHD-friendly output.
 
 ### 2. [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) `[AI / LLM]`
-- **语言**: **HTML** ｜ **今日增速**: ⭐ +2,249 ｜ **总星标**: 36,965 ｜ **Forks**: 2,347
+- **语言**: **HTML** ｜ **今日增速**: ⭐ +2,249 ｜ **总星标**: 36,969 ｜ **Forks**: 2,347
 - **简介**: 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.
 
 ### 3. [liquidslr/system-design-notes](https://github.com/liquidslr/system-design-notes) `[Systems / Infra]`
@@ -17,11 +17,11 @@
 - **简介**: Notes of the book System Desgin Interview - An Insider's Guide
 
 ### 4. [affaan-m/ECC](https://github.com/affaan-m/ECC) `[AI / LLM]`
-- **语言**: **JavaScript** ｜ **今日增速**: ⭐ +1,133 ｜ **总星标**: 255,385 ｜ **Forks**: 38,241
+- **语言**: **JavaScript** ｜ **今日增速**: ⭐ +1,133 ｜ **总星标**: 255,386 ｜ **Forks**: 38,242
 - **简介**: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
 ### 5. [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) `[AI / LLM]`
-- **语言**: **JavaScript** ｜ **今日增速**: ⭐ +705 ｜ **总星标**: 30,372 ｜ **Forks**: 2,940
+- **语言**: **JavaScript** ｜ **今日增速**: ⭐ +705 ｜ **总星标**: 30,375 ｜ **Forks**: 2,940
 - **简介**: Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。
 
 ### 6. [obra/superpowers](https://github.com/obra/superpowers) `[AI / LLM]`
@@ -29,7 +29,7 @@
 - **简介**: An agentic skills framework & software development methodology that works.
 
 ### 7. [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) `[Dev Tools]`
-- **语言**: **TypeScript** ｜ **今日增速**: ⭐ +556 ｜ **总星标**: 3,290 ｜ **Forks**: 208
+- **语言**: **TypeScript** ｜ **今日增速**: ⭐ +556 ｜ **总星标**: 3,291 ｜ **Forks**: 208
 - **简介**: Make Every Team AI Native
 
 ### 8. [openai/plugins](https://github.com/openai/plugins) `[AI / LLM]`
@@ -37,11 +37,11 @@
 - **简介**: OpenAI Plugins
 
 ### 9. [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) `[AI / LLM]`
-- **语言**: **TypeScript** ｜ **今日增速**: ⭐ +417 ｜ **总星标**: 1,879 ｜ **Forks**: 166
+- **语言**: **TypeScript** ｜ **今日增速**: ⭐ +417 ｜ **总星标**: 1,883 ｜ **Forks**: 166
 - **简介**: Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins
 
 ### 10. [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) `[AI / LLM]`
-- **语言**: **Python** ｜ **今日增速**: ⭐ +367 ｜ **总星标**: 104,216 ｜ **Forks**: 19,996
+- **语言**: **Python** ｜ **今日增速**: ⭐ +367 ｜ **总星标**: 104,217 ｜ **Forks**: 19,996
 - **简介**: TradingAgents: Multi-Agents LLM Financial Trading Framework
 
 ### 11. [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) `[Web / Frontend]`
@@ -49,7 +49,7 @@
 - **简介**: Learn it. Build it. Ship it for others.
 
 ### 12. [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) `[AI / LLM]`
-- **语言**: **Python** ｜ **今日增速**: ⭐ +124 ｜ **总星标**: 15,198 ｜ **Forks**: 1,567
+- **语言**: **Python** ｜ **今日增速**: ⭐ +124 ｜ **总星标**: 15,199 ｜ **Forks**: 1,567
 - **简介**: A library of agent skills for CAD, CAE and CAM
 
 ---
@@ -87,11 +87,11 @@
 - **来源**: `xlii.space` ｜ **热度**: 🔥 392 points ｜ **深度讨论**: 💬 [237 条讨论](https://news.ycombinator.com/item?id=49624856)
 
 ### 11. [What will our economic future look like?](https://www.anthropic.com/institute/econ-scenarios) `[AI & ML]`
-- **来源**: `anthropic.com` ｜ **热度**: 🔥 201 points ｜ **深度讨论**: 💬 [379 条讨论](https://news.ycombinator.com/item?id=49626373)
+- **来源**: `anthropic.com` ｜ **热度**: 🔥 202 points ｜ **深度讨论**: 💬 [380 条讨论](https://news.ycombinator.com/item?id=49626373)
 
 ### 12. [DeepSeek launching v4.1 flash cheaper and more capable than v4 pro](https://news.ycombinator.com/item?id=49624603) `[AI & ML]`
 - **来源**: `news.ycombinator.com` ｜ **热度**: 🔥 400 points ｜ **深度讨论**: 💬 [209 条讨论](https://news.ycombinator.com/item?id=49624603)
 
 ---
 
-*本期早报由 TechPulse 自动聚合生成于 2026-09-10 15:13:09 ｜ [在线主页](https://husnda.github.io/techpulse-daily/) ｜ [RSS 订阅](https://husnda.github.io/techpulse-daily/feed.xml)*
+*本期早报由 TechPulse 自动聚合生成于 2026-09-10 07:14:29 ｜ [在线主页](https://husnda.github.io/techpulse-daily/) ｜ [RSS 订阅](https://husnda.github.io/techpulse-daily/feed.xml)*
