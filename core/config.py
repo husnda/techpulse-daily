@@ -98,12 +98,10 @@ DEFAULT_CONFIG = {
 
 def _deep_merge(source, destination):
     for key, value in source.items():
-        if isinstance(value, dict):
-            node = destination.setdefault(key, {})
-            if isinstance(node, dict):
-                _deep_merge(value, node)
+        if isinstance(value, dict) and isinstance(destination.get(key), dict):
+            _deep_merge(value, destination[key])
         else:
-            destination.setdefault(key, value)
+            destination[key] = value
     return destination
 
 def load_config(config_path="config.yaml"):

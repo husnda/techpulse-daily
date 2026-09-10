@@ -99,18 +99,18 @@ def generate_html_content(digest_data):
     return "\n".join(html)
 
 def generate_rss_xml(history_digests, config):
+    """Generates a valid RSS 2.0 XML without duplicate xmlns attributes."""
     ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
     ET.register_namespace("content", "http://purl.org/rss/1.0/modules/content/")
-    """Generates a valid RSS 2.0 XML with full HTML encoded content."""
+    
     rss_cfg = config.get("rss", {})
     feed_title = rss_cfg.get("feed_title", "TechPulse Daily")
     feed_desc = rss_cfg.get("feed_description", "Daily Tech Radar")
-    feed_link = rss_cfg.get("feed_link", "https://github.com")
+    feed_link = rss_cfg.get("feed_link", "https://husnda.github.io/techpulse-daily").rstrip("/")
     
+    # Do NOT manually add xmlns attributes here; ET.register_namespace handles it cleanly
     rss = ET.Element("rss", {
-        "version": "2.0",
-        "xmlns:atom": "http://www.w3.org/2005/Atom",
-        "xmlns:content": "http://purl.org/rss/1.0/modules/content/"
+        "version": "2.0"
     })
     channel = ET.SubElement(rss, "channel")
     
@@ -123,7 +123,7 @@ def generate_rss_xml(history_digests, config):
     
     # Self atom link
     atom_link = ET.SubElement(channel, "{http://www.w3.org/2005/Atom}link", {
-        "href": f"{feed_link.rstrip('/')}/feed.xml",
+        "href": f"{feed_link}/feed.xml",
         "rel": "self",
         "type": "application/rss+xml"
     })
@@ -133,14 +133,13 @@ def generate_rss_xml(history_digests, config):
         top_hl = digest.get("top_highlight", "")
         title = f"【{date_str}】技术早报：{top_hl}"
         guid_str = f"techpulse-{date_str}"
-        link_url = f"{feed_link.rstrip('/')}#{date_str}"
+        link_url = f"{feed_link}/archive/{date_str}.html"
         
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = title
         ET.SubElement(item, "link").text = link_url
         ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = guid_str
         
-        # Parse pubDate from date_str or generated_at
         try:
             dt = datetime.datetime.strptime(date_str, "%Y-%m-%d")
             dt = dt.replace(hour=8, minute=0, second=0, tzinfo=datetime.timezone.utc)
@@ -150,40 +149,53 @@ def generate_rss_xml(history_digests, config):
             
         ET.SubElement(item, "pubDate").text = pub_date_str
         
-        # Rich HTML description / content:encoded
         html_body = generate_html_content(digest)
         ET.SubElement(item, "description").text = html_body
         
     xml_bytes = ET.tostring(rss, encoding="utf-8", xml_declaration=True)
     return xml_bytes.decode("utf-8")
 
-def generate_web_index(history_digests, config):
-    """Generates an aesthetic standalone index.html for web viewing / GitHub Pages."""
-    latest = history_digests[0] if history_digests else {}
-    body_html = generate_html_content(latest) if latest else "<p>暂无早报数据</p>"
+def render_web_page(current_digest, history_digests, config, is_archive=False):
+    """Renders a complete HTML page for either the main index or an archive date."""
+    body_html = generate_html_content(current_digest) if current_digest else "<p>暂无早报数据</p>"
     feed_filename = config.get("rss", {}).get("feed_filename", "feed.xml")
+    date_str = current_digest.get("date", "")
     
+    if is_archive:
+        rss_rel_url = f"../{feed_filename}"
+        home_rel_url = "../index.html"
+        archive_prefix = ""
+    else:
+        rss_rel_url = feed_filename
+        home_rel_url = "index.html"
+        archive_prefix = "archive/"
+        
     archive_links = []
     for d in history_digests[:15]:
         d_str = d.get("date", "")
         hl = d.get("top_highlight", "技术要闻")[:25]
-        archive_links.append(f'<li style="margin-bottom: 8px;"><a href="archive/{d_str}.html" style="color: #0284c7; text-decoration: none;">📅 {d_str} - {escape(hl)}...</a></li>')
+        target_href = f"{archive_prefix}{d_str}.html" if not is_archive else f"{d_str}.html"
+        active_style = "font-weight: 700; color: #0284c7;" if d_str == date_str else "color: #475569;"
+        archive_links.append(f'<li style="margin-bottom: 8px;"><a href="{target_href}" style="{active_style} text-decoration: none;">📅 {d_str} - {escape(hl)}...</a></li>')
     archive_html = "".join(archive_links)
+    
+    back_btn_html = f'<a href="{home_rel_url}" class="btn btn-outline">← 返回今日最新</a>' if is_archive else ""
+    page_title = f"TechPulse Daily 技术早报 ({date_str})" if is_archive else "TechPulse Daily | GitHub Trending & Hacker News 每日精选早报"
     
     html = f'''<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechPulse Daily | GitHub Trending & Hacker News 每日精选早报</title>
-    <link rel="alternate" type="application/rss+xml" title="TechPulse RSS Feed" href="{feed_filename}">
+    <title>{page_title}</title>
+    <link rel="alternate" type="application/rss+xml" title="TechPulse RSS Feed" href="{rss_rel_url}">
     <style>
         * {{ box-sizing: border-box; margin: 0; padding: 0; }}
         body {{ background: #f8fafc; color: #1e293b; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.6; padding: 20px; }}
         .container {{ max-width: 960px; margin: 0 auto; }}
         .top-nav {{ display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; margin-bottom: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); flex-wrap: wrap; gap: 12px; }}
-        .brand {{ display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; color: #0f172a; }}
-        .nav-actions {{ display: flex; gap: 10px; }}
+        .brand {{ display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; color: #0f172a; text-decoration: none; }}
+        .nav-actions {{ display: flex; gap: 10px; align-items: center; }}
         .btn {{ display: inline-flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: 8px; font-size: 13px; font-weight: 600; text-decoration: none; cursor: pointer; border: 1px solid transparent; transition: all 0.15s ease; }}
         .btn-rss {{ background: #ea580c; color: #ffffff; }}
         .btn-rss:hover {{ background: #c2410c; }}
@@ -201,13 +213,14 @@ def generate_web_index(history_digests, config):
 <body>
     <div class="container">
         <header class="top-nav">
-            <div class="brand">
+            <a href="{home_rel_url}" class="brand">
                 <span>🛰️</span>
                 <span>TechPulse Daily</span>
-            </div>
+            </a>
             <div class="nav-actions">
+                {back_btn_html}
                 <button class="btn btn-rss" onclick="copyRssLink()">📡 复制 RSS 订阅地址</button>
-                <a href="{feed_filename}" class="btn btn-outline" target="_blank">查看 RSS 源</a>
+                <a href="{rss_rel_url}" class="btn btn-outline" target="_blank">查看 RSS 源</a>
             </div>
         </header>
         <div class="main-layout">
@@ -217,8 +230,8 @@ def generate_web_index(history_digests, config):
             <aside class="sidebar">
                 <div class="side-card">
                     <h3 class="side-title">📡 RSS 订阅指南</h3>
-                    <p style="font-size: 13px; color: #64748b; margin-bottom: 10px;">复制本站 RSS 地址，即可添加到 NetNewsWire, Reeder, Follow, Feedly 或微信阅读器中每日自动收取。</p>
-                    <input type="text" id="rssUrl" readonly value="{feed_filename}" style="width: 100%; padding: 6px 10px; font-size: 12px; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px; color: #334155; margin-bottom: 8px;">
+                    <p style="font-size: 13px; color: #64748b; margin-bottom: 10px;">复制本站 RSS 地址，添加到 NetNewsWire, Reeder, Follow, Feedly 即可每日自动收取。</p>
+                    <input type="text" id="rssUrl" readonly value="{rss_rel_url}" style="width: 100%; padding: 6px 10px; font-size: 12px; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px; color: #334155; margin-bottom: 8px;">
                 </div>
                 <div class="side-card">
                     <h3 class="side-title">🗂 往期早报归档</h3>
@@ -232,7 +245,7 @@ def generate_web_index(history_digests, config):
     <div id="toast" class="copy-toast">✅ RSS 地址已复制到剪贴板！</div>
     <script>
         function copyRssLink() {{
-            const fullUrl = new URL("{feed_filename}", window.location.href).href;
+            const fullUrl = new URL("{rss_rel_url}", window.location.href).href;
             navigator.clipboard.writeText(fullUrl).then(() => {{
                 const toast = document.getElementById("toast");
                 toast.style.display = "block";
@@ -242,7 +255,7 @@ def generate_web_index(history_digests, config):
             }});
         }}
         window.addEventListener("DOMContentLoaded", () => {{
-            document.getElementById("rssUrl").value = new URL("{feed_filename}", window.location.href).href;
+            document.getElementById("rssUrl").value = new URL("{rss_rel_url}", window.location.href).href;
         }});
     </script>
 </body>
@@ -250,7 +263,7 @@ def generate_web_index(history_digests, config):
     return html
 
 def save_rss_and_web(digest_data, config):
-    """Saves feed.xml, rss.xml, latest_digest.md, archive, and index.html into outputs/"""
+    """Saves feed.xml, rss.xml, latest_digest.md, archive/*.html, and index.html into outputs/"""
     out_dir = Path(config.get("app", {}).get("output_dir", "outputs"))
     if not out_dir.is_absolute():
         base_dir = Path(__file__).resolve().parent.parent
@@ -291,28 +304,41 @@ def save_rss_and_web(digest_data, config):
     max_items = config.get("rss", {}).get("max_feed_items", 30)
     history_digests = history_digests[:max_items]
     
-    # 3. Generate RSS XML
+    # 3. Generate RSS XML (valid XML, no duplicate xmlns)
     feed_filename = config.get("rss", {}).get("feed_filename", "feed.xml")
     xml_content = generate_rss_xml(history_digests, config)
     feed_path = out_dir / feed_filename
     with open(feed_path, "w", encoding="utf-8") as f:
         f.write(xml_content)
         
-    # Also create rss.xml as alias if feed_filename is different
-    if feed_filename != "rss.xml":
-        with open(out_dir / "rss.xml", "w", encoding="utf-8") as f:
-            f.write(xml_content)
+    # Also create rss.xml as alias
+    rss_alias_path = out_dir / "rss.xml"
+    with open(rss_alias_path, "w", encoding="utf-8") as f:
+        f.write(xml_content)
             
-    # 4. Generate Web Index
-    web_content = generate_web_index(history_digests, config)
+    # 4. Generate Web Index (index.html)
+    web_content = render_web_page(digest_data, history_digests, config, is_archive=False)
     index_path = out_dir / "index.html"
     with open(index_path, "w", encoding="utf-8") as f:
         f.write(web_content)
         
+    # 5. Generate Archive HTML pages (archive/{date}.html) for each day
+    archive_html_paths = []
+    for d in history_digests:
+        d_date = d.get("date")
+        if not d_date:
+            continue
+        arch_html = render_web_page(d, history_digests, config, is_archive=True)
+        arch_path = archive_dir / f"{d_date}.html"
+        with open(arch_path, "w", encoding="utf-8") as f:
+            f.write(arch_html)
+        archive_html_paths.append(str(arch_path))
+        
     return {
         "feed_xml": str(feed_path),
-        "rss_xml": str(out_dir / "rss.xml"),
+        "rss_xml": str(rss_alias_path),
         "index_html": str(index_path),
         "latest_md": str(latest_md),
-        "archive_md": str(md_archive)
+        "archive_md": str(md_archive),
+        "archive_html_count": len(archive_html_paths)
     }
