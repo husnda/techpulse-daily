@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://github.com</link><description>每日聚合 GitHub Daily Trending 开源项目与 Hacker News 高分深度技术讨论</description><language>zh-cn</language><lastBuildDate>Thu, 10 Sep 2026 06:23:08 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://github.com/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://github.com#2026-09-10</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 0 auto; color: #1f2937; line-height: 1.6;"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://github.com</link><description>每日聚合 GitHub Daily Trending 开源项目与 Hacker News 高分深度技术讨论</description><language>zh-cn</language><lastBuildDate>Thu, 10 Sep 2026 06:25:11 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://github.com/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://github.com#2026-09-10</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 0 auto; color: #1f2937; line-height: 1.6;"&gt;
 
     &lt;div style="background: linear-gradient(135deg, #1e293b, #0f172a); color: #f8fafc; padding: 24px; border-radius: 12px; margin-bottom: 24px;"&gt;
         &lt;h1 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 700; color: #38bdf8;"&gt;🛰️ TechPulse Daily 技术早报&lt;/h1&gt;
@@ -18,7 +18,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+4,650&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;35,496&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;35,501&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -32,7 +32,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;HTML&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+2,249&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;36,918&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;36,920&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -46,7 +46,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;N/A&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+1,397&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;18,222&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;18,223&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -60,7 +60,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+1,133&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;255,353&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;255,354&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -74,7 +74,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+705&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;30,327&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;30,330&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -102,7 +102,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;TypeScript&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+556&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;3,254&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;3,256&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -144,7 +144,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+367&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;104,174&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;104,178&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -172,7 +172,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+124&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;15,167&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;15,168&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -336,5 +336,5 @@
         &lt;/div&gt;
         
 &lt;/div&gt;
-&lt;div style="margin-top: 24px; padding-top: 12px; border-top: 1px solid #f1f5f9; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 06:23:08&lt;/div&gt;
+&lt;div style="margin-top: 24px; padding-top: 12px; border-top: 1px solid #f1f5f9; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 06:25:11&lt;/div&gt;
 &lt;/div&gt;</description></item></channel></rss>

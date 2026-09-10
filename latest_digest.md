@@ -5,23 +5,23 @@
 ## 🚀 GitHub Trending 热门开源项目
 
 ### 1. [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) `[AI / LLM]`
-- **语言**: **Python** | **今日增速**: ⭐ +4,650 | **总星标**: 35,496 | **Forks**: 2,066
+- **语言**: **Python** | **今日增速**: ⭐ +4,650 | **总星标**: 35,501 | **Forks**: 2,066
 - **简介**: A skill to stop your coding agent from burying the answer. ADHD-friendly output.
 
 ### 2. [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) `[AI / LLM]`
-- **语言**: **HTML** | **今日增速**: ⭐ +2,249 | **总星标**: 36,918 | **Forks**: 2,342
+- **语言**: **HTML** | **今日增速**: ⭐ +2,249 | **总星标**: 36,920 | **Forks**: 2,342
 - **简介**: 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.
 
 ### 3. [liquidslr/system-design-notes](https://github.com/liquidslr/system-design-notes) `[Systems / Infra]`
-- **语言**: General | **今日增速**: ⭐ +1,397 | **总星标**: 18,222 | **Forks**: 3,433
+- **语言**: General | **今日增速**: ⭐ +1,397 | **总星标**: 18,223 | **Forks**: 3,433
 - **简介**: Notes of the book System Desgin Interview - An Insider's Guide
 
 ### 4. [affaan-m/ECC](https://github.com/affaan-m/ECC) `[AI / LLM]`
-- **语言**: **JavaScript** | **今日增速**: ⭐ +1,133 | **总星标**: 255,353 | **Forks**: 38,241
+- **语言**: **JavaScript** | **今日增速**: ⭐ +1,133 | **总星标**: 255,354 | **Forks**: 38,241
 - **简介**: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
 ### 5. [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) `[AI / LLM]`
-- **语言**: **JavaScript** | **今日增速**: ⭐ +705 | **总星标**: 30,327 | **Forks**: 2,933
+- **语言**: **JavaScript** | **今日增速**: ⭐ +705 | **总星标**: 30,330 | **Forks**: 2,933
 - **简介**: Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。
 
 ### 6. [obra/superpowers](https://github.com/obra/superpowers) `[AI / LLM]`
@@ -29,7 +29,7 @@
 - **简介**: An agentic skills framework & software development methodology that works.
 
 ### 7. [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) `[Dev Tools]`
-- **语言**: **TypeScript** | **今日增速**: ⭐ +556 | **总星标**: 3,254 | **Forks**: 205
+- **语言**: **TypeScript** | **今日增速**: ⭐ +556 | **总星标**: 3,256 | **Forks**: 205
 - **简介**: Make Every Team AI Native
 
 ### 8. [openai/plugins](https://github.com/openai/plugins) `[AI / LLM]`
@@ -41,7 +41,7 @@
 - **简介**: Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins
 
 ### 10. [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) `[AI / LLM]`
-- **语言**: **Python** | **今日增速**: ⭐ +367 | **总星标**: 104,174 | **Forks**: 19,994
+- **语言**: **Python** | **今日增速**: ⭐ +367 | **总星标**: 104,178 | **Forks**: 19,994
 - **简介**: TradingAgents: Multi-Agents LLM Financial Trading Framework
 
 ### 11. [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) `[Web / Frontend]`
@@ -49,7 +49,7 @@
 - **简介**: Learn it. Build it. Ship it for others.
 
 ### 12. [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) `[AI / LLM]`
-- **语言**: **Python** | **今日增速**: ⭐ +124 | **总星标**: 15,167 | **Forks**: 1,567
+- **语言**: **Python** | **今日增速**: ⭐ +124 | **总星标**: 15,168 | **Forks**: 1,567
 - **简介**: A library of agent skills for CAD, CAE and CAM
 
 ---
@@ -94,4 +94,4 @@
 
 ---
 
-*本期早报由 TechPulse 自动聚合生成于 2026-09-10 06:23:08*
+*本期早报由 TechPulse 自动聚合生成于 2026-09-10 06:25:11*
