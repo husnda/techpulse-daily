@@ -1,8 +1,8 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-10 09:06:04",
+  "generated_at": "2026-09-10 09:18:12",
   "top_highlight": "iPhone Duo",
-  "ai_overview": "苹果秋季新品发布掀起全球数码硬件热潮，折叠屏**iPhone Duo**与**AirPods 5**引发激烈技术与形态讨论；商业前端领域迎来重磅整合，**Shopify宣布收购Tailwind Labs**并停售其商业套件。同时，开源社区的聚焦点正从底层模型加速转向**AI Agent技能编排**与工程化落地实践。",
+  "ai_overview": "前端生态迎来重大整合，**Shopify 宣布正式收购 Tailwind Labs**，商业化模式的变动在社区引发广泛震动。硬件与消费电子领域，**苹果秋季发布会**全面更新 iPhone 系列与 AirPods 产品线，引爆关于 eSIM、接口与硬件迭代诚意的热烈争论。同时，**AI 智能体开发工作流与提示工程框架**在开源社区持续井喷，工程化落地正向深度协作与细分场景加速渗透。",
   "github_items": [
     {
       "source": "github",
@@ -13,11 +13,11 @@
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
       "stars_today": 4650,
-      "stars_total": 36043,
-      "forks": 2094,
+      "stars_total": 36089,
+      "forks": 2097,
       "topic": "效率工具",
       "raw_context": "<p align=\"center\"> <img src=\"./logo.png\" alt=\"i-have-adhd\" width=\"140\" /> </p> <p align=\"center\"> <strong align=\"center\">ADHD-friendly outputs. No ADHD diagnosis needed!</strong> </p> <p align=\"center\"> <a href=\"LICENSE\"><img src=\"https://img.shields.io/github/license/ayghri/i-have-adhd?style=flat\" alt=\"License\"></a> </p> <p align=\"center\"> <strong title=\"English\" aria-label=\"English\">🇬🇧</strong> · <a href=\".github/readme/README.zh-CN.md\" title=\"简体中文\" aria-label=\"简体中文\">🇨🇳</a> · <a href=\".github/readme/README.pt-BR.md\" title=\"Português (Brasil)\" aria-label=\"Português (Brasil)\">🇧🇷</a> · <a href=\".github/readme/README.ja.md\" title=\"日本語\" aria-label=\"日本語\">🇯🇵</a> · <a href=\".github/readme/README.vi.md\" title=\"Tiếng Việt\" aria-label=\"Tiếng Việt\">🇻🇳</a> · <a href=\".github/readme/README.ko.md\" title=\"한국어\" aria-label=\"한국어\">🇰🇷</a> · <a href=\".github/readme/README.th.md\" title=\"ภาษาไทย\" aria-label=\"ภาษาไทย\">🇹🇭</a> </p> ## Install Copy/paste into your CLI prompt: ```text Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions. ``` Or 🔗 [check the installation instructions](INSTALL.md). ## What it does A skill for your coding assistant that stops it from burying the answer. Action first. Steps numbered. No \"Hope this helps!\" ## What changes <table> <tr> <td width=\"50%\"> ## Before > Great question! Let me think about this",
-      "ai_summary": "【核心定位】针对编程AI助手废话过多的痛点，强制模型输出精简、行动导向且带编号的ADHD友好型回复。\n【技术亮点】通过外挂式Skill/Plugin注入Prompt约束层，在输入端重构Prompt引导逻辑，从源头杜绝客套寒暄与冗长解释。"
+      "ai_summary": "【核心定位】专为编程助手设计的指令扩展插件，杜绝大模型的寒暄废话，提供直奔主题、高度结构化的极简输出。\n【技术亮点】通过规范 Prompt 上下文约束 Agent 的回复模式，强制实行“行动优先、步骤编号、拒绝过度解释”的认知负荷优化策略。"
     },
     {
       "source": "github",
@@ -28,11 +28,11 @@
       "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
       "stars_today": 2249,
-      "stars_total": 37088,
-      "forks": 2355,
+      "stars_total": 37105,
+      "forks": 2356,
       "topic": "前端开发",
       "raw_context": "# Diagram Design **Editorial diagrams your designer won't hate.** <a href=\"https://trendshift.io/repositories/26141?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-26141\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/26141\" alt=\"cathrynlavery%2Fdiagram-design | Trendshift\" width=\"250\" height=\"55\"/></a> [](docs/screenshots/architecture.png) [](docs/screenshots/loop.png) *New in 2.0 — the Loop: flywheels with a shared-memory hub. The dashed lines are the write-backs.* *New in 2.3: semantic system patterns and optional accessible motion, while static output stays the default.* *New in 2.5.10: ten more layout grammars — Sankey, fishbone, Wardley map, kanban, user journey, deployment, dependency graph, UML class, story map, and database schema.* 39 editorial diagram types for Claude Code, Codex, Factory Droid, Pi, and Agent Skills-compatible hosts. Self-contained HTML + SVG. No shadows. No Mermaid slop. Semantic patterns describe behavior separately from layout, so a queue, policy trace, or trust boundary can use the nearest existing type without expanding the type count. Static HTML remains the default; optional motion is available for ordered explanations. The skill also redraws draw.io, Mermaid, or Excalidraw sources at a chosen format, size, and detail level. No Figma. No generic rounded boxes.",
-      "ai_summary": "【核心定位】专为Claude Code等编程智能体设计的排版级图表规范，输出美观且自包含的HTML与SVG图表。\n【技术亮点】采用布局语法与语义系统模式解耦设计，不依赖任何庞大前端运行时或Figma导出即可渲染复杂的系统架构与流转图。"
+      "ai_summary": "【核心定位】面向现代编码智能体（Claude Code、Codex 等）的企业级无依赖自包含 HTML/SVG 架构图绘制库。\n【技术亮点】将系统语义行为与物理布局解耦，摆脱对重型设计工具或 Mermaid 的依赖，并支持将旧架构图转写为高质感矢量图。"
     },
     {
       "source": "github",
@@ -43,11 +43,11 @@
       "description": "Notes of the book System Desgin Interview - An Insider's Guide",
       "language": "N/A",
       "stars_today": 1397,
-      "stars_total": 18340,
-      "forks": 3441,
+      "stars_total": 18344,
+      "forks": 3443,
       "topic": "算法与学习",
       "raw_context": "",
-      "ai_summary": "【核心定位】系统设计经典面试红宝书《System Design Interview》的精炼笔记与架构图谱整理。\n【技术亮点】以结构化提炼的方式系统梳理了高并发、高可用及海量存储等现代分布式系统的核心模式与设计权衡。"
+      "ai_summary": "【核心定位】系统设计经典参考书《System Design Interview》的精炼技术笔记与架构演进指南。\n【技术亮点】系统性梳理高并发、高可用及分布式系统架构的核心考点与设计权衡模式。"
     },
     {
       "source": "github",
@@ -58,11 +58,11 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
       "stars_today": 1133,
-      "stars_total": 255442,
+      "stars_total": 255454,
       "forks": 38248,
       "topic": "AI/智能体",
       "raw_context": "<p align=\"center\"> <img src=\"assets/hero.png\" alt=\"ECC - the agent harness operating system\" width=\"100%\" /> </p> <p align=\"center\"> <a href=\"https://www.star-history.com/affaan-m/ecc\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=affaan-m/ECC&type=trending&theme=dark\" /> <img src=\"https://api.star-history.com/badge?repo=affaan-m/ECC&type=trending\" alt=\"GitHub Trending Repository of the Day\" height=\"46\" /> </picture> </a> <a href=\"https://www.star-history.com/affaan-m/ecc\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=affaan-m/ECC&type=rank&theme=dark\" /> <img src=\"https://api.star-history.com/badge?repo=affaan-m/ECC&type=rank\" alt=\"Star History Global Rank\" height=\"46\" /> </picture> </a> </p> <p align=\"center\"> <strong>Language:</strong> <a href=\"README.md\">English</a> | <a href=\"docs/pt-BR/README.md\">Português (Brasil)</a> | <a href=\"README.zh-CN.md\">简体中文</a> | <a href=\"docs/zh-TW/README.md\">繁體中文</a> | <a href=\"docs/ja-JP/README.md\">日本語</a> | <a href=\"docs/ko-KR/README.md\">한국어</a> | <a href=\"docs/tr/README.md\">Türkçe</a> | <a href=\"docs/ru/README.md\">Русский</a> | <a href=\"docs/vi-VN/README.md\">Tiếng Việt</a> | <a href=\"docs/th/README.md\">ไทย</a> | <a href=\"docs/de-DE/README.md\">Deutsch</a> | <a href=\"docs/es/README.md\">Español</a> | <a href=\"docs/uk-UA/README.m",
-      "ai_summary": "【核心定位】面向多Agent协同编排的操作载体框架，为各类自主编程智能体提供统一的运行环境与状态管理。\n【技术亮点】引入Harness OS架构抽象，解耦模型调度层与底层操作系统调用，支持多语言与跨平台会话隔离。"
+      "ai_summary": "【核心定位】为 AI 编程智能体提供标准化操作上下文、规范与执行 harness 的开源多语言底座系统。\n【技术亮点】为各类模型代理提供统一的沙箱运行时约束与标准化动作协议，提升自主编码任务的完成稳定性。"
     },
     {
       "source": "github",
@@ -73,11 +73,11 @@
       "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
       "language": "JavaScript",
       "stars_today": 705,
-      "stars_total": 30479,
+      "stars_total": 30489,
       "forks": 2950,
       "topic": "AI/智能体",
       "raw_context": "<p align=\"center\"><img src=\"./data/images/banner.svg\" alt=\"GPT-Image2 Prompt System\" width=\"800\" /></p> <h3 align=\"center\">Prompt as Code | GPT-Image2 Industrial Prompt Engine & Template Library, 500+ Reverse-Engineered Cases, 20+ Industrial Templates</h3> <p align=\"center\"> <a href=\"https://github.com/freestylefly/awesome-gpt-image-2\"><img src=\"https://img.shields.io/github/stars/freestylefly/awesome-gpt-image-2?style=flat-square&color=rgb(25%2C%20121%2C%20255)\" alt=\"Stars\"></a> <a href=\"https://github.com/freestylefly/awesome-gpt-image-2\"><img src=\"https://img.shields.io/github/forks/freestylefly/awesome-gpt-image-2?style=flat-square&color=green\" alt=\"Forks\"></a> <a href=\"https://github.com/freestylefly/awesome-gpt-image-2\"><img src=\"https://img.shields.io/badge/Cases-544-blueviolet?style=flat-square\" alt=\"Cases\"></a> <a href=\"https://github.com/freestylefly/awesome-gpt-image-2\"><img src=\"https://img.shields.io/badge/100%25-Original_AI_Rewritten-green?style=flat-square\" alt=\"Original\"></a> <a href=\"https://github.com/sponsors/freestylefly\"><img src=\"https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ff69b4?style=flat-square\" alt=\"Sponsor\"></a> </p> <p align=\"center\"> <a href=\"https://trendshift.io/repositories/28623?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-28623\"> <img src=\"https://trendshift.io/api/badge/repositories/28623\" alt=\"",
-      "ai_summary": "【核心定位】采用“Prompt as Code”工程化范式的工业级图像生成Prompt引擎与逆向模板库。\n【技术亮点】收录超500个工业逆向案例，将自然语言提示词解耦为可复用、参数化的代码模组以实现稳定视觉输出。"
+      "ai_summary": "【核心定位】主打“Prompt 即代码”的工业级图像生成提示词工程引擎与逆向模版资产库。\n【技术亮点】收录 500+ 经逆向验证的高精度案例与工业级模板，将图像生成提示词转变为可复现、模块化的参数工程。"
     },
     {
       "source": "github",
@@ -88,11 +88,11 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
       "stars_today": 688,
-      "stars_total": 284301,
+      "stars_total": 284309,
       "forks": 25428,
-      "topic": "AI/智能体",
+      "topic": "效率工具",
       "raw_context": "# Superpowers Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. ## Table of Contents - [How it works](#how-it-works) - [Commercial Services](#commercial-services) - [Getting Started](#installation) - [Claude Code](#claude-code) - [Antigravity](#antigravity) - [Codex App](#codex-app) - [Codex CLI](#codex-cli) - [Cursor](#cursor) - [Devin CLI](#devin-cli) - [Factory Droid](#factory-droid) - [Gemini CLI](#gemini-cli) - [GitHub Copilot CLI](#github-copilot-cli) - [Grok Build CLI](#grok-build-cli) - [Kimi Code](#kimi-code) - [OpenCode](#opencode) - [Pi](#pi) - [Hermes Agent](#hermes-agent) - [The Basic Workflow](#the-basic-workflow) - [Community](#community) - [What's Inside](#whats-inside) - [Philosophy](#philosophy) - [Contributing](#contributing) - [Updating](#updating) - [License](#license) - [Visual companion telemetry](#visual-companion-telemetry) ## How it works It starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do. Once it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest. After you've signed off on the de",
-      "ai_summary": "【核心定位】面向Claude Code、Cursor等多种AI Agent的完整软件工程方法论与技能约束套件。\n【技术亮点】强制智能体跳出盲目写代码的循环，引入“对话需求澄清-短规格书评审-分步落地”的规范化开发流。"
+      "ai_summary": "【核心定位】一套适用于各大主流编程 Agent 的完整软件开发工程方法论与可组合技能包。\n【技术亮点】重构了 Agent 的默认执行逻辑，强制其在编写代码前主动探寻需求、生成短小规格说明并等待人工确认，实现可控的人机协作闭环。"
     },
     {
       "source": "github",
@@ -103,11 +103,11 @@
       "description": "Make Every Team AI Native",
       "language": "TypeScript",
       "stars_today": 556,
-      "stars_total": 3381,
-      "forks": 213,
-      "topic": "AI/智能体",
+      "stars_total": 3391,
+      "forks": 214,
+      "topic": "效率工具",
       "raw_context": "<p align=\"center\"> <img src=\"assets/teamai-cli-logo.svg\" alt=\"teamai-cli\"> </p> # TeamAI — Make Every Team AI Native > [English](README.md) | [简体中文](README.zh-CN.md) [](https://github.com/Tencent/teamai-cli/actions/workflows/ci.yml) [](https://www.npmjs.com/package/teamai-cli) [](https://www.npmjs.com/package/teamai-cli) [](LICENSE) TeamAI manages your team's skills, rules, MCP, and knowledge across Claude Code, Codex, CodeBuddy, WorkBuddy, OpenCode, Cursor, and other AI agents. ## Contributors Thanks to everyone who has contributed to TeamAI! <a href=\"https://github.com/Tencent/teamai-cli/graphs/contributors\"> <img src=\"https://contrib.rocks/image?repo=Tencent/teamai-cli\" alt=\"Contributors\" /> </a> Made with [contrib.rocks](https://contrib.rocks). ## Quick Start ### Install ```bash npm install -g teamai-cli ``` ### Team admin / solo user Create a shared-experience repo on your git host (GitHub, GitLab, GitCode, CNB, TGit, or a private Git service), **grant write access to team members**, then run `teamai init https://github.com/yourorg/yourrepo`. > **No team repo yet?** Start from a template pre-loaded with production-ready skills, rules, and review agents. Browse the [teamai-hub](https://github.com/teamai-hub) org, click **Use this template**, then `teamai init` against your new repo. ### Team members ```bash # Choose one, depending on where you want resources installed # Pro",
-      "ai_summary": "【核心定位】腾讯开源的企业级AI工程化CLI工具，统一管理跨平台代码助手的技能、规则、知识库与MCP生态。\n【技术亮点】基于Git代码仓作为统一配置源，实现跨Cursor、Claude Code等异构Agent环境的Prompt规则与MCP工具链自动分发同步。"
+      "ai_summary": "【核心定位】腾讯开源的企业级团队 AI 资产统一管理工具，集中维护跨开发工具的 Rules、MCP 和 Skills。\n【技术亮点】采用 Git 仓库作为唯一的规则与上下文分发源，无缝打通 Claude Code、Cursor 等多样化 Agent 终端。"
     },
     {
       "source": "github",
@@ -118,11 +118,11 @@
       "description": "OpenAI Plugins",
       "language": "JavaScript",
       "stars_today": 498,
-      "stars_total": 6320,
+      "stars_total": 6322,
       "forks": 834,
       "topic": "AI/智能体",
       "raw_context": "# Plugins This repository contains a curated collection of Codex plugin examples. Each plugin lives under `plugins/<name>/` with a required `.codex-plugin/plugin.json` manifest and optional companion surfaces such as `skills/`, `.app.json`, `.mcp.json`, plugin-level `agents/`, `commands/`, `hooks.json`, `assets/`, and other supporting files. The default marketplace lives at `.agents/plugins/marketplace.json` and points at the standard `plugins/` directory. API key login users have a separate marketplace at `.agents/plugins/api_marketplace.json`. Highlighted richer examples in this repo include: - `plugins/figma` for `use_figma`, Code to Canvas, Code Connect, and design system rules - `plugins/notion` for planning, research, meetings, and knowledge capture - `plugins/build-ios-apps` for SwiftUI implementation, refactors, performance, and debugging - `plugins/build-macos-apps` for macOS SwiftUI/AppKit workflows, build/run/debug loops, and packaging guidance - `plugins/build-web-apps` for deployment, UI, payments, and database workflows - `plugins/expo` for Expo and React Native apps, SDK upgrades, EAS workflows, and Codex Run actions - `plugins/netlify`, `plugins/remotion`, and `plugins/google-slides` for additional public skill- and MCP-backed plugin bundles",
-      "ai_summary": "【核心定位】OpenAI官方维护的Codex插件规范与精选示例库，覆盖多场景的开发辅助套件。\n【技术亮点】定义了包含plugin.json、MCP接口、hooks及本地Skills的标准扩展清单规范，建立了模块化的插件市场标准。"
+      "ai_summary": "【核心定位】OpenAI 官方维护的精选 Codex 插件与技能实现集锦。\n【技术亮点】通过统一的清单规范与 hooks、MCP 及 skills 架构，展示了从设计系统互联（Figma）到移动端/全栈快速构建的工程插件实践。"
     },
     {
       "source": "github",
@@ -133,11 +133,11 @@
       "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
       "language": "TypeScript",
       "stars_today": 417,
-      "stars_total": 1967,
+      "stars_total": 1973,
       "forks": 172,
-      "topic": "效率工具",
+      "topic": "AI/智能体",
       "raw_context": "<div align=\"center\"> <img src=\"docs/image/readme/logo.png\" alt=\"PI-Desktop\" width=\"112\" /> # PI-Desktop ### Your local-first desktop workspace for AI coding agents. **Bring your own model. Open any local project. Let agents work — while you stay in control.** No PI-Desktop account. No mandatory relay. No editor lock-in. <br /> [](https://github.com/vastsa/PI-Desktop/releases/latest) [](https://github.com/vastsa/PI-Desktop/releases) [](https://github.com/vastsa/PI-Desktop/stargazers) [](https://github.com/vastsa/PI-Desktop/actions/workflows/ci.yml) [](LICENSE) <a href=\"https://trendshift.io/repositories/178787?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-178787\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/178787\" alt=\"vastsa/PI-Desktop | Trendshift\" width=\"250\" height=\"55\"/></a> <a href=\"https://www.producthunt.com/products/pi-desktop?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-pi-desktop\" target=\"_blank\" rel=\"noopener noreferrer\"><img alt=\"PI-Desktop - Your local-first desktop workspace for AI coding agents | Product Hunt\" width=\"250\" height=\"54\" src=\"https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1245457&amp;theme=dark&amp;t=1788955688339\"/></a> **[Download PI-Desktop](https://github.com/vastsa/PI-Desktop/releases/latest)*",
-      "ai_summary": "【核心定位】专为AI代码智能体打造的Local-first桌面工作区，提供免账号、无中间转发的本地隔离开发环境。\n【技术亮点】采用BYOM（自带模型）与本地文件直接挂载设计，规避云端中继泄露风险，赋予开发者完整的控制权与审计能力。"
+      "ai_summary": "【核心定位】本地优先的桌面端 AI 编程智能体工作空间，强调无中继转发与无编辑器绑定。\n【技术亮点】用户自带模型并直接运行于本地工程目录，在保障代码安全与完全掌控力的同时驱动多 Agent 自主作业。"
     },
     {
       "source": "github",
@@ -148,11 +148,11 @@
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
       "stars_today": 367,
-      "stars_total": 104303,
+      "stars_total": 104313,
       "forks": 20002,
       "topic": "数据科学",
       "raw_context": "<p align=\"center\"> <img src=\"assets/TauricResearch.png\" style=\"width: 60%; height: auto;\"> </p> <div align=\"center\" style=\"line-height: 1;\"> <a href=\"https://arxiv.org/abs/2412.20138\" target=\"_blank\"><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2412.20138-B31B1B?logo=arxiv\"/></a> <a href=\"https://discord.com/invite/hk9PGKShPK\" target=\"_blank\"><img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-TradingResearch-7289da?logo=discord&logoColor=white&color=7289da\"/></a> <a href=\"https://x.com/TauricResearch\" target=\"_blank\"><img alt=\"X Follow\" src=\"https://img.shields.io/badge/X-TauricResearch-white?logo=x&logoColor=white\"/></a> <a href=\"https://github.com/TauricResearch/\" target=\"_blank\"><img alt=\"Community\" src=\"https://img.shields.io/badge/GitHub_Community-TauricResearch-14C290?logo=discourse\"/></a> </div> <br> <div align=\"center\"> <a href=\"https://github.com/TauricResearch\" target=\"_blank\"><img alt=\"TradingAgents #1 Repository of the Day\" src=\"https://trendshift.io/api/badge/repositories/16192\" width=\"250\" height=\"55\"/></a> </div> <br> <div align=\"center\"> <a href=\"https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=de\">Deutsch</a> | <a href=\"https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=es\">Español</a> | <a href=\"https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=fr\">français</a> | <a href=\"https://www.readme-i18n.com/Tau",
-      "ai_summary": "【核心定位】基于多Agent协同博弈的量化金融交易与多维度市场深度研究框架。\n【技术亮点】结合arXiv前沿学术研究成果，将不同专业领域的金融分析策略解耦为自治Agent并形成决策委员会机制。"
+      "ai_summary": "【核心定位】面向量化金融与交易决策场景的多智能体协同研究框架。\n【技术亮点】基于学术研究成果构建多角色金融分析与策略推演智能体网络，实现市场分析与模拟决策的自动化。"
     },
     {
       "source": "github",
@@ -163,11 +163,11 @@
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
       "stars_today": 343,
-      "stars_total": 53979,
-      "forks": 9397,
+      "stars_total": 53983,
+      "forks": 9398,
       "topic": "算法与学习",
       "raw_context": "<p align=\"center\"> <img src=\"assets/banner.svg\" alt=\"AI Engineering from Scratch — reference manual banner\" width=\"100%\"> </p> <p align=\"center\"> <b>Read in your language:</b> <a href=\"i18n/es/README.md\">Español</a> · <a href=\"i18n/fr/README.md\">Français</a> · <a href=\"i18n/pt/README.md\">Português</a> · <a href=\"i18n/de/README.md\">Deutsch</a> · <a href=\"i18n/it/README.md\">Italiano</a> · <a href=\"i18n/zh/README.md\">简体中文</a> · <a href=\"i18n/ja/README.md\">日本語</a> · <a href=\"i18n/ko/README.md\">한국어</a> · <a href=\"i18n/hi/README.md\">हिन्दी</a> · <a href=\"i18n/ar/README.md\">العربية</a> · <a href=\"i18n/ru/README.md\">Русский</a> · <a href=\"i18n/tr/README.md\">Türkçe</a> <br><sub>Translated landing pages, committed to the repo. English is canonical; lesson pages are machine-translated on the <code>translations</code> branch. See <a href=\"docs/i18n.md\">docs/i18n.md</a>.</sub> </p> <p align=\"center\"> <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5\" alt=\"MIT License\"></a> <a href=\"ROADMAP.md\"><img src=\"https://img.shields.io/badge/lessons-523-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"523 lessons\"></a> <a href=\"#contents\"><img src=\"https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"20 phases\"></a> <a href=\"https://github.com/rohitg00/ai-engineering-from-scratch/stargazers\"><img src=\"htt",
-      "ai_summary": "【核心定位】从零底层逐步掌握AI系统工程的系统化开源参考手册与进阶路线图。\n【技术亮点】涵盖20个进阶阶段与500+模块化课时，摒弃单纯调用黑盒API，注重深度解析工程架构原理与全栈落地实战。"
+      "ai_summary": "【核心定位】从零基础构建 AI 工程全链路知识体系的多语言实战参考指南。\n【技术亮点】涵盖 500 多节微课与 20 个阶段，以从原理到生产落地的递进式路径拆解大模型应用开发。"
     },
     {
       "source": "github",
@@ -178,11 +178,11 @@
       "description": "A library of agent skills for CAD, CAE and CAM",
       "language": "Python",
       "stars_today": 124,
-      "stars_total": 15244,
+      "stars_total": 15252,
       "forks": 1570,
       "topic": "AI/智能体",
       "raw_context": "<div align=\"center\"> <img src=\"assets/text-to-cad-demo.gif\" alt=\"Demo of the CAD skill generating and previewing CAD geometry\" width=\"100%\"> <br> <pre> ████████╗███████╗██╗ ██╗████████╗██████╗ ██████╗ █████╗ ██████╗ ╚══██╔══╝██╔════╝╚██╗██╔╝╚══██╔══╝╚════██╗██╔════╝██╔══██╗██╔══██╗ ██║ █████╗ ╚███╔╝ ██║ █████╔╝██║ ███████║██║ ██║ ██║ ██╔══╝ ██╔██╗ ██║ ██╔═══╝ ██║ ██╔══██║██║ ██║ ██║ ███████╗██╔╝ ██╗ ██║ ███████╗╚██████╗██║ ██║██████╔╝ ╚═╝ ╚══════╝╚═╝ ╚═╝ ╚═╝ ╚══════╝ ╚═════╝╚═╝ ╚═╝╚═════╝ </pre> A library of agent skills for CAD, CAE and CAM [Docs](https://www.texttocad.dev) [](https://github.com/earthtojake/text-to-cad/actions/workflows/test.yml?query=branch%3Amain) [](https://discord.gg/5FGB9DwJYU) [](https://github.com/earthtojake/text-to-cad/stargazers) [](LICENSE) [](https://x.com/earthtojake) [](skills/cad/requirements.txt) [](skills/cad/SKILL.md) [](skills/cad/SKILL.md) [](skills/cad/SKILL.md) [](skills/urdf/SKILL.md) [](skills/sdf/SKILL.md) [](skills/srdf/SKILL.md) </div> # text-to-cad text-to-cad is a library of agent skills for generating, inspecting, sourcing, slicing, and handing off CAD and robot-description artifacts from local project files. <table> <tr> <td width=\"33%\"> <a href=\"./assets/text-to-cad-demo.gif\"> <img src=\"./assets/text-to-cad-demo.gif\" alt=\"CAD skill demo showing generated geometry in CAD Viewer\" width=\"100%\"> </a> <a href=\"./skills/cad/SKILL.md\">",
-      "ai_summary": "【核心定位】面向机器人与物理结构设计的代码库，为Agent提供生成与切片CAD/CAM/URDF工件的能力。\n【技术亮点】打通自然语言到精确工程几何体的流水线，集成URDF/SDF机器人描述文件与切片算法的程序化生成支持。"
+      "ai_summary": "【核心定位】为 AI 智能体打造的 CAD、CAE 及机器人描述模型（URDF/SDF）生成与切片技能库。\n【技术亮点】打通自然语言到物理工程建模的链路，让智能体可以直接从工程文件中检验几何结构并对接下游 CAM 工作流。"
     }
   ],
   "hn_items": [
@@ -193,13 +193,13 @@
       "url": "https://www.apple.com/iphone-duo/",
       "hn_url": "https://news.ycombinator.com/item?id=49630931",
       "domain": "apple.com",
-      "points": 1185,
-      "comments_count": 2092,
+      "points": 1189,
+      "comments_count": 2096,
       "author": "thecosmicfrog",
       "created_at_i": 1788977743,
       "topic": "数码硬件",
       "raw_context": "【文章原文节选】: iPhone Duo - Apple Apple Store Mac iPad iPhone Watch Vision AirPods TV & Home Entertainment Accessories Support 0 + iPhone Duo Explore View pricing iPhone Duo Currently viewing iPhone 18 Pro New iPhone Air iPhone 17 iPhone 17e iPhone 16 Compare Accessories Shop iPhone iOS 27 iPhone Duo * View pricing Overview Highlights Design Cameras Performance Shared Features Accessories Tech Specs Switch from Android iPhone Duo Hello, hello. Pre-order starting 5:00 a.m. PT on October sixteenth. Available starting October twenty-third Pre-order starting 5:00 a.m. PT on 10.16 Available starting 10.23 * ◊ View pricing Get the highlights. Watch the film <div class=\"all-access-pass inactive aap-media-card-gallery \" id=\"aap-media-card-gallery\" data-aap-level=\"1\" data-aap-kf=\"{\"start\": \"a0t - 100vh + 60a0h\"\n\n【社区热评与争论】:\n- retired: No SIM slot. So I have to carry a mobile hotspot if I want to browse the internet outside my home. It’s like Apple forgets there is a world outside the US where eSIM is not a thing.\n- drunkonvinyl: looks nice, but if i still can't use terminal or closer to native cli, the pixel fold 10 with termux is still the right device for on-the-go development. termius is ok, but with termux i can run emacs on the pixel.\n- nunez: - It works with the pencil! This is a big big deal. I can do whiteboarding with customers quickly without having to break out a separate device, for example. Definitely unfortunate for the reMarkable Move and devices lik",
-      "ai_summary": "【核心看点】苹果正式公布iPhone Duo折叠形态设备，支持Apple Pencil书写，预购起售价与产品规格全线公开。\n【社区争议】海外开发者极度不满其彻底取消实体SIM卡槽对跨国移动办公的阻碍，同时缺少类似Pixel+Termux的底层终端支持令极客用户失望。"
+      "ai_summary": "【核心看点】苹果全新双屏形态设备 iPhone Duo 正式发布，带来大屏生产力及手写笔支持。\n【社区争议】海外用户强烈吐槽设备彻底取消实体 SIM 卡插槽，同时开发者感叹其封闭的 iOS 环境依然无法替代运行 Termux 的 Pixel 设备。"
     },
     {
       "source": "hackernews",
@@ -208,13 +208,13 @@
       "url": "https://opusfived.dev/",
       "hn_url": "https://news.ycombinator.com/item?id=49623754",
       "domain": "opusfived.dev",
-      "points": 1110,
-      "comments_count": 429,
+      "points": 1111,
+      "comments_count": 430,
       "author": "matthieu_bl",
       "created_at_i": 1788946786,
       "topic": "开发者热议",
       "raw_context": "【文章原文节选】: Opusfived Opusfived Make the “Add to Cart” button blue. Do not let Claude change anything else. Let’s go About & Terms\n\n【社区热评与争论】:\n- neilellis: Congratulations!!! You win what’s left of the internet - just ask Claude for your prize! Motrin I’ve had this week. I use codex now.\n- apetresc: So this site is just a fan-fiction that thinks it's somehow dunking on Claude? I've never had a session that remotely resembles any of this. I honestly can't tell what point this site thinks it's making.",
-      "ai_summary": "【核心看点】开发者建立讽刺性交互网站“只把按钮改成蓝色”，调侃Claude等编程Agent在简单UI修改时频现过度重构与自作主张的恶疾。\n【社区争议】部分用户强烈共鸣甚至表示已被逼转向Codex，但也有开发者质疑网站过度夸张，称自身规范化提示词从未出现类似严重失控。"
+      "ai_summary": "【核心看点】极简网页讽刺当前大模型编码助手在面对“仅修改按钮颜色”的微小需求时往往自作聪明破坏已有代码。\n【社区争议】社区评论两极分化，部分人共鸣模型过度生成与失控带来的挫败感，另一些开发者则认为该讽刺脱离实际且夸大其词。"
     },
     {
       "source": "hackernews",
@@ -223,13 +223,13 @@
       "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
       "hn_url": "https://news.ycombinator.com/item?id=49626190",
       "domain": "tailwindcss.com",
-      "points": 1021,
-      "comments_count": 390,
+      "points": 1024,
+      "comments_count": 393,
       "author": "EdwinHoksberg",
       "created_at_i": 1788960431,
       "topic": "商业与收购",
       "raw_context": "【文章原文节选】: Tailwind Labs is joining Shopify - Tailwind CSS v 4.3 ⌘K Ctrl K Docs Play Blog Showcase Partners Plus September 9, 2026 Tailwind Labs is joining Shopify Adam Wathan @ adamwathan Big one today — Tailwind is joining Shopify. When I started working on Tailwind over nine years ago, my only goal was to create something that would make it easier to build beautiful interfaces for my own projects. Fast-forward to today and the framework is installed over 110 million times per week and is trusted by many of the world's biggest companies to style products like ChatGPT, X, Cloudflare, Reddit, and Shopify. We're joining Shopify to give Tailwind a stable long-term home where it will be actively maintained for the millions of people who depend on it. Why Shopify We built a great little website template business around Tailwind over the years, but deep down I've always wanted the framework to be developed in service of a real product. A complex application solving important problems for real people, where we'd face the same challenges as our users, and could invent solutions that make the framework better for everyone. Shopify provides an incredible surface area for us to do this work. Merchants \n\n【社区热评与争论】:\n- recursivedoubts: It is an age of consolidation.\n- LoganDark: Ugh. I remember how much Tailwind Labs has struggled for funding and it sucks to see Shopify get them. It also sucks to see they're discontinuing their paid products permanently, effective immediately -- they're not maki\n- bbg2401: The most pertinent part for many: > On the commercial side, we'll no longer be trying to grow the business around Tailwind. All existing customers will of course maintain their access to products like Tailwind Plus and u",
-      "ai_summary": "【核心看点】电商巨头Shopify宣布正式收购Tailwind Labs，Tailwind CSS全面融入Shopify生态并立即停售Tailwind Plus商业产品。\n【社区争议】社区感叹独立开源小团队面临商业化困境最终走向巨头整合的必然宿命，既担忧框架丧失中立性，也欣慰其找到了稳定的长期维护兜底。"
+      "ai_summary": "【核心看点】Tailwind Labs 宣布被电商巨头 Shopify 收购，团队将把精力聚焦于电商核心产品的样式研发。\n【社区争议】开发者普遍担忧开源基础设施被大厂收编后的独立性，同时对官方立即停售全部商业化模版产品的举措感到惋惜。"
     },
     {
       "source": "hackernews",
@@ -244,7 +244,7 @@
       "created_at_i": 1788951258,
       "topic": "隐私安全",
       "raw_context": "【文章原文节选】: Flock Wants a Closely Surveilled World with No Exit | The New Yorker .dZoWtJ{margin:0;}/*!sc*/ .cNCRRJ{margin:0;margin-top:3rem;}/*!sc*/ data-styled.g1[id=\"BaseWrap-sc-SkJtP\"]{content:\"dZoWtJ,cNCRRJ,\"}/*!sc*/ .hvPGFz{margin:0;font:var(--font-consumption-editorial-hed-standard);font-feature-settings:var(--variant-consumption-editorial-hed-standard, normal);text-transform:var(--text-case-consumption-editorial-hed-standard, normal);letter-spacing:var(--tracking-consumption-editorial-hed-standard, normal);line-break:var(--line-break-consumption-editorial-hed-standard, normal);overflow-wrap:var(--overflow-wrap-consumption-editorial-hed-standard, normal);color:rgba(0,0,0,1);}/*!sc*/ .hvPGFz a{color:inherit;}/*!sc*/ .EbcCv{margin:0;font:var(--font-global-editorial-accreditation-core);font-feature-settings:var(--variant-global-editorial-accreditation-core, normal);text-transform:var(--text-case-global-editorial-accreditation-core, normal);letter-spacing:var(--tracking-global-editorial-accreditation-core, normal);line-break:var(--line-break-global-editorial-accreditation-core, normal);overflow-wrap:var(--overflow-wrap-global-editorial-accreditation-core, normal);color:rgba(0,0,0,1);}/*!sc*/\n\n【社区热评与争论】:\n- pseudolus: https://archive.ph/vLfJz\n- mahrain: Already a reality in mainland China, which is a country with very little street crime, grafitti, vandalism etc.\n- bko: I was surprised to learn that many countries have what amounts to a flock equivalent. UK for instance has a National ANPR Service w 12k fixed cameras and 90-100m plates read a day. They also store it much longer. Never u",
-      "ai_summary": "【核心看点】《纽约客》长文深度披露车牌识别巨头Flock在全美扩张的无死角监控网络及其潜在的公民自由隐患。\n【社区争议】一部分用户认为普遍布控极大遏制了街头犯罪，但多数开发者警惕商业数据长期保留滥用，并指出英美等国已悄然形成缺乏制约的全景敞视监狱。"
+      "ai_summary": "【核心看点】《纽约客》长文深度披露车牌识别监控系统 Flock 的激进扩张，揭示无处不在的无缝监控危机。\n【社区争议】公众就社区治安犯罪控制与公民隐私权丧失展开激烈交锋，并探讨英国 ANPR 等现存监控体系的先例与教训。"
     },
     {
       "source": "hackernews",
@@ -253,13 +253,13 @@
       "url": "https://spectrum.ieee.org/are-self-driving-cars-safe",
       "hn_url": "https://news.ycombinator.com/item?id=49629886",
       "domain": "spectrum.ieee.org",
-      "points": 335,
-      "comments_count": 588,
+      "points": 336,
+      "comments_count": 593,
       "author": "bookofjoe",
       "created_at_i": 1788974099,
       "topic": "科技社会",
       "raw_context": "【文章原文节选】: --> Raven.config('https://6b64f5cc8af542cbb920e0238864390a@sentry.io/147999').install(); Are Self Driving Cars Safe as Early Data Suggests? - IEEE Spectrum @layer tokens,themes,utilities,elements;.rm-embed-container{position:relative;}.rm-embed-container.rm-embed-instagram{max-width:540px;}.rm-embed-container.rm-embed-tiktok{max-width:572px;min-height:721px;}.rm-embed-container.rm-embed-tiktok blockquote,.rm-embed-twitter blockquote{all:revert;}.rm-embed-container.rm-embed-tiktok blockquote{margin-left:0;margin-right:0;position:relative;}.rm-embed-container.rm-embed-tiktok blockquote,.rm-embed-container.rm-embed-tiktok blockquote > iframe,.rm-embed-container.rm-embed-tiktok blockquote > section{width:100%;min-height:721px;display:block;}.rm-embed-container.rm-embed-tiktok blockquote > section{position:absolute;top:0;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;}.rm-embed-container.rm-embed-tiktok blockquote > section:before{content:\"\";display:block;width:100%;height:300px;border-radius:8px;}.rm-embed-container > .rm-embed,.rm-embed-container > .rm-embed-holder{position:absolute;top:0;left:0;}.rm-embed-holder{\n\n【社区热评与争论】:\n- dlisboa: ADAS + human driver seems enough to solve most of the shortcomings of both human and robot drivers. Full self-driving doesn't strike me as necessary to prevent deaths.\n- Junk_Collector: It could, but maybe not if your motto is, \"Move Fast and Break Things.\" Article is short on data instead referencing a bunch of aggregated IIHS studies.\n- n0us: Growing proof that PR for autonomous car companies has aligned on a strategy of painting you as a bad person if you want to drive your own car, and therefore you should pay them money to continue being a good person.",
-      "ai_summary": "【核心看点】IEEE Spectrum引述最新聚合统计数据，指出自动驾驶车辆在真实道路环境下展现出比人类驾驶显著更低伤亡率的趋势。\n【社区争议】读者质疑文章数据样本多来自车企PR粉饰且缺乏严谨独立测试，许多人认为高级驾驶辅助（ADAS）配合人类监管已足够，无需完全无人化。"
+      "ai_summary": "【核心看点】IEEE Spectrum 文章引用汇总安全研究数据，论证自动驾驶汽车在减少道路死亡事故方面的显著成效。\n【社区争议】不少开发者质疑数据分析样本过小并抨击车企 PR 叙事，主张成熟的 ADAS 辅助驾驶搭配人类司机才是当下最安全合理的方案。"
     },
     {
       "source": "hackernews",
@@ -268,13 +268,13 @@
       "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
       "hn_url": "https://news.ycombinator.com/item?id=49630253",
       "domain": "apple.com",
-      "points": 448,
-      "comments_count": 369,
+      "points": 449,
+      "comments_count": 373,
       "author": "awad",
       "created_at_i": 1788975564,
       "topic": "数码硬件",
       "raw_context": "【文章原文节选】: Apple introduces AirPods 5 with best-in-class open-ear Active Noise Cancellation - Apple Apple Store Mac iPad iPhone Watch Vision AirPods TV & Home Entertainment Accessories Support 0 + Newsroom Open Newsroom navigation Close Newsroom navigation Apple Services Apple Stories Search Newsroom Close opens in new window PRESS RELEASE September 9, 2026 Apple introduces AirPods 5, featuring best-in-class open‑ear Active Noise Cancellation With industry-leading ANC in an open-ear design, improved sound quality, hands-free access to Siri AI, and Live Translation, AirPods 5 deliver the best audio experience Apple has ever offered in this style of AirPods, at an incredible price AirPods 5 deliver the industry’s best Active Noise Cancellation in an open-ear design, an all-new multiport acoustic architecture, and next-generation Adaptive EQ for even more immersive sound. CUPERTINO, CALIFORNIA Apple today announced AirPods 5 , delivering the industry’s best Active Noise Cancellation (ANC) in an open-ear design and even better sound quality, at an outstanding value. 1 AirPods 5 feature an all-new multiport acoustic architecture and next-generation Adaptive EQ for even more immersive sound. Their \n\n【社区热评与争论】:\n- MisterMunchkin: I wonder if they have an automation system which releases these perfectly in time with the video, or if they have some blog boy that has to post them at the right time.\n- motoboi: This is so hilarious, apple selling volume up and down as it were some fantastical feature and not have been present in air pods pro since god nows when. > Force sensor with volume swipe arrives on AirPods 5, a first for\n- cco: Extend the Stem!! I have no idea why Apple has made AirPods harder to handle, impaired mic placement, and limited the battery capacity with shorter stems. The longer stems offered more room for battery, got the mic close",
-      "ai_summary": "【核心看点】苹果发布全新AirPods 5，主打开放式机身下的行业顶尖主动降噪与全新多端口声学架构。\n【社区争议】社区调侃苹果将滑动调音量等旧技术包装成重磅创新，并激烈争论短柄化设计牺牲了麦克风收音与电池仓容积是否本末倒置。"
+      "ai_summary": "【核心看点】苹果发布半入耳式降噪耳机 AirPods 5，搭载全新多孔声学架构与手势滑动音量调节。\n【社区争议】用户吐槽音量调节功能姗姗来迟且被包装为重大创新，同时抱怨耳机柄缩短导致电池容量和麦克风拾音受限。"
     },
     {
       "source": "hackernews",
@@ -283,13 +283,13 @@
       "url": "https://tautology.town/2026/06/01/card-networks.html",
       "hn_url": "https://news.ycombinator.com/item?id=49614280",
       "domain": "tautology.town",
-      "points": 514,
-      "comments_count": 297,
+      "points": 517,
+      "comments_count": 298,
       "author": "evakhoury",
       "created_at_i": 1788891065,
-      "topic": "科技社会",
+      "topic": "系统架构",
       "raw_context": "【文章原文节选】: What do Visa and Mastercard do? An intro to card networks @ tautology.town Home About What do Visa and Mastercard do? An intro to card networks Jun 1, 2026 Most people can recognize the Visa and Mastercard brands. Chances are, you use one of their cards to transact every day. You may have some notion that most places (in the US) take both, but some places only take Visa (e.g. Costco), and vice versa. So what do they do? Here’s Visa’s attempt to answer that question. A few things they don’t do 1 : They aren’t the company that issues the card. Those are called card issuers . They aren’t a bank, though the cards you have are probably issued by one (Chase, Capital One, BofA, etc). They don’t distribute point of sale methods or online checkouts, which are done by payment processors . They aren’t responsible for onboarding or underwriting stores and merchants, known as merchant acquiring . This is done by banks offering merchant accounts, but increasingly offered by modern payment processors (Stripe, Square, Adyen) 2 . They don’t manufacture or print cards. Nor do they manufacture the point of sale hardware. Instead, Visa and Mastercard are card networks 3 , facilitating card transaction\n\n【社区热评与争论】:\n- hungryhobbit: They tax our entire economy at X rate, while maintaining their infrastructure only requires Y cost ... and X is significantly higher than Y. From the actual article: > The payment processor keeps 0.35% ($0.35), then pays\n- techdmn: I remember reading a comment here a while back about merchants being offered a discount on the processing fee if they also transmitted detailed data about the purchase (essentially the data that would be on the receipt).\n- collabs: In my opinion, the only solution is everyone (individuals as well as corporations) gets a direct account with the federal reserve as long as you can associate a taxpayer identification with the account. Using it is volun",
-      "ai_summary": "【核心看点】深度长文拆解Visa与Mastercard的运作机制，清晰界定了卡组织与发卡行、收单行及支付网关的业务权责边界。\n【社区争议】开发者热议卡组织凭借底层网络近乎垄断的地位抽取高额“数字通行税”，探讨建立直接连接央行的免中介数字清算系统的可能性。"
+      "ai_summary": "【核心看点】科普长文抽丝剥茧拆解 Visa 和 Mastercard 在现代金融支付网络中所扮演的清算路由枢纽本质。\n【社区争议】讨论聚焦于卡组织凭借清算通道垄断向实体经济征收高额“过桥费”，并延伸出由央行构建直接账户基础设施的构想。"
     },
     {
       "source": "hackernews",
@@ -299,12 +299,12 @@
       "hn_url": "https://news.ycombinator.com/item?id=49628493",
       "domain": "nomanssky.com",
       "points": 380,
-      "comments_count": 390,
+      "comments_count": 392,
       "author": "Limb",
       "created_at_i": 1788968862,
       "topic": "游戏娱乐",
       "raw_context": "【文章原文节选】: Cosmos Update - No Man's Sky Menu Latest patch notes Hello Games Cloud Cross-Save Twitch Drops Buy Release log News Merch Galactic Atlas Cosmos: Introducing Update 7.0 Become director of a space station , join a galactic alliance , construct a space base and discover deep-space marvels in No Man's Sky Cosmos. Navigate space with a new star system map , strip colossal hulks for parts before hull integrity fails, recover and haul physical salvage to remote space outposts , celebrate 10 years of No Man’s Sky in the Our Journey Continues expedition , and much, much more. Buy now on More purchase options » Direct a Space Station Prove yourself to the local authorities to become director of a Space Station. Style your station’s central lobby, expand it with ancillary rooms, and decorate its exterior to welcome - or deter - visiting Travellers. Alliances Join a galactic alliance to make friends, co-ordinate exploration, and compete for the most expansive territory in the galaxy. As a station director, you can found your own alliance , and design a name and banner to propagate across the universe. Deep-Space Outposts Alien lifeforms have established deep-space outposts in inhabited systems\n\n【社区热评与争论】:\n- LelouBil: I am just wondering where do they get the money to keep pushing out big content updates like this\n- TheJCDenton: 10 years, i wonder what the codebase look like now !",
-      "ai_summary": "【核心看点】《无人深空》迎来7.0版本“Cosmos”重大更新，引入空间站指挥官管理体系、星系联盟与废弃巨舰打捞机制。\n【社区争议】玩家社区惊叹Hello Games历经十年持续免费更新超大型内容的资金来源与工程坚守，对其庞大演进的代码库架构深表好奇与钦佩。"
+      "ai_summary": "【核心看点】《无人深空》迎来十周年重磅 7.0“Cosmos”更新，允许玩家担任空间站长、组建银河联盟及深空废船打捞。\n【社区争议】玩家社区对 Hello Games 持续十年的免费大型更新商业模式表示难以置信，纷纷探究其团队的代码架构与技术演进。"
     },
     {
       "source": "hackernews",
@@ -313,13 +313,13 @@
       "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
       "hn_url": "https://news.ycombinator.com/item?id=49630151",
       "domain": "apple.com",
-      "points": 355,
-      "comments_count": 388,
+      "points": 356,
+      "comments_count": 389,
       "author": "meetpateltech",
       "created_at_i": 1788975200,
       "topic": "数码硬件",
       "raw_context": "【文章原文节选】: Apple debuts iPhone 18 Pro and iPhone 18 Pro Max - Apple Apple Store Mac iPad iPhone Watch Vision AirPods TV & Home Entertainment Accessories Support 0 + Newsroom Open Newsroom navigation Close Newsroom navigation Apple Services Apple Stories Search Newsroom Close opens in new window PRESS RELEASE September 9, 2026 Apple debuts iPhone 18 Pro and iPhone 18 Pro Max The new Pro lineup introduces variable aperture with the most advanced camera in an iPhone, incredible battery life, next‑level performance, and Siri AI, all powered by A20 Pro iPhone 18 Pro and iPhone 18 Pro Max feature the most advanced camera Apple has ever made and deliver massive leaps in battery life and performance. CUPERTINO, CALIFORNIA Apple today announced iPhone 18 Pro and iPhone 18 Pro Max , delivering the most advanced pro camera system in an iPhone, and huge leaps in battery life and performance. The new 48MP Fusion Main camera, now with variable aperture, brings creative control that wasn’t possible before, and new Pro controls let users customize their experience in the Camera app. Both models feature a smaller and even more useful Dynamic Island, as well as A20 Pro and a next-generation vapor chamber that \n\n【社区热评与争论】:\n- BISH-BASH-BOSH: Is the C2 modem the satellite data chip?\n- ungreased0675: I’m still waiting on a mini\n- afavour: That’s certainly an iPhone, alright. Apple basically need to release a new model every year to fit the phone upgrade cycle so I suppose it’s not that surprising to see one with so few compelling features. Maybe next year",
-      "ai_summary": "【核心看点】苹果推出iPhone 18 Pro系列，搭载A20 Pro芯片、可变光圈主摄、微型Dynamic Island与新型均热板散热架构。\n【社区争议】核心极客用户对缺乏颠覆性创新的微调升级产生明显审美疲劳，认为在既定换代周期下苹果创新已陷入边际效用递减的常规修补。"
+      "ai_summary": "【核心看点】苹果发布 iPhone 18 Pro 系列，搭载 A20 Pro 芯片、可变光圈相机模组及新型均热板散热系统。\n【社区争议】大众普遍认为常规硬件升级缺乏颠覆性吸引力，换机动力不足，且小屏旗舰 mini 系列的回归呼声依旧存在。"
     },
     {
       "source": "hackernews",
@@ -329,12 +329,12 @@
       "hn_url": "https://news.ycombinator.com/item?id=49624856",
       "domain": "xlii.space",
       "points": 400,
-      "comments_count": 242,
+      "comments_count": 245,
       "author": "xlii",
       "created_at_i": 1788954201,
-      "topic": "隐私安全",
+      "topic": "开发者热议",
       "raw_context": "【文章原文节选】: How I advertise malicious software on Google Ads home 2026-09-09 How I advertise malicious software on Google Ads A caller phones Radio Erywan. “Is it true that in Moscow, on Red Square, they give out cars?” “True. Not in Moscow, however, but in St. Petersburg. Not on Red Square, but on Revolution Square. Not cars, but bikes. And they don’t give them out, but steal them”. Edit: Through the apparent magic of Hacker News, my Google Ads account has been reinstated. ✨. Still no explanation of what triggered the suspension, but thank you to everyone who helped make it visible (and/or fixed). RACE is a native macOS terminal multiplexer written in Rust. You can position and resize terminals freely instead of squeezing everything into a uniform grid: Keep a large editor beside a small shell, spread out build logs, arrange the workspace around the work, mark with colors etc. I built it, I use it, and I maintain it. Since it’s multiplexer it manages terminals and lets shell sessions survive application restarts (good for development and hooking off the work). In action it looks like this: I also built the website for it - https://race-term.com . Static page built with Bridgetown. JavaScript \n\n【社区热评与争论】:\n- soltanov: Google treats its customers so blindly. in short, Google is not user centric company at all.\n- faeyanpiraat: Neat terminal, I've been building the same thing in my free time but haven't reached a point where it is complete / stable enough for being my daily driver. Have you (anyone) actually sticked to the way of working this e\n- rvz: Maybe Google have detectors of some sites that are mostly vibe-coded also being associated with AI slop. Also why use Google Ads in the first place? Given that HNers and technical users are extremely allergic to that?",
-      "ai_summary": "【核心看点】macOS Rust原生终端复用器RACE开发者控诉其纯静态落地页因不明机制被Google Ads误判为分发恶意软件并遭全面封号。\n【社区争议】社区集中炮轰谷歌客户支持机制的高度黑盒化与傲慢冷血，必须依赖发帖登上HN引发舆论才能人工介入恢复，给独立开发者带来巨大不确定性。"
+      "ai_summary": "【核心看点】独立开发者分享其开源 Rust 终端多路复用器在 Google Ads 被误判为恶意软件遭到封禁的申诉经历。\n【社区争议】评论区抨击 Google 自动化风控与客服体系的官僚化与不透明，并对面向极客的开发者工具是否有必要投放 Google 广告提出质疑。"
     },
     {
       "source": "hackernews",
@@ -343,13 +343,13 @@
       "url": "https://www.anthropic.com/institute/econ-scenarios",
       "hn_url": "https://news.ycombinator.com/item?id=49626373",
       "domain": "anthropic.com",
-      "points": 208,
+      "points": 209,
       "comments_count": 399,
       "author": "oumua_don17",
       "created_at_i": 1788961103,
-      "topic": "人工智能",
+      "topic": "科技社会",
       "raw_context": "【文章原文节选】: Scenarios for our Economic Future \\ Anthropic Skip to main content Skip to footer Research Policy Commitments Learn News Try Claude What will our economic future look like? We don’t know yet how AI will reshape the economy. Will it lead to unprecedented growth? Widespread unemployment? Neither, or something else? How can we tell? Anthropic’s Economics team built a model of how AI might affect jobs, growth, and unemployment in the US in coming years. Read about possible economic futures and make your own predictions about AI capabilities to see the economy they imply. Read technical report Jump to explorer Read blog W e study how AI is reshaping the economy because we’re committed to ensuring that this transition is beneficial for society, including workers. By providing better visibility into our possible economic future, we can take steps to make sure that everyone benefits from it. While our Economic Index measures how AI is being used across the economy right now, this scenario explorer is about looking ahead. Based on our technical report, Economic Scenarios for Transformative AI (Korinek et al., 2026), this explorer gives you a chance to find out what the economy might look li\n\n【社区热评与争论】:\n- righthand: Hopefully free from the burden of LLM companies.\n- yodon: I try to never be that guy who complains about the way a web page scrolls, but this page is completely unreadable.\n- elliotec: You’d think the most powerful AI could make a website that doesn’t completely break usability by destroying scroll.",
-      "ai_summary": "【核心看点】Anthropic经济学团队发布交互式经济推演模型，量化评估AI能力跨越对美国就业岗位重塑与宏观生产力增长的潜在路径。\n【社区争议】舆论对AI实验室涉足宏观经济预测抱持怀疑态度，同时大量前端开发者因该报告交互页面糟糕的滚动劫持体验而大加抨击。"
+      "ai_summary": "【核心看点】Anthropic 经济学研究团队发布未来宏观经济推演模型，量化评估 AI 对就业、GDP 及劳动生产率的深远冲击。\n【社区争议】除了对 AI 带来的劳动力结构动荡存在争论外，大量用户猛烈抨击该官方展示页面糟糕且反直觉的“滚动劫持”交互体验。"
     },
     {
       "source": "hackernews",
@@ -359,19 +359,19 @@
       "hn_url": "https://news.ycombinator.com/item?id=49624603",
       "domain": "news.ycombinator.com",
       "points": 405,
-      "comments_count": 213,
+      "comments_count": 214,
       "author": "nickweb",
       "created_at_i": 1788952766,
       "topic": "人工智能",
       "raw_context": "【社区热评与争论】:\n- oefrha: Source is apparently a banner announcement on https://platform.deepseek.com/usage . Had me searching for a couple minutes...\n- swiftcoder: If they can keep up this cadence of Flash leap-frogging the previous Pro, we're in for a good time",
-      "ai_summary": "【核心看点】DeepSeek悄然上线v4.1 Flash模型，官方标称在保持极低调用价格的同时性能全面超越上一代v4 Pro顶配版本。\n【社区争议】技术社区惊叹于其高性价比模型持续“下克上”跨越旗舰款的迭代速率与工程优化能力，纷纷表示其将进一步重构底层API价格战。"
+      "ai_summary": "【核心看点】DeepSeek 悄然在控制台宣布上线 v4.1 Flash 模型，主打成本更低且综合推理表现反超 v4 Pro。\n【社区争议】开发者们对轻量模型快速迭代逆袭旗舰模型的研发节奏感到兴奋，期待低成本高智力模型在端侧与代理系统的大规模普及。"
     }
   ],
   "stats": {
     "github_count": 12,
     "hn_count": 12,
     "total_stars_today": 13127,
-    "total_hn_points": 6918,
-    "total_hn_comments": 6330
+    "total_hn_points": 6933,
+    "total_hn_comments": 6355
   }
 }
