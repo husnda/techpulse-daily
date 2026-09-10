@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://husnda.github.io/techpulse-daily</link><description>每日聚合全球高星开源项目与 Hacker News 深度技术热点</description><language>zh-cn</language><lastBuildDate>Thu, 10 Sep 2026 07:14:29 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://husnda.github.io/techpulse-daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-10.html</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.6; max-width: 820px; margin: 0 auto;"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://husnda.github.io/techpulse-daily</link><description>每日聚合全球高星开源项目与 Hacker News 深度技术热点</description><language>zh-cn</language><lastBuildDate>Thu, 10 Sep 2026 07:30:10 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://husnda.github.io/techpulse-daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-10.html</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.6; max-width: 820px; margin: 0 auto;"&gt;
 
     &lt;div style="background: #0f172a; color: #f8fafc; padding: 20px 24px; border-radius: 6px; margin-bottom: 20px;"&gt;
         &lt;div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;"&gt;
@@ -10,7 +10,7 @@
             &lt;span&gt;📦 &lt;strong&gt;12&lt;/strong&gt; 个开源趋势项目&lt;/span&gt;
             &lt;span&gt;⭐ &lt;strong&gt;+13,127&lt;/strong&gt; 今日新增 Star&lt;/span&gt;
             &lt;span&gt;🔥 &lt;strong&gt;12&lt;/strong&gt; 篇深度科技讨论&lt;/span&gt;
-            &lt;span&gt;💬 &lt;strong&gt;6,010&lt;/strong&gt; 条社区热议&lt;/span&gt;
+            &lt;span&gt;💬 &lt;strong&gt;6,053&lt;/strong&gt; 条社区热议&lt;/span&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     
@@ -35,8 +35,8 @@
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;A skill to stop your coding agent from burying the answer. ADHD-friendly output.&lt;/p&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +4,650&lt;/span&gt;
-                &lt;span&gt;★ 35,664 stars&lt;/span&gt;
-                &lt;span&gt;⑂ 2,074 forks&lt;/span&gt;
+                &lt;span&gt;★ 35,722 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 2,076 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -58,8 +58,8 @@
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.&lt;/p&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +2,249&lt;/span&gt;
-                &lt;span&gt;★ 36,969 stars&lt;/span&gt;
-                &lt;span&gt;⑂ 2,347 forks&lt;/span&gt;
+                &lt;span&gt;★ 36,988 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 2,349 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -81,8 +81,8 @@
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;Notes of the book System Desgin Interview - An Insider's Guide&lt;/p&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +1,397&lt;/span&gt;
-                &lt;span&gt;★ 18,250 stars&lt;/span&gt;
-                &lt;span&gt;⑂ 3,435 forks&lt;/span&gt;
+                &lt;span&gt;★ 18,258 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 3,437 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -104,7 +104,7 @@
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.&lt;/p&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +1,133&lt;/span&gt;
-                &lt;span&gt;★ 255,386 stars&lt;/span&gt;
+                &lt;span&gt;★ 255,395 stars&lt;/span&gt;
                 &lt;span&gt;⑂ 38,242 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -127,8 +127,8 @@
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。&lt;/p&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +705&lt;/span&gt;
-                &lt;span&gt;★ 30,375 stars&lt;/span&gt;
-                &lt;span&gt;⑂ 2,940 forks&lt;/span&gt;
+                &lt;span&gt;★ 30,379 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 2,942 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -150,7 +150,7 @@
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;An agentic skills framework &amp;amp; software development methodology that works.&lt;/p&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +688&lt;/span&gt;
-                &lt;span&gt;★ 284,202 stars&lt;/span&gt;
+                &lt;span&gt;★ 284,219 stars&lt;/span&gt;
                 &lt;span&gt;⑂ 25,423 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -173,8 +173,8 @@
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;Make Every Team AI Native&lt;/p&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +556&lt;/span&gt;
-                &lt;span&gt;★ 3,291 stars&lt;/span&gt;
-                &lt;span&gt;⑂ 208 forks&lt;/span&gt;
+                &lt;span&gt;★ 3,302 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 209 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -196,7 +196,7 @@
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;OpenAI Plugins&lt;/p&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +498&lt;/span&gt;
-                &lt;span&gt;★ 6,296 stars&lt;/span&gt;
+                &lt;span&gt;★ 6,302 stars&lt;/span&gt;
                 &lt;span&gt;⑂ 833 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -219,7 +219,7 @@
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins&lt;/p&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +417&lt;/span&gt;
-                &lt;span&gt;★ 1,883 stars&lt;/span&gt;
+                &lt;span&gt;★ 1,887 stars&lt;/span&gt;
                 &lt;span&gt;⑂ 166 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -242,8 +242,8 @@
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;TradingAgents: Multi-Agents LLM Financial Trading Framework&lt;/p&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +367&lt;/span&gt;
-                &lt;span&gt;★ 104,217 stars&lt;/span&gt;
-                &lt;span&gt;⑂ 19,996 forks&lt;/span&gt;
+                &lt;span&gt;★ 104,229 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 19,997 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -265,8 +265,8 @@
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;Learn it. Build it. Ship it for others.&lt;/p&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +343&lt;/span&gt;
-                &lt;span&gt;★ 53,901 stars&lt;/span&gt;
-                &lt;span&gt;⑂ 9,393 forks&lt;/span&gt;
+                &lt;span&gt;★ 53,911 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 9,394 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -288,8 +288,8 @@
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;A library of agent skills for CAD, CAE and CAM&lt;/p&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +124&lt;/span&gt;
-                &lt;span&gt;★ 15,199 stars&lt;/span&gt;
-                &lt;span&gt;⑂ 1,567 forks&lt;/span&gt;
+                &lt;span&gt;★ 15,204 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 1,568 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -308,8 +308,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="color: #64748b;"&gt;🌐 apple.com&lt;/span&gt;
-                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 1,139 pts&lt;/span&gt;
-                &lt;a href="https://news.ycombinator.com/item?id=49630931" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 1,983 条热议 →&lt;/a&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 1,146 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49630931" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 1,999 条热议 →&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -324,7 +324,7 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="color: #64748b;"&gt;🌐 opusfived.dev&lt;/span&gt;
-                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 1,099 pts&lt;/span&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 1,104 pts&lt;/span&gt;
                 &lt;a href="https://news.ycombinator.com/item?id=49623754" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 423 条热议 →&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -340,8 +340,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="color: #64748b;"&gt;🌐 tailwindcss.com&lt;/span&gt;
-                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 996 pts&lt;/span&gt;
-                &lt;a href="https://news.ycombinator.com/item?id=49626190" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 385 条热议 →&lt;/a&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 1,004 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49626190" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 386 条热议 →&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -372,8 +372,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="color: #64748b;"&gt;🌐 spectrum.ieee.org&lt;/span&gt;
-                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 317 pts&lt;/span&gt;
-                &lt;a href="https://news.ycombinator.com/item?id=49629886" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 526 条热议 →&lt;/a&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 320 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49629886" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 534 条热议 →&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -388,8 +388,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="color: #64748b;"&gt;🌐 apple.com&lt;/span&gt;
-                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 439 pts&lt;/span&gt;
-                &lt;a href="https://news.ycombinator.com/item?id=49630253" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 340 条热议 →&lt;/a&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 442 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49630253" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 344 条热议 →&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -404,8 +404,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="color: #64748b;"&gt;🌐 tautology.town&lt;/span&gt;
-                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 488 pts&lt;/span&gt;
-                &lt;a href="https://news.ycombinator.com/item?id=49614280" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 264 条热议 →&lt;/a&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 494 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49614280" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 270 条热议 →&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -420,8 +420,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="color: #64748b;"&gt;🌐 nomanssky.com&lt;/span&gt;
-                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 357 pts&lt;/span&gt;
-                &lt;a href="https://news.ycombinator.com/item?id=49628493" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 367 条热议 →&lt;/a&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 361 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49628493" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 370 条热议 →&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -436,8 +436,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="color: #64748b;"&gt;🌐 apple.com&lt;/span&gt;
-                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 346 pts&lt;/span&gt;
-                &lt;a href="https://news.ycombinator.com/item?id=49630151" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 365 条热议 →&lt;/a&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 348 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49630151" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 369 条热议 →&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -452,7 +452,7 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="color: #64748b;"&gt;🌐 xlii.space&lt;/span&gt;
-                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 392 pts&lt;/span&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 393 pts&lt;/span&gt;
                 &lt;a href="https://news.ycombinator.com/item?id=49624856" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 237 条热议 →&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -484,11 +484,11 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
                 &lt;span style="color: #64748b;"&gt;🌐 news.ycombinator.com&lt;/span&gt;
-                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 400 pts&lt;/span&gt;
-                &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 209 条热议 →&lt;/a&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 402 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 210 条热议 →&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 &lt;/div&gt;&lt;/div&gt;
-&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 07:14:29 ｜ 每日北京时间 08:30 更新&lt;/div&gt;
+&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 07:30:10 ｜ 每日北京时间 08:30 更新&lt;/div&gt;
 &lt;/div&gt;</description></item></channel></rss>
