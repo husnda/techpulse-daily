@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://husnda.github.io/techpulse-daily</link><description>每日聚合全球高星开源项目与 Hacker News 深度技术热点</description><language>zh-cn</language><lastBuildDate>Thu, 10 Sep 2026 07:58:19 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://husnda.github.io/techpulse-daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-10.html</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.6; max-width: 820px; margin: 0 auto;"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://husnda.github.io/techpulse-daily</link><description>每日聚合全球高星开源项目与 Hacker News 深度技术热点</description><language>zh-cn</language><lastBuildDate>Thu, 10 Sep 2026 08:00:07 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://husnda.github.io/techpulse-daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-10.html</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.6; max-width: 820px; margin: 0 auto;"&gt;
 
     &lt;div style="background: #0f172a; color: #f8fafc; padding: 20px 24px; border-radius: 6px; margin-bottom: 20px;"&gt;
         &lt;div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;"&gt;
@@ -14,6 +14,12 @@
         &lt;/div&gt;
     &lt;/div&gt;
     
+
+        &lt;div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-left: 4px solid #16a34a; padding: 16px 20px; border-radius: 6px; margin-bottom: 24px;"&gt;
+            &lt;div style="font-size: 14px; font-weight: 700; color: #15803d; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;"&gt;🧠 今日技术风向速览 (AI 提炼)&lt;/div&gt;
+            &lt;div style="font-size: 14px; color: #166534; line-height: 1.7;"&gt;今日全球开源生态全面聚焦于 **AI Agent 工程化与协作规范**，从多智能体团队配置管理到特定领域（CAD/工业制图/量化）技能库扩展，开发框架正在快速从单体应用走向多工具互通体系。与此同时，行业迎来重大整合与硬件迭代节点，**Shopify 收购知名前端基础设施 Tailwind CSS** 预示着工具链向工业级产品环境的收拢，而苹果新品发布会引发了关于硬件形态创新与生态垄断效应的双向大讨论。&lt;/div&gt;
+        &lt;/div&gt;
+        
 &lt;div style="margin-bottom: 32px;"&gt;
 &lt;div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px; margin-bottom: 14px;"&gt;&lt;h2 style="margin: 0; font-size: 16px; font-weight: 700; color: #0f172a;"&gt;🚀 GitHub Trending 热门开源项目&lt;/h2&gt;&lt;span style="font-size: 12px; color: #64748b;"&gt;按今日 Star 增速排序 ｜ 点击 ✨ 可展开 AI 深度解读&lt;/span&gt;&lt;/div&gt;
 &lt;div style="display: flex; flex-direction: column; gap: 12px;"&gt;
@@ -36,7 +42,7 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 14px; align-items: center;"&gt;
                     &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +4,650&lt;/span&gt;
-                    &lt;span&gt;★ 35,810 stars&lt;/span&gt;
+                    &lt;span&gt;★ 35,815 stars&lt;/span&gt;
                     &lt;span&gt;⑂ 2,082 forks&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-1')" style="display: inline-flex; align-items: center; gap: 4px; background: #f0fdf4; border: 1px solid #bbf7d0; color: #15803d; padding: 3px 9px; border-radius: 4px; font-size: 11.5px; font-weight: 600; cursor: pointer;"&gt;
@@ -48,7 +54,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 核心提炼 (基于官方 README 原文分析)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;项目定位于 AI / LLM，采用 Python 构建。主要功能：A skill to stop your coding agent from burying the answer. ADHD-friendly output.&lt;/div&gt;
+                &lt;div&gt;专为注意力缺陷多动障碍（ADHD）开发者设计的编码助手技能插件，通过精简信息层级与重构交互输出来降低认知负荷。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -71,7 +77,7 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 14px; align-items: center;"&gt;
                     &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +2,249&lt;/span&gt;
-                    &lt;span&gt;★ 37,017 stars&lt;/span&gt;
+                    &lt;span&gt;★ 37,018 stars&lt;/span&gt;
                     &lt;span&gt;⑂ 2,352 forks&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-2')" style="display: inline-flex; align-items: center; gap: 4px; background: #f0fdf4; border: 1px solid #bbf7d0; color: #15803d; padding: 3px 9px; border-radius: 4px; font-size: 11.5px; font-weight: 600; cursor: pointer;"&gt;
@@ -83,7 +89,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 核心提炼 (基于官方 README 原文分析)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;项目定位于 AI / LLM，采用 HTML 构建。主要功能：38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.&lt;/div&gt;
+                &lt;div&gt;提供 39 种去模板化、高审美的自包含 HTML+SVG 架构图元，解耦系统语义行为与物理布局，适配 Claude Code 及兼容 Agent。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -106,7 +112,7 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 14px; align-items: center;"&gt;
                     &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +1,397&lt;/span&gt;
-                    &lt;span&gt;★ 18,287 stars&lt;/span&gt;
+                    &lt;span&gt;★ 18,290 stars&lt;/span&gt;
                     &lt;span&gt;⑂ 3,438 forks&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-3')" style="display: inline-flex; align-items: center; gap: 4px; background: #f0fdf4; border: 1px solid #bbf7d0; color: #15803d; padding: 3px 9px; border-radius: 4px; font-size: 11.5px; font-weight: 600; cursor: pointer;"&gt;
@@ -118,7 +124,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 核心提炼 (基于官方 README 原文分析)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;项目定位于 Systems / Infra，采用 N/A 构建。主要功能：Notes of the book System Desgin Interview - An Insider's Guide&lt;/div&gt;
+                &lt;div&gt;梳理经典系统设计面试权威指南《System Design Interview》的核心技术要点与分布式系统演进笔记。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -141,7 +147,7 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 14px; align-items: center;"&gt;
                     &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +1,133&lt;/span&gt;
-                    &lt;span&gt;★ 255,407 stars&lt;/span&gt;
+                    &lt;span&gt;★ 255,408 stars&lt;/span&gt;
                     &lt;span&gt;⑂ 38,245 forks&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-4')" style="display: inline-flex; align-items: center; gap: 4px; background: #f0fdf4; border: 1px solid #bbf7d0; color: #15803d; padding: 3px 9px; border-radius: 4px; font-size: 11.5px; font-weight: 600; cursor: pointer;"&gt;
@@ -153,7 +159,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 核心提炼 (基于官方 README 原文分析)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;项目定位于 AI / LLM，采用 JavaScript 构建。主要功能：The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.&lt;/div&gt;
+                &lt;div&gt;面向 AI Coding Agent 的操作系统级管控框架（Agent Harness OS），提供多语言支持与智能体生命周期统一管理。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -176,7 +182,7 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 14px; align-items: center;"&gt;
                     &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +705&lt;/span&gt;
-                    &lt;span&gt;★ 30,408 stars&lt;/span&gt;
+                    &lt;span&gt;★ 30,411 stars&lt;/span&gt;
                     &lt;span&gt;⑂ 2,944 forks&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-5')" style="display: inline-flex; align-items: center; gap: 4px; background: #f0fdf4; border: 1px solid #bbf7d0; color: #15803d; padding: 3px 9px; border-radius: 4px; font-size: 11.5px; font-weight: 600; cursor: pointer;"&gt;
@@ -188,7 +194,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 核心提炼 (基于官方 README 原文分析)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;项目定位于 AI / LLM，采用 JavaScript 构建。主要功能：Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。&lt;/div&gt;
+                &lt;div&gt;推行“Prompt as Code”理念的工业级图像生成提示词引擎，收录超 500 个逆向工程工业案例与二十余套落地模板。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -211,8 +217,8 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 14px; align-items: center;"&gt;
                     &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +688&lt;/span&gt;
-                    &lt;span&gt;★ 284,244 stars&lt;/span&gt;
-                    &lt;span&gt;⑂ 25,425 forks&lt;/span&gt;
+                    &lt;span&gt;★ 284,247 stars&lt;/span&gt;
+                    &lt;span&gt;⑂ 25,426 forks&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-6')" style="display: inline-flex; align-items: center; gap: 4px; background: #f0fdf4; border: 1px solid #bbf7d0; color: #15803d; padding: 3px 9px; border-radius: 4px; font-size: 11.5px; font-weight: 600; cursor: pointer;"&gt;
                     &lt;span&gt;✨&lt;/span&gt;
@@ -223,7 +229,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 核心提炼 (基于官方 README 原文分析)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;项目定位于 AI / LLM，采用 Shell 构建。主要功能：An agentic skills framework &amp;amp; software development methodology that works.&lt;/div&gt;
+                &lt;div&gt;为编码智能体构建的标准化全流程研发方法论框架，强调“先架构再写码”，支持 Claude Code、Cursor、Codex 等主流运行时。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -258,7 +264,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 核心提炼 (基于官方 README 原文分析)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;项目定位于 Dev Tools，采用 TypeScript 构建。主要功能：Make Every Team AI Native&lt;/div&gt;
+                &lt;div&gt;腾讯开源的团队级 AI Agent 协同治理 CLI 工具，基于 Git 仓库统一分发与同步跨平台智能体的技能、规则、知识库及 MCP 配置。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -293,7 +299,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 核心提炼 (基于官方 README 原文分析)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;项目定位于 AI / LLM，采用 JavaScript 构建。主要功能：OpenAI Plugins&lt;/div&gt;
+                &lt;div&gt;OpenAI Codex 官方精选插件范例库，规范化展示清单格式、多端平台工作流（Web/iOS/macOS）与 MCP/Skills 工具集成。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -316,8 +322,8 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 14px; align-items: center;"&gt;
                     &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +417&lt;/span&gt;
-                    &lt;span&gt;★ 1,917 stars&lt;/span&gt;
-                    &lt;span&gt;⑂ 167 forks&lt;/span&gt;
+                    &lt;span&gt;★ 1,918 stars&lt;/span&gt;
+                    &lt;span&gt;⑂ 168 forks&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-9')" style="display: inline-flex; align-items: center; gap: 4px; background: #f0fdf4; border: 1px solid #bbf7d0; color: #15803d; padding: 3px 9px; border-radius: 4px; font-size: 11.5px; font-weight: 600; cursor: pointer;"&gt;
                     &lt;span&gt;✨&lt;/span&gt;
@@ -328,7 +334,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 核心提炼 (基于官方 README 原文分析)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;项目定位于 AI / LLM，采用 TypeScript 构建。主要功能：Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins&lt;/div&gt;
+                &lt;div&gt;本地优先的 AI 编码智能体桌面端工作空间，支持自带模型与本地工程目录，在保障代码隐私的同时摆脱单一 IDE 锁定。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -351,8 +357,8 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 14px; align-items: center;"&gt;
                     &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +367&lt;/span&gt;
-                    &lt;span&gt;★ 104,254 stars&lt;/span&gt;
-                    &lt;span&gt;⑂ 19,998 forks&lt;/span&gt;
+                    &lt;span&gt;★ 104,255 stars&lt;/span&gt;
+                    &lt;span&gt;⑂ 19,999 forks&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-10')" style="display: inline-flex; align-items: center; gap: 4px; background: #f0fdf4; border: 1px solid #bbf7d0; color: #15803d; padding: 3px 9px; border-radius: 4px; font-size: 11.5px; font-weight: 600; cursor: pointer;"&gt;
                     &lt;span&gt;✨&lt;/span&gt;
@@ -363,7 +369,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 核心提炼 (基于官方 README 原文分析)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;项目定位于 AI / LLM，采用 Python 构建。主要功能：TradingAgents: Multi-Agents LLM Financial Trading Framework&lt;/div&gt;
+                &lt;div&gt;面向金融量化与算法交易场景的多智能体协作研究框架，探索 Agent 驱动的市场分析与自动化交易策略。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -386,8 +392,8 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 14px; align-items: center;"&gt;
                     &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +343&lt;/span&gt;
-                    &lt;span&gt;★ 53,933 stars&lt;/span&gt;
-                    &lt;span&gt;⑂ 9,395 forks&lt;/span&gt;
+                    &lt;span&gt;★ 53,934 stars&lt;/span&gt;
+                    &lt;span&gt;⑂ 9,396 forks&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-11')" style="display: inline-flex; align-items: center; gap: 4px; background: #f0fdf4; border: 1px solid #bbf7d0; color: #15803d; padding: 3px 9px; border-radius: 4px; font-size: 11.5px; font-weight: 600; cursor: pointer;"&gt;
                     &lt;span&gt;✨&lt;/span&gt;
@@ -398,7 +404,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 核心提炼 (基于官方 README 原文分析)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;项目定位于 Web / Frontend，采用 Python 构建。主要功能：Learn it. Build it. Ship it for others.&lt;/div&gt;
+                &lt;div&gt;覆盖 500 多节课程的全栈 AI 工程从零实现参考手册，提供跨语言本地化学习路径与系统设计演进。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -421,7 +427,7 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 14px; align-items: center;"&gt;
                     &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +124&lt;/span&gt;
-                    &lt;span&gt;★ 15,217 stars&lt;/span&gt;
+                    &lt;span&gt;★ 15,218 stars&lt;/span&gt;
                     &lt;span&gt;⑂ 1,569 forks&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-12')" style="display: inline-flex; align-items: center; gap: 4px; background: #f0fdf4; border: 1px solid #bbf7d0; color: #15803d; padding: 3px 9px; border-radius: 4px; font-size: 11.5px; font-weight: 600; cursor: pointer;"&gt;
@@ -433,7 +439,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 核心提炼 (基于官方 README 原文分析)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;项目定位于 AI / LLM，采用 Python 构建。主要功能：A library of agent skills for CAD, CAE and CAM&lt;/div&gt;
+                &lt;div&gt;专为 CAD、CAE 及机器人描述文件（URDF/SDF/SRDF）打造的智能体技能库，支持本地 3D 几何体的生成、切片与工程交付。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -465,7 +471,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 深度提炼 (基于文章原文与社区高赞讨论)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;来自 apple.com 的热议话题（1160 点赞 / 2030 讨论），聚焦 Tech Giants 领域的前沿进展与行业探讨。&lt;/div&gt;
+                &lt;div&gt;苹果推出折叠屏形态 iPhone Duo 引发轰动，社区热烈讨论的手写笔支持等白板生产力亮点与彻底移除物理 SIM 卡带来的跨国漫游痛点形成鲜明反差。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -493,7 +499,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 深度提炼 (基于文章原文与社区高赞讨论)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;来自 opusfived.dev 的热议话题（1106 点赞 / 425 讨论），聚焦 AI &amp;amp; ML 领域的前沿进展与行业探讨。&lt;/div&gt;
+                &lt;div&gt;以调侃“改按钮颜色却改崩系统”为切入点的讽刺性网页走红，深度激发了社区对当前大模型编码工具“上下文漂移”与幻觉问题的共鸣与反思。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -521,7 +527,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 深度提炼 (基于文章原文与社区高赞讨论)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;来自 tailwindcss.com 的热议话题（1008 点赞 / 387 讨论），聚焦 AI &amp;amp; ML 领域的前沿进展与行业探讨。&lt;/div&gt;
+                &lt;div&gt;Tailwind 宣布被 Shopify 全资收购并停售独立商业产品，开发者在感慨独立开源商业化天花板与巨头整合浪潮的同时，担忧社区驱动力与长期中立性。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -549,7 +555,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 深度提炼 (基于文章原文与社区高赞讨论)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;来自 newyorker.com 的热议话题（555 点赞 / 532 讨论），聚焦 Tech &amp;amp; Science 领域的前沿进展与行业探讨。&lt;/div&gt;
+                &lt;div&gt;针对 Flock 车牌监控网络无死角扩张的深度调查，揭示了公共安全外包模式对公民隐私的严重侵蚀，引发了各国安防技术治理边界的批判性探讨。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -577,7 +583,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 深度提炼 (基于文章原文与社区高赞讨论)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;来自 spectrum.ieee.org 的热议话题（326 点赞 / 560 讨论），聚焦 Tech &amp;amp; Science 领域的前沿进展与行业探讨。&lt;/div&gt;
+                &lt;div&gt;IEEE 发文讨论自动驾驶挽救生命的统计学证据，社区针锋相对：一方认为 ADAS 加人类监管足以保障安全，另一方则批评自动驾驶公关策略道德绑架了人类驾驶权。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -605,7 +611,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 深度提炼 (基于文章原文与社区高赞讨论)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;来自 apple.com 的热议话题（443 点赞 / 352 讨论），聚焦 AI &amp;amp; ML 领域的前沿进展与行业探讨。&lt;/div&gt;
+                &lt;div&gt;AirPods 5 主打半开放式降噪与体积缩减，引发了硬件爱好者对苹果为迎合工业极简而不断缩短耳机柄、进而牺牲续航与麦克风性能的工程吐槽。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -633,7 +639,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 深度提炼 (基于文章原文与社区高赞讨论)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;来自 tautology.town 的热议话题（500 点赞 / 277 讨论），聚焦 Tech &amp;amp; Science 领域的前沿进展与行业探讨。&lt;/div&gt;
+                &lt;div&gt;剖析 Visa 与 Mastercard 卡组织底层运作逻辑的普及文，激辩中指出传统支付网络凭借垄断实质性抽税实体经济，倒逼开发者呼吁直连央行数字结算账户。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -661,7 +667,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 深度提炼 (基于文章原文与社区高赞讨论)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;来自 nomanssky.com 的热议话题（367 点赞 / 374 讨论），聚焦 Tech &amp;amp; Science 领域的前沿进展与行业探讨。&lt;/div&gt;
+                &lt;div&gt;无人深空迎来 7.0“Cosmos”更新并迈向十周年，社区高度赞誉其坚持十年免费内容长线迭代的商业道德，并对其庞大演进代码库的技术维护产生浓厚兴趣。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -689,7 +695,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 深度提炼 (基于文章原文与社区高赞讨论)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;来自 apple.com 的热议话题（349 点赞 / 376 讨论），聚焦 Tech Giants 领域的前沿进展与行业探讨。&lt;/div&gt;
+                &lt;div&gt;iPhone 18 Pro 系列携可变光圈与全新 A20 Pro 芯片亮相，但极度规整的年更节奏令技术社区呈现边际效用递减的审美疲劳与对小屏版本的持续怀念。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -717,7 +723,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 深度提炼 (基于文章原文与社区高赞讨论)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;来自 xlii.space 的热议话题（395 点赞 / 241 讨论），聚焦 Tech Giants 领域的前沿进展与行业探讨。&lt;/div&gt;
+                &lt;div&gt;独立开发者自研 Rust 终端复用器因投放 Google 广告遭无预警封禁后经 HN 曝光获解封，再次点燃了独立黑客对科技巨头“自动化黑盒客服与反作弊系统”的集体声讨。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -745,7 +751,7 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 深度提炼 (基于文章原文与社区高赞讨论)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;来自 anthropic.com 的热议话题（206 点赞 / 385 讨论），聚焦 AI &amp;amp; ML 领域的前沿进展与行业探讨。&lt;/div&gt;
+                &lt;div&gt;Anthropic 尝试用模型推演 AI 对未来就业与经济格局的重构蓝图，但其文章展示页破坏原生网页滚动体验的“滚动劫持”设计招致开发者群体如潮的负面差评。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -773,10 +779,10 @@
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;"&gt;
                     &lt;span&gt;✨ AI 深度提炼 (基于文章原文与社区高赞讨论)&lt;/span&gt;
                 &lt;/div&gt;
-                &lt;div&gt;来自 news.ycombinator.com 的热议话题（404 点赞 / 213 讨论），聚焦 AI &amp;amp; ML 领域的前沿进展与行业探讨。&lt;/div&gt;
+                &lt;div&gt;DeepSeek 平台曝光低成本、高性能的 v4.1 Flash 模型以反超上一代 Pro 之势登场，社区高度期待高性价比轻量级模型对应用端落地成本的激进压缩。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 &lt;/div&gt;&lt;/div&gt;
-&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 15:58:19 ｜ 每日北京时间 08:30 更新&lt;/div&gt;
+&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 08:00:07 ｜ 每日北京时间 08:30 更新&lt;/div&gt;
 &lt;/div&gt;</description></item></channel></rss>
