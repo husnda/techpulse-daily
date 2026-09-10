@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://husnda.github.io/techpulse-daily</link><description>每日聚合全球高星开源项目与 Hacker News 深度技术热点</description><language>zh-cn</language><lastBuildDate>Thu, 10 Sep 2026 06:41:30 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://husnda.github.io/techpulse-daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-10.html</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 0 auto; color: #1f2937; line-height: 1.6;"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://husnda.github.io/techpulse-daily</link><description>每日聚合全球高星开源项目与 Hacker News 深度技术热点</description><language>zh-cn</language><lastBuildDate>Thu, 10 Sep 2026 06:45:31 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://husnda.github.io/techpulse-daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-10.html</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 0 auto; color: #1f2937; line-height: 1.6;"&gt;
 
     &lt;div style="background: linear-gradient(135deg, #1e293b, #0f172a); color: #f8fafc; padding: 24px; border-radius: 12px; margin-bottom: 24px;"&gt;
         &lt;h1 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 700; color: #38bdf8;"&gt;🛰️ TechPulse Daily 技术早报&lt;/h1&gt;
@@ -18,7 +18,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+4,650&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;35,553&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;35,569&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -32,7 +32,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;HTML&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+2,249&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;36,938&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;36,944&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -46,7 +46,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;N/A&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+1,397&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;18,228&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;18,229&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -60,7 +60,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+1,133&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;255,366&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;255,369&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -74,7 +74,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+705&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;30,339&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;30,342&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -88,7 +88,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;Shell&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+688&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;284,185&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;284,187&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -102,7 +102,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;TypeScript&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+556&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;3,264&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;3,267&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -116,7 +116,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+498&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;6,289&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;6,290&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -130,7 +130,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;TypeScript&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+417&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;1,861&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;1,863&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -144,7 +144,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+367&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;104,187&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;104,188&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -158,7 +158,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+343&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;53,875&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;53,877&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -172,7 +172,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+124&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;15,172&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;15,174&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -187,8 +187,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;apple.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;1107&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630931" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;1953 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;1109&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630931" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;1959 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -200,7 +200,7 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;opusfived.dev&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;1095&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;1096&lt;/strong&gt; points&lt;/span&gt;
                 &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49623754" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;423 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -213,7 +213,7 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;tailwindcss.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;984&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;985&lt;/strong&gt; points&lt;/span&gt;
                 &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49626190" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;384 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
@@ -240,7 +240,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;spectrum.ieee.org&lt;/span&gt;&lt;/span&gt;
                 &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;309&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49629886" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;519 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49629886" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;520 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -253,33 +253,33 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;apple.com&lt;/span&gt;&lt;/span&gt;
                 &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;435&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630253" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;336 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630253" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;338 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 
         &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://tautology.town/2026/06/01/card-networks.html" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;7. What do Visa and Mastercard do? An intro to card networks&lt;/a&gt;
+                &lt;a href="https://www.nomanssky.com/cosmos-update/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;7. No Man's Sky Cosmos&lt;/a&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech &amp; Science&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;nomanssky.com&lt;/span&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;353&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49628493" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;364 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://tautology.town/2026/06/01/card-networks.html" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;8. What do Visa and Mastercard do? An intro to card networks&lt;/a&gt;
                 &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech &amp; Science&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;tautology.town&lt;/span&gt;&lt;/span&gt;
                 &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;476&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49614280" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;260 条讨论&lt;/a&gt;&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        
-
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://www.nomanssky.com/cosmos-update/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;8. No Man's Sky Cosmos&lt;/a&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech &amp; Science&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;nomanssky.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;352&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49628493" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;362 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49614280" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;261 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -292,7 +292,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;apple.com&lt;/span&gt;&lt;/span&gt;
                 &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;342&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630151" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;359 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630151" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;360 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -312,7 +312,20 @@
 
         &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;11. DeepSeek launching v4.1 flash cheaper and more capable than v4 pro&lt;/a&gt;
+                &lt;a href="https://www.anthropic.com/institute/econ-scenarios" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;11. What will our economic future look like?&lt;/a&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;AI &amp; ML&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;anthropic.com&lt;/span&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;197&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49626373" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;378 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;12. DeepSeek launching v4.1 flash cheaper and more capable than v4 pro&lt;/a&gt;
                 &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;AI &amp; ML&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
@@ -322,19 +335,6 @@
             &lt;/div&gt;
         &lt;/div&gt;
         
-
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://www.anthropic.com/institute/econ-scenarios" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;12. What will our economic future look like?&lt;/a&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;AI &amp; ML&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;anthropic.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;196&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49626373" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;378 条讨论&lt;/a&gt;&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        
 &lt;/div&gt;
-&lt;div style="margin-top: 24px; padding-top: 12px; border-top: 1px solid #f1f5f9; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 14:41:30&lt;/div&gt;
+&lt;div style="margin-top: 24px; padding-top: 12px; border-top: 1px solid #f1f5f9; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 06:45:31&lt;/div&gt;
 &lt;/div&gt;</description></item></channel></rss>

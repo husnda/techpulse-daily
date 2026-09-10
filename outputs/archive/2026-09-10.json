@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-10 14:41:30",
+  "generated_at": "2026-09-10 06:45:31",
   "top_highlight": "iPhone Duo",
   "ai_overview": null,
   "github_items": [
@@ -13,7 +13,7 @@
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
       "stars_today": 4650,
-      "stars_total": 35553,
+      "stars_total": 35569,
       "forks": 2069,
       "topic": "AI / LLM"
     },
@@ -26,7 +26,7 @@
       "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
       "stars_today": 2249,
-      "stars_total": 36938,
+      "stars_total": 36944,
       "forks": 2343,
       "topic": "AI / LLM"
     },
@@ -39,7 +39,7 @@
       "description": "Notes of the book System Desgin Interview - An Insider's Guide",
       "language": "N/A",
       "stars_today": 1397,
-      "stars_total": 18228,
+      "stars_total": 18229,
       "forks": 3433,
       "topic": "Systems / Infra"
     },
@@ -52,7 +52,7 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
       "stars_today": 1133,
-      "stars_total": 255366,
+      "stars_total": 255369,
       "forks": 38240,
       "topic": "AI / LLM"
     },
@@ -65,7 +65,7 @@
       "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
       "language": "JavaScript",
       "stars_today": 705,
-      "stars_total": 30339,
+      "stars_total": 30342,
       "forks": 2935,
       "topic": "AI / LLM"
     },
@@ -78,7 +78,7 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
       "stars_today": 688,
-      "stars_total": 284185,
+      "stars_total": 284187,
       "forks": 25423,
       "topic": "AI / LLM"
     },
@@ -91,7 +91,7 @@
       "description": "Make Every Team AI Native",
       "language": "TypeScript",
       "stars_today": 556,
-      "stars_total": 3264,
+      "stars_total": 3267,
       "forks": 206,
       "topic": "Dev Tools"
     },
@@ -104,7 +104,7 @@
       "description": "OpenAI Plugins",
       "language": "JavaScript",
       "stars_today": 498,
-      "stars_total": 6289,
+      "stars_total": 6290,
       "forks": 833,
       "topic": "AI / LLM"
     },
@@ -117,7 +117,7 @@
       "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
       "language": "TypeScript",
       "stars_today": 417,
-      "stars_total": 1861,
+      "stars_total": 1863,
       "forks": 165,
       "topic": "AI / LLM"
     },
@@ -130,8 +130,8 @@
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
       "stars_today": 367,
-      "stars_total": 104187,
-      "forks": 19994,
+      "stars_total": 104188,
+      "forks": 19995,
       "topic": "AI / LLM"
     },
     {
@@ -143,7 +143,7 @@
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
       "stars_today": 343,
-      "stars_total": 53875,
+      "stars_total": 53877,
       "forks": 9389,
       "topic": "Web / Frontend"
     },
@@ -156,7 +156,7 @@
       "description": "A library of agent skills for CAD, CAE and CAM",
       "language": "Python",
       "stars_today": 124,
-      "stars_total": 15172,
+      "stars_total": 15174,
       "forks": 1567,
       "topic": "AI / LLM"
     }
@@ -169,8 +169,8 @@
       "url": "https://www.apple.com/iphone-duo/",
       "hn_url": "https://news.ycombinator.com/item?id=49630931",
       "domain": "apple.com",
-      "points": 1107,
-      "comments_count": 1953,
+      "points": 1109,
+      "comments_count": 1959,
       "author": "thecosmicfrog",
       "created_at_i": 1788977743,
       "topic": "Tech Giants"
@@ -182,7 +182,7 @@
       "url": "https://opusfived.dev/",
       "hn_url": "https://news.ycombinator.com/item?id=49623754",
       "domain": "opusfived.dev",
-      "points": 1095,
+      "points": 1096,
       "comments_count": 423,
       "author": "matthieu_bl",
       "created_at_i": 1788946786,
@@ -195,7 +195,7 @@
       "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
       "hn_url": "https://news.ycombinator.com/item?id=49626190",
       "domain": "tailwindcss.com",
-      "points": 984,
+      "points": 985,
       "comments_count": 384,
       "author": "EdwinHoksberg",
       "created_at_i": 1788960431,
@@ -222,7 +222,7 @@
       "hn_url": "https://news.ycombinator.com/item?id=49629886",
       "domain": "spectrum.ieee.org",
       "points": 309,
-      "comments_count": 519,
+      "comments_count": 520,
       "author": "bookofjoe",
       "created_at_i": 1788974099,
       "topic": "Tech & Science"
@@ -235,10 +235,23 @@
       "hn_url": "https://news.ycombinator.com/item?id=49630253",
       "domain": "apple.com",
       "points": 435,
-      "comments_count": 336,
+      "comments_count": 338,
       "author": "awad",
       "created_at_i": 1788975564,
       "topic": "AI & ML"
+    },
+    {
+      "source": "hackernews",
+      "id": "49628493",
+      "title": "No Man's Sky Cosmos",
+      "url": "https://www.nomanssky.com/cosmos-update/",
+      "hn_url": "https://news.ycombinator.com/item?id=49628493",
+      "domain": "nomanssky.com",
+      "points": 353,
+      "comments_count": 364,
+      "author": "Limb",
+      "created_at_i": 1788968862,
+      "topic": "Tech & Science"
     },
     {
       "source": "hackernews",
@@ -248,22 +261,9 @@
       "hn_url": "https://news.ycombinator.com/item?id=49614280",
       "domain": "tautology.town",
       "points": 476,
-      "comments_count": 260,
+      "comments_count": 261,
       "author": "evakhoury",
       "created_at_i": 1788891065,
-      "topic": "Tech & Science"
-    },
-    {
-      "source": "hackernews",
-      "id": "49628493",
-      "title": "No Man's Sky Cosmos",
-      "url": "https://www.nomanssky.com/cosmos-update/",
-      "hn_url": "https://news.ycombinator.com/item?id=49628493",
-      "domain": "nomanssky.com",
-      "points": 352,
-      "comments_count": 362,
-      "author": "Limb",
-      "created_at_i": 1788968862,
       "topic": "Tech & Science"
     },
     {
@@ -274,7 +274,7 @@
       "hn_url": "https://news.ycombinator.com/item?id=49630151",
       "domain": "apple.com",
       "points": 342,
-      "comments_count": 359,
+      "comments_count": 360,
       "author": "meetpateltech",
       "created_at_i": 1788975200,
       "topic": "Tech Giants"
@@ -294,6 +294,19 @@
     },
     {
       "source": "hackernews",
+      "id": "49626373",
+      "title": "What will our economic future look like?",
+      "url": "https://www.anthropic.com/institute/econ-scenarios",
+      "hn_url": "https://news.ycombinator.com/item?id=49626373",
+      "domain": "anthropic.com",
+      "points": 197,
+      "comments_count": 378,
+      "author": "oumua_don17",
+      "created_at_i": 1788961103,
+      "topic": "AI & ML"
+    },
+    {
+      "source": "hackernews",
       "id": "49624603",
       "title": "DeepSeek launching v4.1 flash cheaper and more capable than v4 pro",
       "url": "https://news.ycombinator.com/item?id=49624603",
@@ -304,25 +317,12 @@
       "author": "nickweb",
       "created_at_i": 1788952766,
       "topic": "AI & ML"
-    },
-    {
-      "source": "hackernews",
-      "id": "49626373",
-      "title": "What will our economic future look like?",
-      "url": "https://www.anthropic.com/institute/econ-scenarios",
-      "hn_url": "https://news.ycombinator.com/item?id=49626373",
-      "domain": "anthropic.com",
-      "points": 196,
-      "comments_count": 378,
-      "author": "oumua_don17",
-      "created_at_i": 1788961103,
-      "topic": "AI & ML"
     }
   ],
   "stats": {
     "github_count": 12,
     "hn_count": 12,
     "total_stars_today": 13127,
-    "total_hn_points": 6638
+    "total_hn_points": 6644
   }
 }
