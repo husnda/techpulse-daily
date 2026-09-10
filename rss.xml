@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://github.com</link><description>每日聚合 GitHub Daily Trending 开源项目与 Hacker News 高分深度技术讨论</description><language>zh-cn</language><lastBuildDate>Thu, 10 Sep 2026 03:36:32 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://github.com/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://github.com#2026-09-10</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 0 auto; color: #1f2937; line-height: 1.6;"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://github.com</link><description>每日聚合 GitHub Daily Trending 开源项目与 Hacker News 高分深度技术讨论</description><language>zh-cn</language><lastBuildDate>Thu, 10 Sep 2026 06:23:08 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://github.com/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://github.com#2026-09-10</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 0 auto; color: #1f2937; line-height: 1.6;"&gt;
 
     &lt;div style="background: linear-gradient(135deg, #1e293b, #0f172a); color: #f8fafc; padding: 24px; border-radius: 12px; margin-bottom: 24px;"&gt;
         &lt;h1 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 700; color: #38bdf8;"&gt;🛰️ TechPulse Daily 技术早报&lt;/h1&gt;
@@ -18,7 +18,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+4,650&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;35,054&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;35,496&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -32,7 +32,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;HTML&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+2,249&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;36,781&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;36,918&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -46,7 +46,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;N/A&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+1,397&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;18,112&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;18,222&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -60,7 +60,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+1,133&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;255,269&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;255,353&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -70,11 +70,11 @@
                 &lt;a href="https://github.com/freestylefly/awesome-gpt-image-2" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;5. freestylefly/awesome-gpt-image-2&lt;/a&gt;
                 &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
             &lt;/div&gt;
-            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中&lt;/p&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。&lt;/p&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+705&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;30,202&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;30,327&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -88,7 +88,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;Shell&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+688&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;284,107&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;284,180&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -102,7 +102,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;TypeScript&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+556&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;3,158&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;3,254&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -116,7 +116,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+498&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;6,238&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;6,285&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -130,7 +130,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;TypeScript&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+417&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;1,776&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;1,852&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -144,7 +144,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+367&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;104,068&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;104,174&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -158,7 +158,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+343&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;53,781&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;53,863&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -172,7 +172,7 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
                 &lt;span&gt;⭐ 今日 &lt;strong&gt;+124&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;15,112&lt;/strong&gt;&lt;/span&gt;
+                &lt;span&gt;🌟 总星 &lt;strong&gt;15,167&lt;/strong&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -187,8 +187,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;apple.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;980&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630931" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;1769 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;1097&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630931" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;1936 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -200,8 +200,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;opusfived.dev&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;1052&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49623754" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;406 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;1093&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49623754" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;423 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -213,8 +213,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;tailwindcss.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;923&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49626190" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;369 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;981&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49626190" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;384 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -226,8 +226,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;newyorker.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;551&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49624394" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;526 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;553&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49624394" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;530 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -239,8 +239,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;spectrum.ieee.org&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;257&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49629886" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;454 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;307&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49629886" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;509 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -252,8 +252,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;apple.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;398&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630253" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;319 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;430&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630253" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;334 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -265,8 +265,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;nomanssky.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;318&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49628493" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;335 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;349&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49628493" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;358 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -278,8 +278,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;tautology.town&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;417&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49614280" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;239 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;471&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49614280" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;256 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -291,8 +291,8 @@
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;apple.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;304&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630151" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;330 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;337&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630151" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;358 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -305,36 +305,36 @@
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;grapheneos.social&lt;/span&gt;&lt;/span&gt;
                 &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;302&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49622042" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;301 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49622042" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;308 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 
         &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;11. DeepSeek launching v4.1 flash cheaper and more capable than v4 pro&lt;/a&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;AI &amp; ML&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;news.ycombinator.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;397&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;204 条讨论&lt;/a&gt;&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        
-
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://xlii.space/eng/malicious-software-on-google-ads/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;12. How I advertise malicious software on Google Ads&lt;/a&gt;
+                &lt;a href="https://xlii.space/eng/malicious-software-on-google-ads/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;11. How I advertise malicious software on Google Ads&lt;/a&gt;
                 &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech Giants&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
                 &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;xlii.space&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;367&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49624856" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;223 条讨论&lt;/a&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;387&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49624856" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;234 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;12. DeepSeek launching v4.1 flash cheaper and more capable than v4 pro&lt;/a&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;AI &amp; ML&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
+                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;news.ycombinator.com&lt;/span&gt;&lt;/span&gt;
+                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;399&lt;/strong&gt; points&lt;/span&gt;
+                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;209 条讨论&lt;/a&gt;&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 &lt;/div&gt;
-&lt;div style="margin-top: 24px; padding-top: 12px; border-top: 1px solid #f1f5f9; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 11:36:32&lt;/div&gt;
+&lt;div style="margin-top: 24px; padding-top: 12px; border-top: 1px solid #f1f5f9; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 06:23:08&lt;/div&gt;
 &lt;/div&gt;</description></item></channel></rss>
