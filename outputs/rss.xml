@@ -1,340 +1,494 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://husnda.github.io/techpulse-daily</link><description>每日聚合全球高星开源项目与 Hacker News 深度技术热点</description><language>zh-cn</language><lastBuildDate>Thu, 10 Sep 2026 06:45:31 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://husnda.github.io/techpulse-daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-10.html</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 0 auto; color: #1f2937; line-height: 1.6;"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://husnda.github.io/techpulse-daily</link><description>每日聚合全球高星开源项目与 Hacker News 深度技术热点</description><language>zh-cn</language><lastBuildDate>Thu, 10 Sep 2026 07:13:09 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://husnda.github.io/techpulse-daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-10.html</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.6; max-width: 820px; margin: 0 auto;"&gt;
 
-    &lt;div style="background: linear-gradient(135deg, #1e293b, #0f172a); color: #f8fafc; padding: 24px; border-radius: 12px; margin-bottom: 24px;"&gt;
-        &lt;h1 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 700; color: #38bdf8;"&gt;🛰️ TechPulse Daily 技术早报&lt;/h1&gt;
-        &lt;div style="font-size: 14px; color: #94a3b8;"&gt;📅 日期：2026-09-10 &amp;nbsp;|&amp;nbsp; ⚡ GitHub 开源热点 &amp; Hacker News 极客精选&lt;/div&gt;
+    &lt;div style="background: #0f172a; color: #f8fafc; padding: 20px 24px; border-radius: 6px; margin-bottom: 20px;"&gt;
+        &lt;div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;"&gt;
+            &lt;h1 style="margin: 0; font-size: 20px; font-weight: 700; color: #38bdf8; display: flex; align-items: center; gap: 8px;"&gt;🛰️ TechPulse Daily 技术早报&lt;/h1&gt;
+            &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; background: #1e293b; color: #94a3b8; padding: 4px 10px; border-radius: 4px; border: 1px solid #334155;"&gt;2026-09-10&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div style="display: flex; gap: 16px; margin-top: 14px; font-size: 13px; color: #cbd5e1; flex-wrap: wrap; border-top: 1px solid #1e293b; padding-top: 12px;"&gt;
+            &lt;span&gt;📦 &lt;strong&gt;12&lt;/strong&gt; 个开源趋势项目&lt;/span&gt;
+            &lt;span&gt;⭐ &lt;strong&gt;+13,127&lt;/strong&gt; 今日新增 Star&lt;/span&gt;
+            &lt;span&gt;🔥 &lt;strong&gt;12&lt;/strong&gt; 篇深度科技讨论&lt;/span&gt;
+            &lt;span&gt;💬 &lt;strong&gt;6,009&lt;/strong&gt; 条社区热议&lt;/span&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
     
-&lt;h2 style="font-size: 18px; color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin: 24px 0 16px 0;"&gt;🚀 GitHub Trending 热门开源项目&lt;/h2&gt;
-&lt;div style="display: flex; flex-direction: column; gap: 12px;"&gt;
+&lt;div style="margin-bottom: 32px;"&gt;
+&lt;div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px; margin-bottom: 14px;"&gt;&lt;h2 style="margin: 0; font-size: 16px; font-weight: 700; color: #0f172a;"&gt;🚀 GitHub Trending 热门开源项目&lt;/h2&gt;&lt;span style="font-size: 12px; color: #64748b;"&gt;按今日 Star 增速排序&lt;/span&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; gap: 10px;"&gt;
 
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://github.com/ayghri/i-have-adhd" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;1. ayghri/i-have-adhd&lt;/a&gt;
-                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#1&lt;/span&gt;
+                    &lt;a href="https://github.com/ayghri/i-have-adhd" target="_blank" style="font-size: 15px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;ayghri/i-have-adhd&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div style="display: flex; gap: 6px; align-items: center;"&gt;
+                    &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+                    &lt;span style="font-size: 11px; background: #fafafa; border: 1px solid #e5e7eb; color: #374151; padding: 2px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px;"&gt;
+                        &lt;span style="width: 6px; height: 6px; border-radius: 50%; background: #3572A5; display: inline-block;"&gt;&lt;/span&gt;
+                        Python
+                    &lt;/span&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
-            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;A skill to stop your coding agent from burying the answer. ADHD-friendly output.&lt;/p&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;⭐ 今日 &lt;strong&gt;+4,650&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;35,569&lt;/strong&gt;&lt;/span&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;A skill to stop your coding agent from burying the answer. ADHD-friendly output.&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +4,650&lt;/span&gt;
+                &lt;span&gt;★ 35,659 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 2,074 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://github.com/cathrynlavery/diagram-design" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;2. cathrynlavery/diagram-design&lt;/a&gt;
-                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#2&lt;/span&gt;
+                    &lt;a href="https://github.com/cathrynlavery/diagram-design" target="_blank" style="font-size: 15px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;cathrynlavery/diagram-design&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div style="display: flex; gap: 6px; align-items: center;"&gt;
+                    &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+                    &lt;span style="font-size: 11px; background: #fafafa; border: 1px solid #e5e7eb; color: #374151; padding: 2px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px;"&gt;
+                        &lt;span style="width: 6px; height: 6px; border-radius: 50%; background: #e34c26; display: inline-block;"&gt;&lt;/span&gt;
+                        HTML
+                    &lt;/span&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
-            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.&lt;/p&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;💻 &lt;strong&gt;HTML&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;⭐ 今日 &lt;strong&gt;+2,249&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;36,944&lt;/strong&gt;&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        
-
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://github.com/liquidslr/system-design-notes" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;3. liquidslr/system-design-notes&lt;/a&gt;
-                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;Systems / Infra&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;Notes of the book System Desgin Interview - An Insider's Guide&lt;/p&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;💻 &lt;strong&gt;N/A&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;⭐ 今日 &lt;strong&gt;+1,397&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;18,229&lt;/strong&gt;&lt;/span&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +2,249&lt;/span&gt;
+                &lt;span&gt;★ 36,965 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 2,347 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://github.com/affaan-m/ECC" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;4. affaan-m/ECC&lt;/a&gt;
-                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#3&lt;/span&gt;
+                    &lt;a href="https://github.com/liquidslr/system-design-notes" target="_blank" style="font-size: 15px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;liquidslr/system-design-notes&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div style="display: flex; gap: 6px; align-items: center;"&gt;
+                    &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; font-weight: 500;"&gt;Systems / Infra&lt;/span&gt;
+                    &lt;span style="font-size: 11px; background: #fafafa; border: 1px solid #e5e7eb; color: #374151; padding: 2px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px;"&gt;
+                        &lt;span style="width: 6px; height: 6px; border-radius: 50%; background: #64748b; display: inline-block;"&gt;&lt;/span&gt;
+                        N/A
+                    &lt;/span&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
-            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.&lt;/p&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;💻 &lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;⭐ 今日 &lt;strong&gt;+1,133&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;255,369&lt;/strong&gt;&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        
-
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://github.com/freestylefly/awesome-gpt-image-2" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;5. freestylefly/awesome-gpt-image-2&lt;/a&gt;
-                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。&lt;/p&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;💻 &lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;⭐ 今日 &lt;strong&gt;+705&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;30,342&lt;/strong&gt;&lt;/span&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;Notes of the book System Desgin Interview - An Insider's Guide&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +1,397&lt;/span&gt;
+                &lt;span&gt;★ 18,250 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 3,435 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://github.com/obra/superpowers" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;6. obra/superpowers&lt;/a&gt;
-                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#4&lt;/span&gt;
+                    &lt;a href="https://github.com/affaan-m/ECC" target="_blank" style="font-size: 15px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;affaan-m/ECC&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div style="display: flex; gap: 6px; align-items: center;"&gt;
+                    &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+                    &lt;span style="font-size: 11px; background: #fafafa; border: 1px solid #e5e7eb; color: #374151; padding: 2px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px;"&gt;
+                        &lt;span style="width: 6px; height: 6px; border-radius: 50%; background: #f1e05a; display: inline-block;"&gt;&lt;/span&gt;
+                        JavaScript
+                    &lt;/span&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
-            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;An agentic skills framework &amp;amp; software development methodology that works.&lt;/p&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;💻 &lt;strong&gt;Shell&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;⭐ 今日 &lt;strong&gt;+688&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;284,187&lt;/strong&gt;&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        
-
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://github.com/Tencent/teamai-cli" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;7. Tencent/teamai-cli&lt;/a&gt;
-                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;Dev Tools&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;Make Every Team AI Native&lt;/p&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;💻 &lt;strong&gt;TypeScript&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;⭐ 今日 &lt;strong&gt;+556&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;3,267&lt;/strong&gt;&lt;/span&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +1,133&lt;/span&gt;
+                &lt;span&gt;★ 255,385 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 38,241 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://github.com/openai/plugins" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;8. openai/plugins&lt;/a&gt;
-                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#5&lt;/span&gt;
+                    &lt;a href="https://github.com/freestylefly/awesome-gpt-image-2" target="_blank" style="font-size: 15px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;freestylefly/awesome-gpt-image-2&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div style="display: flex; gap: 6px; align-items: center;"&gt;
+                    &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+                    &lt;span style="font-size: 11px; background: #fafafa; border: 1px solid #e5e7eb; color: #374151; padding: 2px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px;"&gt;
+                        &lt;span style="width: 6px; height: 6px; border-radius: 50%; background: #f1e05a; display: inline-block;"&gt;&lt;/span&gt;
+                        JavaScript
+                    &lt;/span&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
-            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;OpenAI Plugins&lt;/p&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;💻 &lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;⭐ 今日 &lt;strong&gt;+498&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;6,290&lt;/strong&gt;&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        
-
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://github.com/vastsa/PI-Desktop" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;9. vastsa/PI-Desktop&lt;/a&gt;
-                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins&lt;/p&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;💻 &lt;strong&gt;TypeScript&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;⭐ 今日 &lt;strong&gt;+417&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;1,863&lt;/strong&gt;&lt;/span&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +705&lt;/span&gt;
+                &lt;span&gt;★ 30,372 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 2,940 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://github.com/TauricResearch/TradingAgents" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;10. TauricResearch/TradingAgents&lt;/a&gt;
-                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#6&lt;/span&gt;
+                    &lt;a href="https://github.com/obra/superpowers" target="_blank" style="font-size: 15px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;obra/superpowers&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div style="display: flex; gap: 6px; align-items: center;"&gt;
+                    &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+                    &lt;span style="font-size: 11px; background: #fafafa; border: 1px solid #e5e7eb; color: #374151; padding: 2px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px;"&gt;
+                        &lt;span style="width: 6px; height: 6px; border-radius: 50%; background: #89e051; display: inline-block;"&gt;&lt;/span&gt;
+                        Shell
+                    &lt;/span&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
-            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;TradingAgents: Multi-Agents LLM Financial Trading Framework&lt;/p&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;⭐ 今日 &lt;strong&gt;+367&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;104,188&lt;/strong&gt;&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        
-
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;11. rohitg00/ai-engineering-from-scratch&lt;/a&gt;
-                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;Web / Frontend&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;Learn it. Build it. Ship it for others.&lt;/p&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;⭐ 今日 &lt;strong&gt;+343&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;53,877&lt;/strong&gt;&lt;/span&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;An agentic skills framework &amp;amp; software development methodology that works.&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +688&lt;/span&gt;
+                &lt;span&gt;★ 284,202 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 25,423 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://github.com/earthtojake/text-to-cad" target="_blank" style="font-size: 16px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;12. earthtojake/text-to-cad&lt;/a&gt;
-                &lt;span style="font-size: 12px; background: #e0f2fe; color: #0369a1; padding: 2px 8px; border-radius: 12px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#7&lt;/span&gt;
+                    &lt;a href="https://github.com/Tencent/teamai-cli" target="_blank" style="font-size: 15px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;Tencent/teamai-cli&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div style="display: flex; gap: 6px; align-items: center;"&gt;
+                    &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; font-weight: 500;"&gt;Dev Tools&lt;/span&gt;
+                    &lt;span style="font-size: 11px; background: #fafafa; border: 1px solid #e5e7eb; color: #374151; padding: 2px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px;"&gt;
+                        &lt;span style="width: 6px; height: 6px; border-radius: 50%; background: #3178c6; display: inline-block;"&gt;&lt;/span&gt;
+                        TypeScript
+                    &lt;/span&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
-            &lt;p style="margin: 0 0 10px 0; font-size: 14px; color: #475569;"&gt;A library of agent skills for CAD, CAE and CAM&lt;/p&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 16px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;💻 &lt;strong&gt;Python&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;⭐ 今日 &lt;strong&gt;+124&lt;/strong&gt;&lt;/span&gt;
-                &lt;span&gt;🌟 总星 &lt;strong&gt;15,174&lt;/strong&gt;&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        
-&lt;/div&gt;
-&lt;h2 style="font-size: 18px; color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin: 32px 0 16px 0;"&gt;🔥 Hacker News 科技前沿与深度讨论&lt;/h2&gt;
-&lt;div style="display: flex; flex-direction: column; gap: 12px;"&gt;
-
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://www.apple.com/iphone-duo/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;1. iPhone Duo&lt;/a&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech Giants&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;apple.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;1109&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630931" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;1959 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;Make Every Team AI Native&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +556&lt;/span&gt;
+                &lt;span&gt;★ 3,290 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 208 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://opusfived.dev/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;2. Claude, change the “Add to Cart” button to blue&lt;/a&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;AI &amp; ML&lt;/span&gt;
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#8&lt;/span&gt;
+                    &lt;a href="https://github.com/openai/plugins" target="_blank" style="font-size: 15px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;openai/plugins&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div style="display: flex; gap: 6px; align-items: center;"&gt;
+                    &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+                    &lt;span style="font-size: 11px; background: #fafafa; border: 1px solid #e5e7eb; color: #374151; padding: 2px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px;"&gt;
+                        &lt;span style="width: 6px; height: 6px; border-radius: 50%; background: #f1e05a; display: inline-block;"&gt;&lt;/span&gt;
+                        JavaScript
+                    &lt;/span&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;opusfived.dev&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;1096&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49623754" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;423 条讨论&lt;/a&gt;&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        
-
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://tailwindcss.com/blog/tailwind-is-joining-shopify" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;3. Shopify acquires Tailwind&lt;/a&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;AI &amp; ML&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;tailwindcss.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;985&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49626190" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;384 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;OpenAI Plugins&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +498&lt;/span&gt;
+                &lt;span&gt;★ 6,296 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 833 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://www.newyorker.com/culture/infinite-scroll/flock-wants-a-closely-surveilled-world-with-no-exit" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;4. Flock Wants a Closely Surveilled World with No Exit&lt;/a&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech &amp; Science&lt;/span&gt;
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#9&lt;/span&gt;
+                    &lt;a href="https://github.com/vastsa/PI-Desktop" target="_blank" style="font-size: 15px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;vastsa/PI-Desktop&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div style="display: flex; gap: 6px; align-items: center;"&gt;
+                    &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+                    &lt;span style="font-size: 11px; background: #fafafa; border: 1px solid #e5e7eb; color: #374151; padding: 2px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px;"&gt;
+                        &lt;span style="width: 6px; height: 6px; border-radius: 50%; background: #3178c6; display: inline-block;"&gt;&lt;/span&gt;
+                        TypeScript
+                    &lt;/span&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;newyorker.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;553&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49624394" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;530 条讨论&lt;/a&gt;&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        
-
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://spectrum.ieee.org/are-self-driving-cars-safe" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;5. Growing proof that autonomous cars save lives&lt;/a&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech &amp; Science&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;spectrum.ieee.org&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;309&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49629886" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;520 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +417&lt;/span&gt;
+                &lt;span&gt;★ 1,879 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 166 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;6. AirPods 5&lt;/a&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;AI &amp; ML&lt;/span&gt;
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#10&lt;/span&gt;
+                    &lt;a href="https://github.com/TauricResearch/TradingAgents" target="_blank" style="font-size: 15px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;TauricResearch/TradingAgents&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div style="display: flex; gap: 6px; align-items: center;"&gt;
+                    &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+                    &lt;span style="font-size: 11px; background: #fafafa; border: 1px solid #e5e7eb; color: #374151; padding: 2px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px;"&gt;
+                        &lt;span style="width: 6px; height: 6px; border-radius: 50%; background: #3572A5; display: inline-block;"&gt;&lt;/span&gt;
+                        Python
+                    &lt;/span&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;apple.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;435&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630253" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;338 条讨论&lt;/a&gt;&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        
-
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://www.nomanssky.com/cosmos-update/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;7. No Man's Sky Cosmos&lt;/a&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech &amp; Science&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;nomanssky.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;353&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49628493" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;364 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;TradingAgents: Multi-Agents LLM Financial Trading Framework&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +367&lt;/span&gt;
+                &lt;span&gt;★ 104,216 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 19,996 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://tautology.town/2026/06/01/card-networks.html" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;8. What do Visa and Mastercard do? An intro to card networks&lt;/a&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech &amp; Science&lt;/span&gt;
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#11&lt;/span&gt;
+                    &lt;a href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank" style="font-size: 15px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;rohitg00/ai-engineering-from-scratch&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div style="display: flex; gap: 6px; align-items: center;"&gt;
+                    &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; font-weight: 500;"&gt;Web / Frontend&lt;/span&gt;
+                    &lt;span style="font-size: 11px; background: #fafafa; border: 1px solid #e5e7eb; color: #374151; padding: 2px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px;"&gt;
+                        &lt;span style="width: 6px; height: 6px; border-radius: 50%; background: #3572A5; display: inline-block;"&gt;&lt;/span&gt;
+                        Python
+                    &lt;/span&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;tautology.town&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;476&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49614280" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;261 条讨论&lt;/a&gt;&lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        
-
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;9. iPhone 18 Pro and iPhone 18 Pro Max&lt;/a&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech Giants&lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;apple.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;342&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49630151" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;360 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;Learn it. Build it. Ship it for others.&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +343&lt;/span&gt;
+                &lt;span&gt;★ 53,901 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 9,393 forks&lt;/span&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://xlii.space/eng/malicious-software-on-google-ads/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;10. How I advertise malicious software on Google Ads&lt;/a&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;Tech Giants&lt;/span&gt;
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#12&lt;/span&gt;
+                    &lt;a href="https://github.com/earthtojake/text-to-cad" target="_blank" style="font-size: 15px; font-weight: 600; color: #0284c7; text-decoration: none;"&gt;earthtojake/text-to-cad&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div style="display: flex; gap: 6px; align-items: center;"&gt;
+                    &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; font-weight: 500;"&gt;AI / LLM&lt;/span&gt;
+                    &lt;span style="font-size: 11px; background: #fafafa; border: 1px solid #e5e7eb; color: #374151; padding: 2px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px;"&gt;
+                        &lt;span style="width: 6px; height: 6px; border-radius: 50%; background: #3572A5; display: inline-block;"&gt;&lt;/span&gt;
+                        Python
+                    &lt;/span&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;xlii.space&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;390&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49624856" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;235 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;"&gt;A library of agent skills for CAD, CAE and CAM&lt;/p&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;"&gt;⭐ 今日 +124&lt;/span&gt;
+                &lt;span&gt;★ 15,198 stars&lt;/span&gt;
+                &lt;span&gt;⑂ 1,567 forks&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+&lt;/div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px; margin-bottom: 14px;"&gt;&lt;h2 style="margin: 0; font-size: 16px; font-weight: 700; color: #0f172a;"&gt;🔥 Hacker News 科技前沿与深度讨论&lt;/h2&gt;&lt;span style="font-size: 12px; color: #64748b;"&gt;按社区关注与热度排序&lt;/span&gt;&lt;/div&gt;
+&lt;div style="display: flex; flex-direction: column; gap: 10px;"&gt;
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#1&lt;/span&gt;
+                    &lt;a href="https://www.apple.com/iphone-duo/" target="_blank" style="font-size: 14.5px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;iPhone Duo&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; white-space: nowrap;"&gt;Tech Giants&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="color: #64748b;"&gt;🌐 apple.com&lt;/span&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 1,139 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49630931" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 1,983 条热议 →&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://www.anthropic.com/institute/econ-scenarios" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;11. What will our economic future look like?&lt;/a&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;AI &amp; ML&lt;/span&gt;
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#2&lt;/span&gt;
+                    &lt;a href="https://opusfived.dev/" target="_blank" style="font-size: 14.5px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Claude, change the “Add to Cart” button to blue&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; white-space: nowrap;"&gt;AI &amp; ML&lt;/span&gt;
             &lt;/div&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;anthropic.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;197&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49626373" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;378 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="color: #64748b;"&gt;🌐 opusfived.dev&lt;/span&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 1,099 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49623754" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 423 条热议 →&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 
-        &lt;div style="border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; background: #ffffff;"&gt;
-            &lt;div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;"&gt;
-                &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;12. DeepSeek launching v4.1 flash cheaper and more capable than v4 pro&lt;/a&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 12px;"&gt;AI &amp; ML&lt;/span&gt;
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#3&lt;/span&gt;
+                    &lt;a href="https://tailwindcss.com/blog/tailwind-is-joining-shopify" target="_blank" style="font-size: 14.5px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Shopify acquires Tailwind&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; white-space: nowrap;"&gt;AI &amp; ML&lt;/span&gt;
             &lt;/div&gt;
-            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; flex-wrap: wrap;"&gt;
-                &lt;span&gt;🌐 &lt;span style="color: #64748b;"&gt;news.ycombinator.com&lt;/span&gt;&lt;/span&gt;
-                &lt;span&gt;🔥 &lt;strong style="color: #ea580c;"&gt;399&lt;/strong&gt; points&lt;/span&gt;
-                &lt;span&gt;💬 &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="color: #6366f1; text-decoration: underline;"&gt;209 条讨论&lt;/a&gt;&lt;/span&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="color: #64748b;"&gt;🌐 tailwindcss.com&lt;/span&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 996 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49626190" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 385 条热议 →&lt;/a&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
-&lt;/div&gt;
-&lt;div style="margin-top: 24px; padding-top: 12px; border-top: 1px solid #f1f5f9; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 06:45:31&lt;/div&gt;
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#4&lt;/span&gt;
+                    &lt;a href="https://www.newyorker.com/culture/infinite-scroll/flock-wants-a-closely-surveilled-world-with-no-exit" target="_blank" style="font-size: 14.5px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Flock Wants a Closely Surveilled World with No Exit&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; white-space: nowrap;"&gt;Tech &amp; Science&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="color: #64748b;"&gt;🌐 newyorker.com&lt;/span&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 554 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49624394" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 531 条热议 →&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#5&lt;/span&gt;
+                    &lt;a href="https://spectrum.ieee.org/are-self-driving-cars-safe" target="_blank" style="font-size: 14.5px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Growing proof that autonomous cars save lives&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; white-space: nowrap;"&gt;Tech &amp; Science&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="color: #64748b;"&gt;🌐 spectrum.ieee.org&lt;/span&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 317 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49629886" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 526 条热议 →&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#6&lt;/span&gt;
+                    &lt;a href="https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/" target="_blank" style="font-size: 14.5px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;AirPods 5&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; white-space: nowrap;"&gt;AI &amp; ML&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="color: #64748b;"&gt;🌐 apple.com&lt;/span&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 439 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49630253" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 340 条热议 →&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#7&lt;/span&gt;
+                    &lt;a href="https://tautology.town/2026/06/01/card-networks.html" target="_blank" style="font-size: 14.5px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;What do Visa and Mastercard do? An intro to card networks&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; white-space: nowrap;"&gt;Tech &amp; Science&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="color: #64748b;"&gt;🌐 tautology.town&lt;/span&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 488 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49614280" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 264 条热议 →&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#8&lt;/span&gt;
+                    &lt;a href="https://www.nomanssky.com/cosmos-update/" target="_blank" style="font-size: 14.5px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;No Man's Sky Cosmos&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; white-space: nowrap;"&gt;Tech &amp; Science&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="color: #64748b;"&gt;🌐 nomanssky.com&lt;/span&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 357 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49628493" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 367 条热议 →&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#9&lt;/span&gt;
+                    &lt;a href="https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/" target="_blank" style="font-size: 14.5px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;iPhone 18 Pro and iPhone 18 Pro Max&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; white-space: nowrap;"&gt;Tech Giants&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="color: #64748b;"&gt;🌐 apple.com&lt;/span&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 346 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49630151" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 365 条热议 →&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#10&lt;/span&gt;
+                    &lt;a href="https://xlii.space/eng/malicious-software-on-google-ads/" target="_blank" style="font-size: 14.5px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;How I advertise malicious software on Google Ads&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; white-space: nowrap;"&gt;Tech Giants&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="color: #64748b;"&gt;🌐 xlii.space&lt;/span&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 392 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49624856" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 237 条热议 →&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#11&lt;/span&gt;
+                    &lt;a href="https://www.anthropic.com/institute/econ-scenarios" target="_blank" style="font-size: 14.5px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;What will our economic future look like?&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; white-space: nowrap;"&gt;AI &amp; ML&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="color: #64748b;"&gt;🌐 anthropic.com&lt;/span&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 201 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49626373" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 379 条热议 →&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+
+        &lt;div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;"&gt;
+            &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;"&gt;
+                &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
+                    &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;"&gt;#12&lt;/span&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="font-size: 14.5px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;DeepSeek launching v4.1 flash cheaper and more capable than v4 pro&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; white-space: nowrap;"&gt;AI &amp; ML&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;"&gt;
+                &lt;span style="color: #64748b;"&gt;🌐 news.ycombinator.com&lt;/span&gt;
+                &lt;span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;"&gt;🔥 400 pts&lt;/span&gt;
+                &lt;a href="https://news.ycombinator.com/item?id=49624603" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 209 条热议 →&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+&lt;/div&gt;&lt;/div&gt;
+&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 15:13:09 ｜ 每日北京时间 08:30 更新&lt;/div&gt;
 &lt;/div&gt;</description></item></channel></rss>
