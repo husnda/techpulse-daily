@@ -63,12 +63,14 @@ def format_item_summary_telegram(summary_text):
         l = l.strip()
         if not l:
             continue
-        # Clean bold tags for known markers
-        l = l.replace("【核心定位】", "💡 <b>定位</b>: ")
-        l = l.replace("【技术亮点】", "🎯 <b>亮点</b>: ")
-        l = l.replace("【核心看点】", "📌 <b>看点</b>: ")
-        l = l.replace("【社区争议】", "💬 <b>争议</b>: ")
-        formatted.append("   " + format_inline_markdown(l))
+        # Escape and format inline markdown first
+        safe_line = format_inline_markdown(l)
+        # Then replace markers with unescaped HTML bold tags
+        safe_line = safe_line.replace("【核心定位】", "💡 <b>定位</b>: ")
+        safe_line = safe_line.replace("【技术亮点】", "🎯 <b>亮点</b>: ")
+        safe_line = safe_line.replace("【核心看点】", "📌 <b>看点</b>: ")
+        safe_line = safe_line.replace("【社区争议】", "💬 <b>争议</b>: ")
+        formatted.append("   " + safe_line)
     return "\n".join(formatted)
 
 def format_item_summary_feishu(summary_text):
