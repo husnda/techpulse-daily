@@ -23,17 +23,28 @@ def infer_hn_topic(title, url):
         return "Show HN"
     if title.startswith("Ask HN:"):
         return "Ask HN"
-    if any(k in text for k in ["ai", "llm", "gpt", "deepseek", "claude", "openai", "model", "transformer", "neural", "anthropic", "machine learning"]):
-        return "AI & ML"
-    if any(k in text for k in ["linux", "kernel", "rust", "c++", "database", "postgres", "compiler", "cpu", "memory", "systems"]):
-        return "Systems & Infra"
-    if any(k in text for k in ["security", "vulnerability", "malware", "hack", "cve", "breach", "exploit", "privacy"]):
-        return "Security & Privacy"
-    if any(k in text for k in ["apple", "google", "microsoft", "amazon", "meta", "nvidia", "intel", "shopify"]):
-        return "Tech Giants"
-    if any(k in text for k in ["startup", "acquisition", "funding", "ipo", "layoff", "remote", "career"]):
-        return "Business & Work"
-    return "Tech & Science"
+    # Game & Entertainment
+    if re.search(r"\b(game|gaming|gameplay|nintendo|playstation|xbox|steam|cosmos|nomanssky|no man's sky|rpg|fps)\b", text):
+        return "游戏娱乐"
+    # Digital & Hardware
+    if re.search(r"\b(airpods|iphone|ipad|macbook|watch|pixel|headphone|earbuds|phone|oled|display|chip|soc|semiconductor|battery)\b", text):
+        return "数码硬件"
+    # AI & ML (use word boundaries, don't match substrings like airpods or tailwind)
+    if re.search(r"\b(ai|llm|gpt|deepseek|claude|openai|anthropic|transformer|neural|diffusion|machine learning|agent)\b", text):
+        return "人工智能"
+    # Systems & Dev
+    if re.search(r"\b(linux|kernel|rust|golang|c\+\+|database|postgres|mysql|sqlite|redis|compiler|memory|distributed|networking|http)\b", text):
+        return "系统架构"
+    # Security & Privacy
+    if re.search(r"\b(security|vulnerability|malware|hack|cve|breach|exploit|privacy|surveillance|encryption)\b", text):
+        return "安全隐私"
+    # Front-end & Web
+    if re.search(r"\b(tailwind|css|react|vue|javascript|typescript|html|frontend|web)\b", text):
+        return "前端生态"
+    # Business & Startups
+    if re.search(r"\b(startup|acquires|acquisition|funding|ipo|layoff|visa|mastercard|revenue|shopify)\b", text):
+        return "商业科技"
+    return "前沿观察"
 
 def fetch_hn_algolia(time_range_hours=24, min_points=80, hits_per_page=40):
     now = int(time.time())

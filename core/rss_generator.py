@@ -4,30 +4,22 @@ import xml.etree.ElementTree as ET
 from xml.sax.saxutils import escape
 from pathlib import Path
 import json
+import re
 
 def format_rfc822(dt=None):
     if dt is None:
         dt = datetime.datetime.now(datetime.timezone.utc)
     return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
 
-def get_language_color(lang):
-    colors = {
-        "Python": "#3572A5",
-        "TypeScript": "#3178c6",
-        "JavaScript": "#f1e05a",
-        "Rust": "#dea584",
-        "Go": "#00ADD8",
-        "C++": "#f34b7d",
-        "C": "#555555",
-        "Java": "#b07219",
-        "Shell": "#89e051",
-        "HTML": "#e34c26",
-        "CSS": "#563d7c",
-        "Ruby": "#701516",
-        "Swift": "#F05138",
-        "Kotlin": "#A97BFF"
-    }
-    return colors.get(lang, "#64748b")
+def format_ai_summary_html(text):
+    if not text:
+        return ""
+    safe = escape(text)
+    # Convert 【...】 to <strong>【...】</strong>
+    safe = re.sub(r"(【.+?】)", r"<strong style='color: #0f172a;'>\1</strong>", safe)
+    # Convert linebreaks to <br>
+    safe = safe.replace("\n", "<br>")
+    return safe
 
 def generate_html_content(digest_data):
     date_str = digest_data.get("date", "")
@@ -40,82 +32,78 @@ def generate_html_content(digest_data):
     total_comments = stats.get("total_hn_comments", sum(it.get("comments_count", 0) for it in hn_items))
     
     html = []
-    html.append('<div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.6; max-width: 820px; margin: 0 auto;">')
+    html.append('<div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.5; max-width: 820px; margin: 0 auto;">')
     
-    # Header Banner Card
+    # Clean Editorial Top Banner
     html.append(f'''
-    <div style="background: #0f172a; color: #f8fafc; padding: 20px 24px; border-radius: 6px; margin-bottom: 20px;">
-        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
-            <h1 style="margin: 0; font-size: 20px; font-weight: 700; color: #38bdf8; display: flex; align-items: center; gap: 8px;">🛰️ TechPulse Daily 技术早报</h1>
-            <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; background: #1e293b; color: #94a3b8; padding: 4px 10px; border-radius: 4px; border: 1px solid #334155;">{date_str}</span>
+    <div style="border-bottom: 1px solid #e5e7eb; padding-bottom: 16px; margin-bottom: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
+            <h1 style="margin: 0; font-size: 20px; font-weight: 700; color: #0f172a; letter-spacing: 0;">🛰️ TechPulse Daily 技术早报</h1>
+            <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; color: #64748b;">{date_str}</span>
         </div>
-        <div style="display: flex; gap: 16px; margin-top: 14px; font-size: 13px; color: #cbd5e1; flex-wrap: wrap; border-top: 1px solid #1e293b; padding-top: 12px;">
-            <span>📦 <strong>{len(gh_items)}</strong> 个开源趋势项目</span>
-            <span>⭐ <strong>+{total_stars:,}</strong> 今日新增 Star</span>
-            <span>🔥 <strong>{len(hn_items)}</strong> 篇深度科技讨论</span>
-            <span>💬 <strong>{total_comments:,}</strong> 条社区热议</span>
+        <div style="font-size: 12.5px; color: #64748b; display: flex; gap: 12px; flex-wrap: wrap;">
+            <span>📦 <strong>{len(gh_items)}</strong> 个开源项目 (+{total_stars:,} Stars)</span>
+            <span>·</span>
+            <span>🔥 <strong>{len(hn_items)}</strong> 篇深度讨论 ({total_comments:,} 评论)</span>
+            <span>·</span>
+            <span>每日 08:30 定时更新</span>
         </div>
     </div>
     ''')
     
-    # AI Overview if present
+    # AI Macro Pulse if present
     if ai_overview:
         clean_ai = ai_overview.replace("\n", "<br>")
+        clean_ai = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", clean_ai)
         html.append(f'''
-        <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-left: 4px solid #16a34a; padding: 16px 20px; border-radius: 6px; margin-bottom: 24px;">
-            <div style="font-size: 14px; font-weight: 700; color: #15803d; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">🧠 今日技术风向速览 (AI 提炼)</div>
-            <div style="font-size: 14px; color: #166534; line-height: 1.7;">{clean_ai}</div>
+        <div style="background: #f8fafc; border-left: 3px solid #0284c7; padding: 14px 18px; border-radius: 4px; margin-bottom: 24px;">
+            <div style="font-size: 13px; font-weight: 700; color: #0369a1; margin-bottom: 6px;">🧠 今日技术风向速览</div>
+            <div style="font-size: 13.5px; color: #334155; line-height: 1.65;">{clean_ai}</div>
         </div>
         ''')
         
     # GitHub section
     html.append('<div style="margin-bottom: 32px;">')
-    html.append('<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px; margin-bottom: 14px;"><h2 style="margin: 0; font-size: 16px; font-weight: 700; color: #0f172a;">🚀 GitHub Trending 热门开源项目</h2><span style="font-size: 12px; color: #64748b;">按今日 Star 增速排序 ｜ 点击 ✨ 可展开 AI 深度解读</span></div>')
-    html.append('<div style="display: flex; flex-direction: column; gap: 12px;">')
+    html.append('<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #e5e7eb; padding-bottom: 8px; margin-bottom: 14px;"><h2 style="margin: 0; font-size: 15px; font-weight: 700; color: #0f172a; text-transform: uppercase; letter-spacing: 0.3px;">🚀 GitHub Trending 热门开源项目</h2><span style="font-size: 12px; color: #94a3b8;">点击 ✨ 展开 AI 深度解读</span></div>')
+    html.append('<div style="display: flex; flex-direction: column; gap: 10px;">')
     for i, it in enumerate(gh_items, 1):
         stars_today = f"+{it.get('stars_today', 0):,}" if it.get('stars_today') else "Trending"
         stars_total = f"{it.get('stars_total', 0):,}" if it.get('stars_total') else "0"
-        topic = it.get("topic", "Open Source")
+        topic = it.get("topic", "开源技术")
         lang = it.get("language", "General")
-        lang_color = get_language_color(lang)
         desc = it.get("description", "无项目描述")
         url = it.get("url", "#")
         full_name = it.get("full_name", "")
         forks = f"{it.get('forks', 0):,}"
-        ai_sum = it.get("ai_summary", "")
+        ai_sum_html = format_ai_summary_html(it.get("ai_summary", ""))
         
         html.append(f'''
-        <div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;">
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
                 <div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
-                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;">#{i}</span>
-                    <a href="{url}" target="_blank" style="font-size: 15px; font-weight: 600; color: #0284c7; text-decoration: none;">{full_name}</a>
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#{i}</span>
+                    <a href="{url}" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;">{full_name}</a>
                 </div>
-                <div style="display: flex; gap: 6px; align-items: center;">
-                    <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; font-weight: 500;">{topic}</span>
-                    <span style="font-size: 11px; background: #fafafa; border: 1px solid #e5e7eb; color: #374151; padding: 2px 8px; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px;">
-                        <span style="width: 6px; height: 6px; border-radius: 50%; background: {lang_color}; display: inline-block;"></span>
-                        {lang}
-                    </span>
-                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">{topic}</span>
             </div>
-            <p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;">{escape(desc)}</p>
+            <p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;">{escape(desc)}</p>
             <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;">
-                <div style="display: flex; gap: 14px; align-items: center;">
-                    <span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;">⭐ 今日 {stars_today}</span>
-                    <span>★ {stars_total} stars</span>
-                    <span>⑂ {forks} forks</span>
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b45309; font-weight: 600;">⭐ {stars_today}</span>
+                    <span>·</span>
+                    <span>★ {stars_total}</span>
+                    <span>·</span>
+                    <span>⑂ {forks}</span>
+                    <span>·</span>
+                    <span>{lang}</span>
                 </div>
-                <button class="ai-toggle-btn" onclick="toggleAiBox(\'gh-ai-{i}\')" style="display: inline-flex; align-items: center; gap: 4px; background: #f0fdf4; border: 1px solid #bbf7d0; color: #15803d; padding: 3px 9px; border-radius: 4px; font-size: 11.5px; font-weight: 600; cursor: pointer;">
-                    <span>✨</span>
-                    <span>AI 解读</span>
+                <button class="ai-toggle-btn" onclick="toggleAiBox(\'gh-ai-{i}\')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
                 </button>
             </div>
-            <div id="gh-ai-{i}" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 10px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #1e293b; line-height: 1.6;">
-                <div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;">
-                    <span>✨ AI 核心提炼 (基于官方 README 原文分析)</span>
-                </div>
-                <div>{escape(ai_sum)}</div>
+            <div id="gh-ai-{i}" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;">✨ 基于官方 README 核心提炼</div>
+                <div>{ai_sum_html}</div>
             </div>
         </div>
         ''')
@@ -123,8 +111,8 @@ def generate_html_content(digest_data):
     
     # Hacker News section
     html.append('<div>')
-    html.append('<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px; margin-bottom: 14px;"><h2 style="margin: 0; font-size: 16px; font-weight: 700; color: #0f172a;">🔥 Hacker News 科技前沿与深度讨论</h2><span style="font-size: 12px; color: #64748b;">按社区关注度排序 ｜ 点击 ✨ 可展开 AI 深度解读</span></div>')
-    html.append('<div style="display: flex; flex-direction: column; gap: 12px;">')
+    html.append('<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #e5e7eb; padding-bottom: 8px; margin-bottom: 14px;"><h2 style="margin: 0; font-size: 15px; font-weight: 700; color: #0f172a; text-transform: uppercase; letter-spacing: 0.3px;">🔥 Hacker News 科技前沿与深度讨论</h2><span style="font-size: 12px; color: #94a3b8;">点击 ✨ 展开 AI 深度解读</span></div>')
+    html.append('<div style="display: flex; flex-direction: column; gap: 10px;">')
     for i, it in enumerate(hn_items, 1):
         title = it.get("title", "")
         url = it.get("url", "#")
@@ -132,40 +120,39 @@ def generate_html_content(digest_data):
         points = f"{it.get('points', 0):,}"
         comments = f"{it.get('comments_count', 0):,}"
         domain = it.get("domain", "news.ycombinator.com")
-        topic = it.get("topic", "Tech")
-        ai_sum = it.get("ai_summary", "")
+        topic = it.get("topic", "科技前沿")
+        ai_sum_html = format_ai_summary_html(it.get("ai_summary", ""))
         
         html.append(f'''
-        <div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;">
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
                 <div style="display: flex; align-items: baseline; gap: 8px;">
-                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;">#{i}</span>
-                    <a href="{url}" target="_blank" style="font-size: 14.5px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;">{escape(title)}</a>
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#{i}</span>
+                    <a href="{url}" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;">{escape(title)}</a>
                 </div>
-                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; white-space: nowrap;">{topic}</span>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">{topic}</span>
             </div>
             <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
-                <div style="display: flex; gap: 14px; align-items: center;">
-                    <span>🌐 {domain}</span>
-                    <span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;">🔥 {points} pts</span>
-                    <a href="{hn_url}" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 {comments} 条热议 →</a>
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b91c1c; font-weight: 600;">🔥 {points} pts</span>
+                    <span>·</span>
+                    <a href="{hn_url}" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 {comments} 条讨论 →</a>
+                    <span>·</span>
+                    <span>{domain}</span>
                 </div>
-                <button class="ai-toggle-btn" onclick="toggleAiBox(\'hn-ai-{i}\')" style="display: inline-flex; align-items: center; gap: 4px; background: #eff6ff; border: 1px solid #bfdbfe; color: #1d4ed8; padding: 3px 9px; border-radius: 4px; font-size: 11.5px; font-weight: 600; cursor: pointer;">
-                    <span>✨</span>
-                    <span>AI 解读</span>
+                <button class="ai-toggle-btn" onclick="toggleAiBox(\'hn-ai-{i}\')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
                 </button>
             </div>
-            <div id="hn-ai-{i}" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 10px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #1e293b; line-height: 1.6;">
-                <div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;">
-                    <span>✨ AI 深度提炼 (基于文章原文与社区高赞讨论)</span>
-                </div>
-                <div>{escape(ai_sum)}</div>
+            <div id="hn-ai-{i}" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;">✨ 基于原文与社区热评深度提炼</div>
+                <div>{ai_sum_html}</div>
             </div>
         </div>
         ''')
     html.append('</div></div>')
     
-    html.append(f'<div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;">由 TechPulse 自动化生成于 {digest_data.get("generated_at", "")} ｜ 每日北京时间 08:30 更新</div>')
+    html.append(f'<div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;">由 TechPulse 自动化生成于 {digest_data.get("generated_at", "")} ｜ 每日 08:30 更新</div>')
     html.append('</div>')
     return "\n".join(html)
 
@@ -239,8 +226,8 @@ def render_web_page(current_digest, history_digests, config, is_archive=False):
         hl = d.get("top_highlight", "技术要闻")[:25]
         target_href = f"{archive_prefix}{d_str}.html" if not is_archive else f"{d_str}.html"
         is_curr = (d_str == date_str)
-        link_bg = "background: #f1f5f9; font-weight: 600; color: #0284c7;" if is_curr else "color: #475569;"
-        archive_links.append(f'<li style="margin-bottom: 4px;"><a href="{target_href}" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; {link_bg}">📅 {d_str} - {escape(hl)}...</a></li>')
+        link_bg = "background: #f1f5f9; font-weight: 600; color: #0f172a;" if is_curr else "color: #64748b;"
+        archive_links.append(f'<li style="margin-bottom: 2px;"><a href="{target_href}" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; {link_bg}">📅 {d_str} - {escape(hl)}...</a></li>')
     archive_html = "".join(archive_links)
     
     back_btn_html = f'<a href="{home_rel_url}" class="btn btn-outline">← 返回今日最新</a>' if is_archive else ""
@@ -255,24 +242,24 @@ def render_web_page(current_digest, history_digests, config, is_archive=False):
     <link rel="alternate" type="application/rss+xml" title="TechPulse RSS Feed" href="{rss_rel_url}">
     <style>
         * {{ box-sizing: border-box; margin: 0; padding: 0; }}
-        body {{ background: #f8fafc; color: #0f172a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.5; padding: 16px; }}
+        body {{ background: #fafafa; color: #0f172a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.5; padding: 16px; }}
         .container {{ max-width: 1040px; margin: 0 auto; }}
-        .top-nav {{ display: flex; justify-content: space-between; align-items: center; padding: 12px 20px; background: #ffffff; border-radius: 6px; border: 1px solid #e2e8f0; margin-bottom: 20px; flex-wrap: wrap; gap: 12px; }}
+        .top-nav {{ display: flex; justify-content: space-between; align-items: center; padding: 12px 18px; background: #ffffff; border-radius: 6px; border: 1px solid #eaecf0; margin-bottom: 18px; flex-wrap: wrap; gap: 12px; }}
         .brand {{ display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 16px; color: #0f172a; text-decoration: none; }}
         .nav-actions {{ display: flex; gap: 8px; align-items: center; }}
-        .btn {{ display: inline-flex; align-items: center; gap: 5px; padding: 6px 12px; border-radius: 4px; font-size: 12.5px; font-weight: 600; text-decoration: none; cursor: pointer; border: 1px solid transparent; transition: all 0.15s ease; }}
-        .btn-rss {{ background: #ea580c; color: #ffffff; }}
-        .btn-rss:hover {{ background: #c2410c; }}
-        .btn-outline {{ border-color: #cbd5e1; background: #ffffff; color: #334155; }}
-        .btn-outline:hover {{ background: #f1f5f9; }}
-        .ai-toggle-btn:hover {{ filter: brightness(0.95); transform: translateY(-1px); }}
-        .main-layout {{ display: grid; grid-template-columns: 1fr 270px; gap: 20px; }}
+        .btn {{ display: inline-flex; align-items: center; gap: 5px; padding: 6px 12px; border-radius: 4px; font-size: 12.5px; font-weight: 500; text-decoration: none; cursor: pointer; border: 1px solid transparent; transition: all 0.15s ease; }}
+        .btn-rss {{ background: #0f172a; color: #ffffff; }}
+        .btn-rss:hover {{ background: #334155; }}
+        .btn-outline {{ border-color: #d1d5db; background: #ffffff; color: #374151; }}
+        .btn-outline:hover {{ background: #f3f4f6; }}
+        .ai-toggle-btn:hover {{ background: #f1f5f9 !important; border-color: #cbd5e1 !important; color: #0f172a !important; }}
+        .main-layout {{ display: grid; grid-template-columns: 1fr 260px; gap: 18px; }}
         @media (max-width: 820px) {{ .main-layout {{ grid-template-columns: 1fr; }} }}
-        .feed-container {{ background: #ffffff; border-radius: 6px; border: 1px solid #e2e8f0; padding: 24px; }}
-        .sidebar {{ display: flex; flex-direction: column; gap: 16px; }}
-        .side-card {{ background: #ffffff; border-radius: 6px; border: 1px solid #e2e8f0; padding: 16px; }}
-        .side-title {{ font-size: 13px; font-weight: 700; color: #0f172a; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.3px; display: flex; align-items: center; gap: 6px; }}
-        .copy-toast {{ display: none; position: fixed; bottom: 24px; right: 24px; background: #0f172a; color: #f8fafc; padding: 10px 18px; border-radius: 6px; font-size: 13px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); z-index: 99; }}
+        .feed-container {{ background: #ffffff; border-radius: 6px; border: 1px solid #eaecf0; padding: 24px; }}
+        .sidebar {{ display: flex; flex-direction: column; gap: 14px; }}
+        .side-card {{ background: #ffffff; border-radius: 6px; border: 1px solid #eaecf0; padding: 16px; }}
+        .side-title {{ font-size: 12px; font-weight: 700; color: #64748b; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; }}
+        .copy-toast {{ display: none; position: fixed; bottom: 24px; right: 24px; background: #0f172a; color: #f8fafc; padding: 10px 18px; border-radius: 4px; font-size: 13px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); z-index: 99; }}
     </style>
 </head>
 <body>
@@ -295,9 +282,9 @@ def render_web_page(current_digest, history_digests, config, is_archive=False):
             <aside class="sidebar">
                 <div class="side-card">
                     <div class="side-title">📡 RSS 订阅指南</div>
-                    <p style="font-size: 12.5px; color: #64748b; margin-bottom: 10px; line-height: 1.5;">支持 NetNewsWire, Reeder, Follow, Feedly 等现代阅读器，每日早晨 08:30 自动拉取更新。</p>
-                    <input type="text" id="rssUrl" readonly value="{rss_rel_url}" style="width: 100%; padding: 6px 10px; font-size: 12px; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 4px; color: #334155; margin-bottom: 8px;">
-                    <button class="btn btn-outline" style="width: 100%; justify-content: center;" onclick="copyRssLink()">点击一键复制链接</button>
+                    <p style="font-size: 12.5px; color: #64748b; margin-bottom: 10px; line-height: 1.5;">支持 NetNewsWire, Reeder, Follow, Feedly，每日 08:30 自动拉取更新。</p>
+                    <input type="text" id="rssUrl" readonly value="{rss_rel_url}" style="width: 100%; padding: 6px 10px; font-size: 12px; background: #f8fafc; border: 1px solid #d1d5db; border-radius: 4px; color: #374151; margin-bottom: 8px;">
+                    <button class="btn btn-outline" style="width: 100%; justify-content: center;" onclick="copyRssLink()">点击一键复制</button>
                 </div>
                 <div class="side-card">
                     <div class="side-title">🗂 往期早报归档</div>
