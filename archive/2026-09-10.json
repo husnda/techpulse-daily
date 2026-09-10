@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-10 11:08:34",
+  "generated_at": "2026-09-10 11:36:32",
   "top_highlight": "iPhone Duo",
   "ai_overview": null,
   "github_items": [
@@ -13,8 +13,8 @@
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
       "stars_today": 4650,
-      "stars_total": 34971,
-      "forks": 2053,
+      "stars_total": 35054,
+      "forks": 2056,
       "topic": "AI / LLM"
     },
     {
@@ -26,8 +26,8 @@
       "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
       "stars_today": 2249,
-      "stars_total": 36748,
-      "forks": 2331,
+      "stars_total": 36781,
+      "forks": 2336,
       "topic": "AI / LLM"
     },
     {
@@ -39,8 +39,8 @@
       "description": "Notes of the book System Desgin Interview - An Insider's Guide",
       "language": "N/A",
       "stars_today": 1397,
-      "stars_total": 18091,
-      "forks": 3414,
+      "stars_total": 18112,
+      "forks": 3417,
       "topic": "Systems / Infra"
     },
     {
@@ -52,8 +52,8 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
       "stars_today": 1133,
-      "stars_total": 255250,
-      "forks": 38230,
+      "stars_total": 255269,
+      "forks": 38231,
       "topic": "AI / LLM"
     },
     {
@@ -65,8 +65,8 @@
       "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
       "language": "JavaScript",
       "stars_today": 705,
-      "stars_total": 30168,
-      "forks": 2921,
+      "stars_total": 30202,
+      "forks": 2923,
       "topic": "AI / LLM"
     },
     {
@@ -78,8 +78,8 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
       "stars_today": 688,
-      "stars_total": 284094,
-      "forks": 25416,
+      "stars_total": 284107,
+      "forks": 25420,
       "topic": "AI / LLM"
     },
     {
@@ -91,8 +91,8 @@
       "description": "Make Every Team AI Native",
       "language": "TypeScript",
       "stars_today": 556,
-      "stars_total": 3120,
-      "forks": 195,
+      "stars_total": 3158,
+      "forks": 199,
       "topic": "Dev Tools"
     },
     {
@@ -104,7 +104,7 @@
       "description": "OpenAI Plugins",
       "language": "JavaScript",
       "stars_today": 498,
-      "stars_total": 6230,
+      "stars_total": 6238,
       "forks": 830,
       "topic": "AI / LLM"
     },
@@ -117,8 +117,8 @@
       "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
       "language": "TypeScript",
       "stars_today": 417,
-      "stars_total": 1752,
-      "forks": 159,
+      "stars_total": 1776,
+      "forks": 160,
       "topic": "AI / LLM"
     },
     {
@@ -130,8 +130,8 @@
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
       "stars_today": 367,
-      "stars_total": 104044,
-      "forks": 19980,
+      "stars_total": 104068,
+      "forks": 19983,
       "topic": "AI / LLM"
     },
     {
@@ -143,8 +143,8 @@
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
       "stars_today": 343,
-      "stars_total": 53766,
-      "forks": 9373,
+      "stars_total": 53781,
+      "forks": 9375,
       "topic": "Web / Frontend"
     },
     {
@@ -156,7 +156,7 @@
       "description": "A library of agent skills for CAD, CAE and CAM",
       "language": "Python",
       "stars_today": 124,
-      "stars_total": 15094,
+      "stars_total": 15112,
       "forks": 1564,
       "topic": "AI / LLM"
     }
@@ -169,8 +169,8 @@
       "url": "https://www.apple.com/iphone-duo/",
       "hn_url": "https://news.ycombinator.com/item?id=49630931",
       "domain": "apple.com",
-      "points": 956,
-      "comments_count": 1751,
+      "points": 980,
+      "comments_count": 1769,
       "author": "thecosmicfrog",
       "created_at_i": 1788977743,
       "topic": "Tech Giants"
@@ -182,7 +182,7 @@
       "url": "https://opusfived.dev/",
       "hn_url": "https://news.ycombinator.com/item?id=49623754",
       "domain": "opusfived.dev",
-      "points": 1039,
+      "points": 1052,
       "comments_count": 406,
       "author": "matthieu_bl",
       "created_at_i": 1788946786,
@@ -195,8 +195,8 @@
       "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
       "hn_url": "https://news.ycombinator.com/item?id=49626190",
       "domain": "tailwindcss.com",
-      "points": 913,
-      "comments_count": 366,
+      "points": 923,
+      "comments_count": 369,
       "author": "EdwinHoksberg",
       "created_at_i": 1788960431,
       "topic": "AI & ML"
@@ -216,29 +216,29 @@
     },
     {
       "source": "hackernews",
-      "id": "49630253",
-      "title": "AirPods 5",
-      "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
-      "hn_url": "https://news.ycombinator.com/item?id=49630253",
-      "domain": "apple.com",
-      "points": 395,
-      "comments_count": 317,
-      "author": "awad",
-      "created_at_i": 1788975564,
-      "topic": "AI & ML"
-    },
-    {
-      "source": "hackernews",
       "id": "49629886",
       "title": "Growing proof that autonomous cars save lives",
       "url": "https://spectrum.ieee.org/are-self-driving-cars-safe",
       "hn_url": "https://news.ycombinator.com/item?id=49629886",
       "domain": "spectrum.ieee.org",
-      "points": 242,
-      "comments_count": 441,
+      "points": 257,
+      "comments_count": 454,
       "author": "bookofjoe",
       "created_at_i": 1788974099,
       "topic": "Tech & Science"
+    },
+    {
+      "source": "hackernews",
+      "id": "49630253",
+      "title": "AirPods 5",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
+      "hn_url": "https://news.ycombinator.com/item?id=49630253",
+      "domain": "apple.com",
+      "points": 398,
+      "comments_count": 319,
+      "author": "awad",
+      "created_at_i": 1788975564,
+      "topic": "AI & ML"
     },
     {
       "source": "hackernews",
@@ -247,8 +247,8 @@
       "url": "https://www.nomanssky.com/cosmos-update/",
       "hn_url": "https://news.ycombinator.com/item?id=49628493",
       "domain": "nomanssky.com",
-      "points": 311,
-      "comments_count": 330,
+      "points": 318,
+      "comments_count": 335,
       "author": "Limb",
       "created_at_i": 1788968862,
       "topic": "Tech & Science"
@@ -260,8 +260,8 @@
       "url": "https://tautology.town/2026/06/01/card-networks.html",
       "hn_url": "https://news.ycombinator.com/item?id=49614280",
       "domain": "tautology.town",
-      "points": 401,
-      "comments_count": 231,
+      "points": 417,
+      "comments_count": 239,
       "author": "evakhoury",
       "created_at_i": 1788891065,
       "topic": "Tech & Science"
@@ -273,8 +273,8 @@
       "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
       "hn_url": "https://news.ycombinator.com/item?id=49630151",
       "domain": "apple.com",
-      "points": 299,
-      "comments_count": 310,
+      "points": 304,
+      "comments_count": 330,
       "author": "meetpateltech",
       "created_at_i": 1788975200,
       "topic": "Tech Giants"
@@ -287,7 +287,7 @@
       "hn_url": "https://news.ycombinator.com/item?id=49622042",
       "domain": "grapheneos.social",
       "points": 302,
-      "comments_count": 299,
+      "comments_count": 301,
       "author": "Cider9986",
       "created_at_i": 1788935488,
       "topic": "Tech & Science"
@@ -312,8 +312,8 @@
       "url": "https://xlii.space/eng/malicious-software-on-google-ads/",
       "hn_url": "https://news.ycombinator.com/item?id=49624856",
       "domain": "xlii.space",
-      "points": 362,
-      "comments_count": 221,
+      "points": 367,
+      "comments_count": 223,
       "author": "xlii",
       "created_at_i": 1788954201,
       "topic": "Tech Giants"
@@ -323,6 +323,6 @@
     "github_count": 12,
     "hn_count": 12,
     "total_stars_today": 13127,
-    "total_hn_points": 6168
+    "total_hn_points": 6266
   }
 }
