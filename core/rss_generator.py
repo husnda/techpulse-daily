@@ -30,7 +30,6 @@ def get_language_color(lang):
     return colors.get(lang, "#64748b")
 
 def generate_html_content(digest_data):
-    """Generates clean, aesthetic, highly structured HTML for both Web and RSS reader."""
     date_str = digest_data.get("date", "")
     ai_overview = digest_data.get("ai_overview")
     gh_items = digest_data.get("github_items", [])
@@ -71,8 +70,8 @@ def generate_html_content(digest_data):
         
     # GitHub section
     html.append('<div style="margin-bottom: 32px;">')
-    html.append('<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px; margin-bottom: 14px;"><h2 style="margin: 0; font-size: 16px; font-weight: 700; color: #0f172a;">🚀 GitHub Trending 热门开源项目</h2><span style="font-size: 12px; color: #64748b;">按今日 Star 增速排序</span></div>')
-    html.append('<div style="display: flex; flex-direction: column; gap: 10px;">')
+    html.append('<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px; margin-bottom: 14px;"><h2 style="margin: 0; font-size: 16px; font-weight: 700; color: #0f172a;">🚀 GitHub Trending 热门开源项目</h2><span style="font-size: 12px; color: #64748b;">按今日 Star 增速排序 ｜ 点击 ✨ 可展开 AI 深度解读</span></div>')
+    html.append('<div style="display: flex; flex-direction: column; gap: 12px;">')
     for i, it in enumerate(gh_items, 1):
         stars_today = f"+{it.get('stars_today', 0):,}" if it.get('stars_today') else "Trending"
         stars_total = f"{it.get('stars_total', 0):,}" if it.get('stars_total') else "0"
@@ -83,9 +82,10 @@ def generate_html_content(digest_data):
         url = it.get("url", "#")
         full_name = it.get("full_name", "")
         forks = f"{it.get('forks', 0):,}"
+        ai_sum = it.get("ai_summary", "")
         
         html.append(f'''
-        <div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;">
+        <div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
             <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;">
                 <div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
                     <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;">#{i}</span>
@@ -100,10 +100,22 @@ def generate_html_content(digest_data):
                 </div>
             </div>
             <p style="margin: 0 0 10px 0; font-size: 13.5px; color: #334155; line-height: 1.5;">{escape(desc)}</p>
-            <div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;">
-                <span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;">⭐ 今日 {stars_today}</span>
-                <span>★ {stars_total} stars</span>
-                <span>⑂ {forks} forks</span>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;">
+                <div style="display: flex; gap: 14px; align-items: center;">
+                    <span style="background: #fefce8; color: #a16207; border: 1px solid #fef08a; padding: 2px 8px; border-radius: 4px; font-weight: 600;">⭐ 今日 {stars_today}</span>
+                    <span>★ {stars_total} stars</span>
+                    <span>⑂ {forks} forks</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox(\'gh-ai-{i}\')" style="display: inline-flex; align-items: center; gap: 4px; background: #f0fdf4; border: 1px solid #bbf7d0; color: #15803d; padding: 3px 9px; border-radius: 4px; font-size: 11.5px; font-weight: 600; cursor: pointer;">
+                    <span>✨</span>
+                    <span>AI 解读</span>
+                </button>
+            </div>
+            <div id="gh-ai-{i}" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 10px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #1e293b; line-height: 1.6;">
+                <div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;">
+                    <span>✨ AI 核心提炼 (基于官方 README 原文分析)</span>
+                </div>
+                <div>{escape(ai_sum)}</div>
             </div>
         </div>
         ''')
@@ -111,8 +123,8 @@ def generate_html_content(digest_data):
     
     # Hacker News section
     html.append('<div>')
-    html.append('<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px; margin-bottom: 14px;"><h2 style="margin: 0; font-size: 16px; font-weight: 700; color: #0f172a;">🔥 Hacker News 科技前沿与深度讨论</h2><span style="font-size: 12px; color: #64748b;">按社区关注与热度排序</span></div>')
-    html.append('<div style="display: flex; flex-direction: column; gap: 10px;">')
+    html.append('<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px; margin-bottom: 14px;"><h2 style="margin: 0; font-size: 16px; font-weight: 700; color: #0f172a;">🔥 Hacker News 科技前沿与深度讨论</h2><span style="font-size: 12px; color: #64748b;">按社区关注度排序 ｜ 点击 ✨ 可展开 AI 深度解读</span></div>')
+    html.append('<div style="display: flex; flex-direction: column; gap: 12px;">')
     for i, it in enumerate(hn_items, 1):
         title = it.get("title", "")
         url = it.get("url", "#")
@@ -121,9 +133,10 @@ def generate_html_content(digest_data):
         comments = f"{it.get('comments_count', 0):,}"
         domain = it.get("domain", "news.ycombinator.com")
         topic = it.get("topic", "Tech")
+        ai_sum = it.get("ai_summary", "")
         
         html.append(f'''
-        <div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff; transition: box-shadow 0.15s ease;">
+        <div style="border: 1px solid #e2e8f0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
             <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 6px;">
                 <div style="display: flex; align-items: baseline; gap: 8px;">
                     <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; font-weight: 700; color: #64748b;">#{i}</span>
@@ -131,10 +144,22 @@ def generate_html_content(digest_data):
                 </div>
                 <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 4px; white-space: nowrap;">{topic}</span>
             </div>
-            <div style="font-size: 12px; color: #64748b; display: flex; gap: 14px; align-items: center; flex-wrap: wrap;">
-                <span style="color: #64748b;">🌐 {domain}</span>
-                <span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;">🔥 {points} pts</span>
-                <a href="{hn_url}" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 {comments} 条热议 →</a>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
+                <div style="display: flex; gap: 14px; align-items: center;">
+                    <span>🌐 {domain}</span>
+                    <span style="background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; padding: 1px 7px; border-radius: 4px; font-weight: 600;">🔥 {points} pts</span>
+                    <a href="{hn_url}" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 {comments} 条热议 →</a>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox(\'hn-ai-{i}\')" style="display: inline-flex; align-items: center; gap: 4px; background: #eff6ff; border: 1px solid #bfdbfe; color: #1d4ed8; padding: 3px 9px; border-radius: 4px; font-size: 11.5px; font-weight: 600; cursor: pointer;">
+                    <span>✨</span>
+                    <span>AI 解读</span>
+                </button>
+            </div>
+            <div id="hn-ai-{i}" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 10px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #1e293b; line-height: 1.6;">
+                <div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 4px; display: flex; align-items: center; gap: 4px;">
+                    <span>✨ AI 深度提炼 (基于文章原文与社区高赞讨论)</span>
+                </div>
+                <div>{escape(ai_sum)}</div>
             </div>
         </div>
         ''')
@@ -145,7 +170,6 @@ def generate_html_content(digest_data):
     return "\n".join(html)
 
 def generate_rss_xml(history_digests, config):
-    """Generates a valid RSS 2.0 XML without duplicate xmlns attributes."""
     ET.register_namespace("atom", "http://www.w3.org/2005/Atom")
     ET.register_namespace("content", "http://purl.org/rss/1.0/modules/content/")
     
@@ -196,7 +220,6 @@ def generate_rss_xml(history_digests, config):
     return xml_bytes.decode("utf-8")
 
 def render_web_page(current_digest, history_digests, config, is_archive=False):
-    """Renders a complete, aesthetic HTML page for either index.html or archive/*.html."""
     body_html = generate_html_content(current_digest) if current_digest else "<p>暂无早报数据</p>"
     feed_filename = config.get("rss", {}).get("feed_filename", "feed.xml")
     date_str = current_digest.get("date", "")
@@ -242,6 +265,7 @@ def render_web_page(current_digest, history_digests, config, is_archive=False):
         .btn-rss:hover {{ background: #c2410c; }}
         .btn-outline {{ border-color: #cbd5e1; background: #ffffff; color: #334155; }}
         .btn-outline:hover {{ background: #f1f5f9; }}
+        .ai-toggle-btn:hover {{ filter: brightness(0.95); transform: translateY(-1px); }}
         .main-layout {{ display: grid; grid-template-columns: 1fr 270px; gap: 20px; }}
         @media (max-width: 820px) {{ .main-layout {{ grid-template-columns: 1fr; }} }}
         .feed-container {{ background: #ffffff; border-radius: 6px; border: 1px solid #e2e8f0; padding: 24px; }}
@@ -286,6 +310,15 @@ def render_web_page(current_digest, history_digests, config, is_archive=False):
     </div>
     <div id="toast" class="copy-toast">✅ RSS 地址已复制到剪贴板！</div>
     <script>
+        function toggleAiBox(id) {{
+            const box = document.getElementById(id);
+            if (!box) return;
+            if (box.style.display === "none" || box.style.display === "") {{
+                box.style.display = "block";
+            }} else {{
+                box.style.display = "none";
+            }}
+        }}
         function copyRssLink() {{
             const fullUrl = new URL("{rss_rel_url}", window.location.href).href;
             navigator.clipboard.writeText(fullUrl).then(() => {{
@@ -315,7 +348,6 @@ def save_rss_and_web(digest_data, config):
     
     date_str = digest_data.get("date", datetime.date.today().isoformat())
     
-    # 1. Save archive json and md
     json_archive = archive_dir / f"{date_str}.json"
     with open(json_archive, "w", encoding="utf-8") as f:
         json.dump(digest_data, f, ensure_ascii=False, indent=2)
@@ -330,7 +362,6 @@ def save_rss_and_web(digest_data, config):
     with open(latest_md, "w", encoding="utf-8") as f:
         f.write(md_content)
         
-    # 2. Collect history digests from archive folder
     history_digests = [digest_data]
     for jf in sorted(archive_dir.glob("*.json"), reverse=True):
         if jf.name == f"{date_str}.json":
@@ -344,7 +375,6 @@ def save_rss_and_web(digest_data, config):
     max_items = config.get("rss", {}).get("max_feed_items", 30)
     history_digests = history_digests[:max_items]
     
-    # 3. Generate RSS XML
     feed_filename = config.get("rss", {}).get("feed_filename", "feed.xml")
     xml_content = generate_rss_xml(history_digests, config)
     feed_path = out_dir / feed_filename
@@ -355,13 +385,11 @@ def save_rss_and_web(digest_data, config):
     with open(rss_alias_path, "w", encoding="utf-8") as f:
         f.write(xml_content)
             
-    # 4. Generate Web Index
     web_content = render_web_page(digest_data, history_digests, config, is_archive=False)
     index_path = out_dir / "index.html"
     with open(index_path, "w", encoding="utf-8") as f:
         f.write(web_content)
         
-    # 5. Generate Archive HTML pages
     archive_html_paths = []
     for d in history_digests:
         d_date = d.get("date")

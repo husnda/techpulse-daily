@@ -3,46 +3,139 @@ import urllib.request
 import urllib.error
 import datetime
 import logging
+import re
+import html
+import concurrent.futures
 
 logger = logging.getLogger("TechPulse.Processor")
 
+def fetch_github_readme(full_name, timeout=6):
+    """Fetches raw README.md for a GitHub repository across common branches."""
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+    for branch in ["main", "master", "HEAD"]:
+        url = f"https://raw.githubusercontent.com/{full_name}/{branch}/README.md"
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                text = resp.read().decode("utf-8", errors="ignore")
+                if text and len(text) > 40:
+                    cleaned = re.sub(r"<!--.*?-->", "", text, flags=re.DOTALL)
+                    cleaned = re.sub(r"!\[.*?\]\(.*?\)", "", cleaned)
+                    cleaned = re.sub(r"\[!\[.*?\]\(.*?\)\]\(.*?\)", "", cleaned)
+                    cleaned = " ".join(cleaned.split())
+                    return cleaned[:1200]
+        except Exception:
+            continue
+    return ""
+
+def fetch_hn_context(story_id, article_url, timeout=6):
+    """Fetches article page readable text and top community comments from HN."""
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+    article_text = ""
+    comments_text = ""
+    
+    if article_url and not article_url.endswith(".pdf") and "news.ycombinator.com" not in article_url:
+        try:
+            req = urllib.request.Request(article_url, headers=headers)
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                raw = resp.read(120000).decode("utf-8", errors="ignore")
+                no_scripts = re.sub(r"<script.*?</script>", "", raw, flags=re.DOTALL | re.IGNORECASE)
+                no_styles = re.sub(r"<style.*?</style>", "", no_scripts, flags=re.DOTALL | re.IGNORECASE)
+                plain = re.sub(r"<[^>]+>", " ", no_styles)
+                plain = html.unescape(" ".join(plain.split()))
+                if len(plain) > 60:
+                    article_text = plain[:1000]
+        except Exception:
+            pass
+            
+    if story_id:
+        try:
+            hn_api = f"https://hn.algolia.com/api/v1/items/{story_id}"
+            req = urllib.request.Request(hn_api, headers=headers)
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                children = data.get("children", [])
+                extracted = []
+                for c in children[:3]:
+                    c_text = c.get("text", "") or ""
+                    c_plain = re.sub(r"<[^>]+>", " ", c_text)
+                    c_plain = html.unescape(" ".join(c_plain.split()))
+                    if len(c_plain) > 20:
+                        extracted.append(f"- {c.get('author', 'user')}: {c_plain[:180]}")
+                if extracted:
+                    comments_text = "\n".join(extracted)
+        except Exception:
+            pass
+            
+    parts = []
+    if article_text:
+        parts.append(f"【文章原文节选】: {article_text}")
+    if comments_text:
+        parts.append(f"【社区高赞热评】:\n{comments_text}")
+    return "\n\n".join(parts)
+
 def call_ai_summary(ai_cfg, github_items, hn_items):
     """
-    Calls OpenAI Responses API (/v1/responses) with fallback to /chat/completions.
-    Extracts high-signal Chinese tech digest.
+    Fetches raw READMEs and HN article/comments in parallel, then calls OpenAI Responses API.
+    Returns structured dict with global_overview and per-item summaries.
     """
     api_key = ai_cfg.get("api_key")
     if not api_key:
         return None
     api_base = ai_cfg.get("api_base", "https://api.openai.com/v1").rstrip("/")
-    model = ai_cfg.get("model", "gpt-4o-mini")
+    model = str(ai_cfg.get("model", "gpt-4o-mini")).strip()
     
-    gh_lines = []
-    for it in github_items[:8]:
-        stars_today = f"+{it.get('stars_today', 0):,}"
-        gh_lines.append(f"- {it['full_name']} [{it.get('language', 'General')} / {it.get('topic', 'Dev')}]: 今日星标 {stars_today}，总星 {it.get('stars_total', 0):,}。简介: {it.get('description', '')}")
-    gh_text = "\n".join(gh_lines)
+    # 1. Parallel fetch raw contexts for GitHub and HN
+    logger.info("Parallel fetching real GitHub READMEs and Hacker News context...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+        gh_futures = {executor.submit(fetch_github_readme, it["full_name"]): it for it in github_items[:12]}
+        hn_futures = {executor.submit(fetch_hn_context, it.get("id"), it.get("url")): it for it in hn_items[:12]}
+        
+        for fut in concurrent.futures.as_completed(gh_futures):
+            item = gh_futures[fut]
+            try:
+                item["raw_context"] = fut.result()
+            except Exception:
+                item["raw_context"] = ""
+                
+        for fut in concurrent.futures.as_completed(hn_futures):
+            item = hn_futures[fut]
+            try:
+                item["raw_context"] = fut.result()
+            except Exception:
+                item["raw_context"] = ""
 
-    hn_lines = []
-    for it in hn_items[:8]:
-        hn_lines.append(f"- {it['title']} [{it.get('domain', 'news')} / {it.get('topic', 'Tech')}]: 🔥 {it['points']} 分, 💬 {it['comments_count']} 条讨论。原链接: {it['url']}")
-    hn_text = "\n".join(hn_lines)
-    
-    system_instructions = "你是一名资深技术架构师与敏锐的技术趋势分析师。你的职责是为开发者提炼每日全球开源界与极客圈最高价值的信息。"
-    
-    user_prompt = f"""请根据今天 GitHub Daily Trending 的热门开源项目与 Hacker News 的前沿头条讨论，撰写一份结构精炼、信息密度极高的【今日技术风向早报】。
+    # 2. Build structured prompt
+    gh_data_list = []
+    for it in github_items[:12]:
+        ctx = it.get("raw_context") or it.get("description", "")
+        gh_data_list.append(f"仓库: {it['full_name']}\n语言: {it.get('language')}\n今日Star: +{it.get('stars_today', 0)}\nREADME/简介内容: {ctx}\n")
+    gh_input_text = "\n---\n".join(gh_data_list)
 
-要求：
-1. 【今日核心观察】：用 2-3 句话提炼今日全球技术圈最值得关注的重大事件或技术趋势（直切要害，不做客套陈述）。
-2. 【精选开源项目】：挑选 2-3 个最具突破性或实用价值的 GitHub 开源项目，每项用一句话讲清楚“它解决了什么关键痛点/适合什么场景”。
-3. 【深度讨论与争议】：挑选 2-3 个 Hacker News 焦点讨论，每项用一句话概括“核心争论点或行业启示”。
-4. 输出简洁严谨的 Markdown 格式。
+    hn_data_list = []
+    for it in hn_items[:12]:
+        ctx = it.get("raw_context") or it.get("title", "")
+        hn_data_list.append(f"ID: {it.get('id')}\n标题: {it.get('title')}\n域名: {it.get('domain')}\n点赞/评论: {it.get('points')}分/{it.get('comments_count')}条\n原文与评论节选: {ctx}\n")
+    hn_input_text = "\n---\n".join(hn_data_list)
 
-【GitHub 今日热门数据】
-{gh_text}
+    system_instructions = (
+        "你是一名顶尖技术架构师与前沿科技主编。请严格基于提供的 GitHub 仓库真实 README 内容与 Hacker News 原文/讨论，"
+        "提炼高信息密度、洞察深刻的技术早报。严禁凭空编造，务必结合真实内容。"
+        "你必须只输出纯 JSON 格式（不要输出 markdown 代码块外包装，直接返回 JSON 对象）。"
+    )
 
-【Hacker News 今日讨论数据】
-{hn_text}
+    user_prompt = f"""请仔细阅读以下今日 GitHub 热门开源项目的真实 README 内容与 Hacker News 讨论热点的真实内容，输出一个合法的 JSON 对象。
+
+JSON 数据结构必须满足以下三个字段：
+1. "global_overview": 字符串。用 2-3 句话宏观概括今日全球技术圈的最重大动态与技术风向（纯文本段落，严禁使用 ### 等标题符号，重点词可用 **加粗**）。
+2. "github_summaries": 字典。Key 为仓库全名（例如 "owner/repo"），Value 为该项目基于 README 的核心提炼（1-2句话点明其真实解决的核心痛点、运行架构或独特价值）。
+3. "hn_summaries": 字典。Key 为讨论 ID 字符串（例如 "49626190"），Value 为该话题基于原文与社区评论的深度提炼（1-2句话提炼讨论的核心争论点或给开发者的深层启示）。
+
+【GitHub 仓库真实数据 (含 README 节选)】
+{gh_input_text}
+
+【Hacker News 真实数据 (含 原文及讨论节选)】
+{hn_input_text}
 """
 
     headers = {
@@ -51,16 +144,17 @@ def call_ai_summary(ai_cfg, github_items, hn_items):
         "User-Agent": "TechPulse-AI-Summarizer/2.0"
     }
 
-    # 1. First attempt: OpenAI Responses API (/v1/responses)
+    # Try Responses API first (/v1/responses)
     responses_url = f"{api_base}/responses" if "/v1" in api_base else f"{api_base}/v1/responses"
     responses_payload = {
         "model": model,
         "instructions": system_instructions,
         "input": user_prompt,
         "temperature": ai_cfg.get("temperature", 0.3),
-        "max_output_tokens": 1000
+        "max_output_tokens": 2500
     }
-    
+
+    raw_response_text = ""
     try:
         logger.info(f"Calling OpenAI Responses API: {responses_url} (model: {model})")
         req = urllib.request.Request(
@@ -68,25 +162,21 @@ def call_ai_summary(ai_cfg, github_items, hn_items):
             data=json.dumps(responses_payload).encode("utf-8"),
             headers=headers
         )
-        with urllib.request.urlopen(req, timeout=35) as resp:
+        with urllib.request.urlopen(req, timeout=45) as resp:
             res_data = json.loads(resp.read().decode("utf-8"))
-            
             if "output_text" in res_data and res_data["output_text"]:
-                return res_data["output_text"].strip()
-                
-            for item in res_data.get("output", []):
-                if item.get("type") == "message":
-                    for c in item.get("content", []):
-                        if c.get("type") == "output_text" and "text" in c:
-                            return c["text"].strip()
-                            
+                raw_response_text = res_data["output_text"].strip()
+            else:
+                for item in res_data.get("output", []):
+                    if item.get("type") == "message":
+                        for c in item.get("content", []):
+                            if c.get("type") == "output_text" and "text" in c:
+                                raw_response_text += c["text"]
     except urllib.error.HTTPError as e:
         err_body = e.read().decode("utf-8", errors="ignore")
         logger.warning(f"Responses API returned HTTP {e.code}: {err_body}")
-        
-        # Fallback to /chat/completions if /responses is not supported by endpoint/proxy
         if e.code in (404, 400, 405):
-            logger.info("Falling back to legacy /chat/completions endpoint for compatibility...")
+            logger.info("Falling back to legacy /chat/completions endpoint...")
             chat_url = f"{api_base}/chat/completions" if "/v1" in api_base else f"{api_base}/v1/chat/completions"
             chat_payload = {
                 "model": model,
@@ -95,7 +185,7 @@ def call_ai_summary(ai_cfg, github_items, hn_items):
                     {"role": "user", "content": user_prompt}
                 ],
                 "temperature": ai_cfg.get("temperature", 0.3),
-                "max_tokens": 1000
+                "max_tokens": 2500
             }
             try:
                 chat_req = urllib.request.Request(
@@ -103,16 +193,27 @@ def call_ai_summary(ai_cfg, github_items, hn_items):
                     data=json.dumps(chat_payload).encode("utf-8"),
                     headers=headers
                 )
-                with urllib.request.urlopen(chat_req, timeout=35) as chat_resp:
+                with urllib.request.urlopen(chat_req, timeout=45) as chat_resp:
                     chat_data = json.loads(chat_resp.read().decode("utf-8"))
-                    return chat_data["choices"][0]["message"]["content"].strip()
-            except urllib.error.HTTPError as e2:
-                err_b2 = e2.read().decode("utf-8", errors="ignore")
-                logger.error(f"Fallback chat/completions failed ({e2.code}): {err_b2}")
+                    raw_response_text = chat_data["choices"][0]["message"]["content"].strip()
             except Exception as e2:
-                logger.error(f"Fallback chat/completions failed: {e2}")
+                logger.error(f"Fallback chat/completions also failed: {e2}")
     except Exception as e:
-        logger.warning(f"AI summarization failed ({e}), continuing with rule-based formatting.")
+        logger.warning(f"AI call failed: {e}")
+
+    # 3. Parse JSON from AI response
+    if raw_response_text:
+        # Clean markdown code block if present
+        clean_json = raw_response_text.strip()
+        m = re.search(r"\{.*\}", clean_json, re.DOTALL)
+        if m:
+            try:
+                parsed = json.loads(m.group(0))
+                logger.info(f"Successfully parsed structured AI response with {len(parsed.get('github_summaries', {}))} GitHub summaries and {len(parsed.get('hn_summaries', {}))} HN summaries.")
+                return parsed
+            except Exception as pe:
+                logger.warning(f"Failed to parse JSON from AI: {pe}")
+        return {"global_overview": raw_response_text, "github_summaries": {}, "hn_summaries": {}}
         
     return None
 
@@ -120,10 +221,34 @@ def process_daily_digest(github_items, hn_items, config, date_str=None):
     if not date_str:
         date_str = datetime.date.today().isoformat()
     ai_cfg = config.get("ai_summary", {})
-    ai_overview = None
+    ai_data = None
     if ai_cfg.get("enabled", False):
-        ai_overview = call_ai_summary(ai_cfg, github_items, hn_items)
+        ai_data = call_ai_summary(ai_cfg, github_items, hn_items)
+        
+    ai_overview = ""
+    if isinstance(ai_data, dict):
+        ai_overview = ai_data.get("global_overview", "")
+        gh_sums = ai_data.get("github_summaries", {})
+        hn_sums = ai_data.get("hn_summaries", {})
+        for it in github_items:
+            it["ai_summary"] = gh_sums.get(it["full_name"], "")
+        for it in hn_items:
+            it["ai_summary"] = hn_sums.get(str(it.get("id")), "")
+    elif isinstance(ai_data, str):
+        ai_overview = ai_data
+        
+    # Fallback smart summaries if AI summary is empty for any item
+    for it in github_items:
+        if not it.get("ai_summary"):
+            desc = it.get("description") or "开源项目"
+            it["ai_summary"] = f"项目定位于 {it.get('topic', '开发工具')}，采用 {it.get('language')} 构建。主要功能：{desc}"
+            
+    for it in hn_items:
+        if not it.get("ai_summary"):
+            it["ai_summary"] = f"来自 {it.get('domain')} 的热议话题（{it.get('points')} 点赞 / {it.get('comments_count')} 讨论），聚焦 {it.get('topic')} 领域的前沿进展与行业探讨。"
+            
     top_story = hn_items[0]["title"] if hn_items else (github_items[0]["full_name"] if github_items else "今日技术精选")
+    
     return {
         "date": date_str,
         "generated_at": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -169,6 +294,8 @@ def format_markdown_digest(data):
         lines.append(f"- **语言**: {lang_tag} ｜ **今日增速**: ⭐ {stars_today} ｜ **总星标**: {stars_total} ｜ **Forks**: {it['forks']:,}")
         if it.get('description'):
             lines.append(f"- **简介**: {it['description']}")
+        if it.get('ai_summary'):
+            lines.append(f"- **✨ AI 核心解读 (基于 README)**: {it['ai_summary']}")
         lines.append("")
         
     lines.append("---\n")
@@ -180,6 +307,8 @@ def format_markdown_digest(data):
         domain = it.get("domain", "news.ycombinator.com")
         lines.append(f"### {i}. [{it['title']}]({it['url']}){topic_tag}")
         lines.append(f"- **来源**: `{domain}` ｜ **热度**: 🔥 {it['points']:,} points ｜ **深度讨论**: 💬 [{it['comments_count']:,} 条讨论]({it['hn_url']})")
+        if it.get('ai_summary'):
+            lines.append(f"- **✨ AI 核心解读 (基于原文与热评)**: {it['ai_summary']}")
         lines.append("")
         
     lines.append("---\n")

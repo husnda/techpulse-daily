@@ -11,8 +11,61 @@ import time
 import hmac
 import hashlib
 import base64
+import re
 
 logger = logging.getLogger("TechPulse.Notifiers")
+
+def format_inline_markdown(text):
+    if not text:
+        return ""
+    safe = html.escape(text)
+    # Convert **bold** to <b>bold</b>
+    safe = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", safe)
+    # Convert *italic* to <i>italic</i>
+    safe = re.sub(r"(?<!\w)\*([^*]+?)\*(?!\w)", r"<i>\1</i>", safe)
+    # Convert `code` to <code>code</code>
+    safe = re.sub(r"`([^`]+?)`", r"<code>\1</code>", safe)
+    return safe
+
+def markdown_to_telegram_html(text):
+    """Converts markdown text to clean Telegram-compatible HTML, stripping raw markdown artifacts."""
+    if not text:
+        return ""
+    # Strip code block wrappers
+    clean = re.sub(r"^```[a-zA-Z]*\n?", "", text.strip())
+    clean = re.sub(r"\n?```$", "", clean)
+    
+    lines = clean.splitlines()
+    output = []
+    for l in lines:
+        stripped = l.strip()
+        if not stripped:
+            output.append("")
+            continue
+        # Strip markdown hr like --- or ***
+        if re.match(r"^-{3,}$", stripped) or re.match(r"^\*{3,}$", stripped):
+            continue
+        # Headers: ### or #### -> <b>Header</b>
+        header_m = re.match(r"^(#{1,6})\s+(.+)$", stripped)
+        if header_m:
+            h_text = header_m.group(2)
+            output.append(f"<b>{format_inline_markdown(h_text)}</b>")
+            continue
+        # Bullet points: * or -
+        list_m = re.match(r"^[\*\-+]\s+(.+)$", stripped)
+        if list_m:
+            item_text = list_m.group(1)
+            output.append(f"• {format_inline_markdown(item_text)}")
+            continue
+        # Blockquotes >
+        quote_m = re.match(r"^>\s+(.+)$", stripped)
+        if quote_m:
+            q_text = quote_m.group(1)
+            output.append(f"<i>{format_inline_markdown(q_text)}</i>")
+            continue
+        output.append(format_inline_markdown(l))
+        
+    return "\n".join(output).strip()
 
 def send_feishu_card(webhook_url, digest_data):
     date_str = digest_data.get("date", "")
@@ -24,13 +77,12 @@ def send_feishu_card(webhook_url, digest_data):
     
     elements = []
     
-    # Summary intro badge
     total_stars = f"+{stats.get('total_stars_today', 0):,}"
     elements.append({
         "tag": "div",
         "text": {
             "tag": "lark_md",
-            "content": f"📅 **日期**：{date_str}  |  ⚡ **GitHub 今日增速**：⭐ {total_stars}  |  💬 **HN 讨论**：{stats.get('total_hn_comments', 0):,} 条"
+            "content": f"📅 **日期**：{date_str}  |  ⚡ **今日Star增速**：⭐ {total_stars}  |  💬 **HN社区热度**：{stats.get('total_hn_comments', 0):,} 条"
         }
     })
     elements.append({"tag": "hr"})
@@ -46,12 +98,12 @@ def send_feishu_card(webhook_url, digest_data):
         elements.append({"tag": "hr"})
         
     # GitHub section
-    gh_lines = ["**🚀 GitHub 今日高星开源精选：**"]
+    gh_lines = ["**🚀 GitHub 今日高星开源精选 (基于 README 解读)：**"]
     for i, it in enumerate(gh_items, 1):
         stars = f"+{it.get('stars_today', 0):,}"
         lang = it.get('language', 'Dev')
-        desc = (it.get('description', '') or '暂无描述')[:70]
-        gh_lines.append(f"{i}. [{it['full_name']}]({it['url']}) `[{lang}]` ⭐ **{stars}**\n> {desc}")
+        ai_txt = it.get('ai_summary') or it.get('description', '暂无描述')
+        gh_lines.append(f"{i}. [{it['full_name']}]({it['url']}) `[{lang}]` ⭐ **{stars}**\n> 💡 **核心解读**：{ai_txt}")
     elements.append({
         "tag": "div",
         "text": {
@@ -62,10 +114,11 @@ def send_feishu_card(webhook_url, digest_data):
     elements.append({"tag": "hr"})
     
     # HN section
-    hn_lines = ["**🔥 Hacker News 极客深度热议：**"]
+    hn_lines = ["**🔥 Hacker News 极客深度热议 (基于 原文/热评 提炼)：**"]
     for i, it in enumerate(hn_items, 1):
         domain = it.get('domain', 'news')
-        hn_lines.append(f"{i}. [{it['title']}]({it['url']}) `[{domain}]`\n> 🔥 **{it['points']}** pts  |  💬 [{it['comments_count']} 条讨论]({it['hn_url']})")
+        ai_txt = it.get('ai_summary') or '社区深度讨论'
+        hn_lines.append(f"{i}. [{it['title']}]({it['url']}) `[{domain}]` (🔥 **{it['points']}** pts / 💬 [{it['comments_count']} 评]({it['hn_url']}))\n> 💡 **深度看点**：{ai_txt}")
     elements.append({
         "tag": "div",
         "text": {
@@ -75,7 +128,6 @@ def send_feishu_card(webhook_url, digest_data):
     })
     elements.append({"tag": "hr"})
     
-    # Action buttons at bottom
     elements.append({
         "tag": "action",
         "actions": [
@@ -130,31 +182,36 @@ def send_telegram(bot_token, chat_id, digest_data):
         "━━━━━━━━━━━━━━━━━━"
     ]
     
+    # 1. Clean rendered AI Overview without raw markdown artifacts
     if ai_overview:
-        safe_ai = html.escape(ai_overview)
-        lines.append(f"🧠 <b>今日风向速览：</b>\n<i>{safe_ai}</i>\n")
+        rendered_ai = markdown_to_telegram_html(ai_overview)
+        lines.append(f"🧠 <b>今日风向速览：</b>\n{rendered_ai}\n")
         lines.append("━━━━━━━━━━━━━━━━━━")
         
-    lines.append("🚀 <b>GitHub 开源热点精选</b>\n")
+    # 2. GitHub section with real README-based summaries
+    lines.append("🚀 <b>GitHub 今日高星精选 (基于 README 解读)</b>\n")
     for i, it in enumerate(gh_items, 1):
         stars = f"+{it.get('stars_today', 0):,}"
         total = f"{it.get('stars_total', 0):,}"
         safe_name = html.escape(it.get('full_name', ''))
         safe_lang = html.escape(it.get('language', 'Code'))
         safe_topic = html.escape(it.get('topic', 'Dev'))
-        raw_desc = (it.get('description', '') or '')[:65]
-        if len(it.get('description', '') or '') > 65:
-            raw_desc += '...'
-        safe_desc = html.escape(raw_desc)
         
         lines.append(f"<b>{i}. <a href=\"{it['url']}\">{safe_name}</a></b> <code>{safe_lang}</code>")
         lines.append(f"   ⭐ 今日 <b>{stars}</b> ｜ 总星 {total} ｜ 🏷️ <i>{safe_topic}</i>")
-        if safe_desc:
+        
+        ai_sum = it.get('ai_summary')
+        if ai_sum:
+            safe_ai_sum = html.escape(ai_sum)
+            lines.append(f"   💡 <b>核心解读</b>：<i>{safe_ai_sum}</i>")
+        elif it.get('description'):
+            safe_desc = html.escape(it['description'][:70])
             lines.append(f"   <i>{safe_desc}</i>")
         lines.append("")
         
     lines.append("━━━━━━━━━━━━━━━━━━")
-    lines.append("🔥 <b>Hacker News 深度热议精选</b>\n")
+    # 3. Hacker News section with real article/discussion summaries
+    lines.append("🔥 <b>Hacker News 深度热议 (基于 原文/热评 解读)</b>\n")
     for i, it in enumerate(hn_items, 1):
         safe_title = html.escape(it.get('title', ''))
         safe_domain = html.escape(it.get('domain', 'news'))
@@ -164,10 +221,15 @@ def send_telegram(bot_token, chat_id, digest_data):
         
         lines.append(f"<b>{i}. <a href=\"{it['url']}\">{safe_title}</a></b> <code>{safe_domain}</code>")
         lines.append(f"   🔥 <b>{points}</b> pts ｜ 💬 <a href=\"{it['hn_url']}\"><b>{comments}</b> 条讨论</a> ｜ 🏷️ <i>{safe_topic}</i>")
+        
+        ai_sum = it.get('ai_summary')
+        if ai_sum:
+            safe_ai_sum = html.escape(ai_sum)
+            lines.append(f"   💡 <b>深度看点</b>：<i>{safe_ai_sum}</i>")
         lines.append("")
         
     lines.append("━━━━━━━━━━━━━━━━━━")
-    lines.append('🌐 <a href="https://husnda.github.io/techpulse-daily/">查看完整网页版</a> ｜ 📡 <a href="https://husnda.github.io/techpulse-daily/feed.xml">RSS 订阅</a>')
+    lines.append('🌐 <a href="https://husnda.github.io/techpulse-daily/">查看在线完整版</a> ｜ 📡 <a href="https://husnda.github.io/techpulse-daily/feed.xml">RSS 订阅</a>')
     
     html_text = "\n".join(lines)
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
@@ -191,21 +253,24 @@ def send_telegram(bot_token, chat_id, digest_data):
         err_body = e.read().decode("utf-8", errors="ignore")
         logger.warning(f"Telegram HTML send failed ({err_body}), trying plain text fallback...")
         
-        # Fallback to plain text
+        # Clean plain text fallback without HTML tags
         plain_lines = [
             f"🛰️ TechPulse Daily 技术早报 ({date_str})",
             "----------------------------------"
         ]
         if ai_overview:
-            plain_lines.append(f"今日风向速览：\n{ai_overview}\n")
+            clean_plain_ai = re.sub(r"[*#`]", "", ai_overview)
+            plain_lines.append(f"今日风向速览：\n{clean_plain_ai}\n")
             plain_lines.append("----------------------------------")
         plain_lines.append("🚀 GitHub 开源热点精选：")
         for i, it in enumerate(gh_items, 1):
             stars = f"+{it.get('stars_today', 0):,}"
-            plain_lines.append(f"{i}. {it['full_name']} [{it.get('language', 'Code')}] ⭐{stars}\n   {it['url']}")
+            ai_sum = it.get('ai_summary') or it.get('description', '')
+            plain_lines.append(f"{i}. {it['full_name']} [{it.get('language', 'Code')}] ⭐{stars}\n   解读: {ai_sum}\n   {it['url']}")
         plain_lines.append("\n🔥 Hacker News 深度讨论精选：")
         for i, it in enumerate(hn_items, 1):
-            plain_lines.append(f"{i}. {it['title']} (🔥{it['points']} / 💬{it['comments_count']}评)\n   {it['url']}")
+            ai_sum = it.get('ai_summary') or ''
+            plain_lines.append(f"{i}. {it['title']} (🔥{it['points']} / 💬{it['comments_count']}评)\n   看点: {ai_sum}\n   {it['url']}")
         plain_lines.append("\n----------------------------------")
         plain_lines.append("完整版: https://husnda.github.io/techpulse-daily/ | RSS: https://husnda.github.io/techpulse-daily/feed.xml")
             
@@ -235,13 +300,15 @@ def send_wecom(webhook_url, digest_data):
     lines = [f"### 🛰️ TechPulse Daily 技术早报 ({date_str})\n"]
     if ai_overview:
         lines.append(f"> **今日风向速览**：{ai_overview}\n")
-    lines.append("**🚀 GitHub 今日热门开源：**")
+    lines.append("**🚀 GitHub 今日热门开源 (基于 README 解读)：**")
     for i, it in enumerate(gh_items, 1):
         stars = f"+{it.get('stars_today', 0):,}"
-        lines.append(f"{i}. [{it['full_name']}]({it['url']}) (`{it.get('language', 'Code')}`) ⭐ **{stars}**\n> {it.get('description', '')[:60]}")
+        ai_txt = it.get('ai_summary') or it.get('description', '')[:60]
+        lines.append(f"{i}. [{it['full_name']}]({it['url']}) (`{it.get('language', 'Code')}`) ⭐ **{stars}**\n> 💡 {ai_txt}")
     lines.append("\n**🔥 Hacker News 深度讨论：**")
     for i, it in enumerate(hn_items, 1):
-        lines.append(f"{i}. [{it['title']}]({it['url']}) (🔥**{it['points']}** / 💬[{it['comments_count']}评]({it['hn_url']}))")
+        ai_txt = it.get('ai_summary') or '社区深度讨论'
+        lines.append(f"{i}. [{it['title']}]({it['url']}) (🔥**{it['points']}** / 💬[{it['comments_count']}评]({it['hn_url']}))\n> 💡 {ai_txt}")
     lines.append("\n---")
     lines.append("[🌐 查看在线完整早报](https://husnda.github.io/techpulse-daily/)  |  [📡 RSS 订阅源](https://husnda.github.io/techpulse-daily/feed.xml)")
         
@@ -281,10 +348,12 @@ def send_dingtalk(webhook_url, secret, digest_data):
     lines.append("**🚀 GitHub 今日热门：**")
     for i, it in enumerate(gh_items, 1):
         stars = f"+{it.get('stars_today', 0):,}"
-        lines.append(f"- [{it['full_name']}]({it['url']}) ⭐**{stars}** (`{it.get('language', 'Code')}`)")
+        ai_txt = it.get('ai_summary') or it.get('description', '')[:60]
+        lines.append(f"- [{it['full_name']}]({it['url']}) ⭐**{stars}** (`{it.get('language', 'Code')}`)\n  💡 {ai_txt}")
     lines.append("\n**🔥 Hacker News 讨论：**")
     for i, it in enumerate(hn_items, 1):
-        lines.append(f"- [{it['title']}]({it['url']}) (🔥**{it['points']}** / 💬[{it['comments_count']}评]({it['hn_url']}))")
+        ai_txt = it.get('ai_summary') or ''
+        lines.append(f"- [{it['title']}]({it['url']}) (🔥**{it['points']}** / 💬[{it['comments_count']}评]({it['hn_url']}))\n  💡 {ai_txt}")
     lines.append("\n---")
     lines.append("[🌐 查看在线完整早报](https://husnda.github.io/techpulse-daily/)  |  [📡 RSS 订阅源](https://husnda.github.io/techpulse-daily/feed.xml)")
         
