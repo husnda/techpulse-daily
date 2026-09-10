@@ -5,7 +5,7 @@
 ## 🚀 GitHub Trending 热门开源项目
 
 ### 1. [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) `[AI / LLM]`
-- **语言**: **Python** ｜ **今日增速**: ⭐ +4,650 ｜ **总星标**: 35,722 ｜ **Forks**: 2,076
+- **语言**: **Python** ｜ **今日增速**: ⭐ +4,650 ｜ **总星标**: 35,727 ｜ **Forks**: 2,077
 - **简介**: A skill to stop your coding agent from burying the answer. ADHD-friendly output.
 
 ### 2. [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) `[AI / LLM]`
@@ -29,7 +29,7 @@
 - **简介**: An agentic skills framework & software development methodology that works.
 
 ### 7. [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) `[Dev Tools]`
-- **语言**: **TypeScript** ｜ **今日增速**: ⭐ +556 ｜ **总星标**: 3,302 ｜ **Forks**: 209
+- **语言**: **TypeScript** ｜ **今日增速**: ⭐ +556 ｜ **总星标**: 3,305 ｜ **Forks**: 210
 - **简介**: Make Every Team AI Native
 
 ### 8. [openai/plugins](https://github.com/openai/plugins) `[AI / LLM]`
@@ -37,19 +37,19 @@
 - **简介**: OpenAI Plugins
 
 ### 9. [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) `[AI / LLM]`
-- **语言**: **TypeScript** ｜ **今日增速**: ⭐ +417 ｜ **总星标**: 1,887 ｜ **Forks**: 166
+- **语言**: **TypeScript** ｜ **今日增速**: ⭐ +417 ｜ **总星标**: 1,889 ｜ **Forks**: 166
 - **简介**: Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins
 
 ### 10. [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) `[AI / LLM]`
-- **语言**: **Python** ｜ **今日增速**: ⭐ +367 ｜ **总星标**: 104,229 ｜ **Forks**: 19,997
+- **语言**: **Python** ｜ **今日增速**: ⭐ +367 ｜ **总星标**: 104,230 ｜ **Forks**: 19,997
 - **简介**: TradingAgents: Multi-Agents LLM Financial Trading Framework
 
 ### 11. [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) `[Web / Frontend]`
-- **语言**: **Python** ｜ **今日增速**: ⭐ +343 ｜ **总星标**: 53,911 ｜ **Forks**: 9,394
+- **语言**: **Python** ｜ **今日增速**: ⭐ +343 ｜ **总星标**: 53,913 ｜ **Forks**: 9,394
 - **简介**: Learn it. Build it. Ship it for others.
 
 ### 12. [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) `[AI / LLM]`
-- **语言**: **Python** ｜ **今日增速**: ⭐ +124 ｜ **总星标**: 15,204 ｜ **Forks**: 1,568
+- **语言**: **Python** ｜ **今日增速**: ⭐ +124 ｜ **总星标**: 15,205 ｜ **Forks**: 1,568
 - **简介**: A library of agent skills for CAD, CAE and CAM
 
 ---
@@ -94,4 +94,4 @@
 
 ---
 
-*本期早报由 TechPulse 自动聚合生成于 2026-09-10 07:30:10 ｜ [在线主页](https://husnda.github.io/techpulse-daily/) ｜ [RSS 订阅](https://husnda.github.io/techpulse-daily/feed.xml)*
+*本期早报由 TechPulse 自动聚合生成于 2026-09-10 07:31:32 ｜ [在线主页](https://husnda.github.io/techpulse-daily/) ｜ [RSS 订阅](https://husnda.github.io/techpulse-daily/feed.xml)*
