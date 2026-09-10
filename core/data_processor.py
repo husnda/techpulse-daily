@@ -106,8 +106,11 @@ def call_ai_summary(ai_cfg, github_items, hn_items):
                 with urllib.request.urlopen(chat_req, timeout=35) as chat_resp:
                     chat_data = json.loads(chat_resp.read().decode("utf-8"))
                     return chat_data["choices"][0]["message"]["content"].strip()
+            except urllib.error.HTTPError as e2:
+                err_b2 = e2.read().decode("utf-8", errors="ignore")
+                logger.error(f"Fallback chat/completions failed ({e2.code}): {err_b2}")
             except Exception as e2:
-                logger.error(f"Fallback chat/completions also failed: {e2}")
+                logger.error(f"Fallback chat/completions failed: {e2}")
     except Exception as e:
         logger.warning(f"AI summarization failed ({e}), continuing with rule-based formatting.")
         
