@@ -34,7 +34,7 @@ rss:
   enabled: true
   feed_title: "TechPulse Daily | GitHub Trending & Hacker News 精选"
   feed_description: "每日聚合全球高星开源项目与 Hacker News 深度技术热点"
-  feed_link: "https://github.com" # 若使用 GitHub Pages 托管，建议填你的页面地址，如 https://username.github.io/repo
+  feed_link: "https://husnda.github.io/techpulse-daily" # 若使用 GitHub Pages 托管，建议填你的页面地址，如 https://username.github.io/repo
   feed_filename: "feed.xml"       # 生成的 RSS 文件名 (同时会自动生成 rss.xml)
   max_feed_items: 30             # RSS Feed 中保留的历史期数
 
