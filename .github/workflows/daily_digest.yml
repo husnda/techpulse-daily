@@ -2,8 +2,10 @@ name: TechPulse Daily Digest
 
 on:
   schedule:
-    # 每天北京时间早上 08:30 (UTC 00:30) 定时自动运行
-    - cron: '30 0 * * *'
+    # 每天北京时间早上 08:25 (UTC 00:25) 错峰运行，避开整点与半点的全局排队高峰
+    - cron: '25 0 * * *'
+    # 每天北京时间早上 09:05 (UTC 01:05) 自动兜底调度（防止 GitHub 调度器因高负载丢弃前次任务）
+    - cron: '5 1 * * *'
   workflow_dispatch: # 支持在 GitHub 仓库界面一键手动触发
 
 permissions:
