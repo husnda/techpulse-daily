@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechPulse Daily | GitHub Trending & Hacker News 每日精选早报</title>
-    <link rel="alternate" type="application/rss+xml" title="TechPulse RSS Feed" href="feed.xml">
+    <title>TechPulse Daily 技术早报 (2026-09-13)</title>
+    <link rel="alternate" type="application/rss+xml" title="TechPulse RSS Feed" href="../feed.xml">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { background: #fafafa; color: #0f172a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.5; padding: 16px; }
@@ -30,14 +30,14 @@
 <body>
     <div class="container">
         <header class="top-nav">
-            <a href="index.html" class="brand">
+            <a href="../index.html" class="brand">
                 <span>🛰️</span>
                 <span>TechPulse Daily</span>
             </a>
             <div class="nav-actions">
-                
+                <a href="../index.html" class="btn btn-outline">← 返回今日最新</a>
                 <button class="btn btn-rss" onclick="copyRssLink()">📡 复制 RSS 订阅源</button>
-                <a href="feed.xml" class="btn btn-outline" target="_blank">查看原始 XML</a>
+                <a href="../feed.xml" class="btn btn-outline" target="_blank">查看原始 XML</a>
             </div>
         </header>
         <div class="main-layout">
@@ -763,13 +763,13 @@
                 <div class="side-card">
                     <div class="side-title">📡 RSS 订阅指南</div>
                     <p style="font-size: 12.5px; color: #64748b; margin-bottom: 10px; line-height: 1.5;">支持 NetNewsWire, Reeder, Follow, Feedly，每日 08:30 自动拉取更新。</p>
-                    <input type="text" id="rssUrl" readonly value="feed.xml" style="width: 100%; padding: 6px 10px; font-size: 12px; background: #f8fafc; border: 1px solid #d1d5db; border-radius: 4px; color: #374151; margin-bottom: 8px;">
+                    <input type="text" id="rssUrl" readonly value="../feed.xml" style="width: 100%; padding: 6px 10px; font-size: 12px; background: #f8fafc; border: 1px solid #d1d5db; border-radius: 4px; color: #374151; margin-bottom: 8px;">
                     <button class="btn btn-outline" style="width: 100%; justify-content: center;" onclick="copyRssLink()">点击一键复制</button>
                 </div>
                 <div class="side-card">
                     <div class="side-title">🗂 往期早报归档</div>
                     <ul style="list-style: none; padding: 0; margin: 0;">
-                        <li style="margin-bottom: 2px;"><a href="archive/2026-09-13.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; background: #f1f5f9; font-weight: 600; color: #0f172a;">📅 2026-09-13 - We must pace the frontier...</a></li><li style="margin-bottom: 2px;"><a href="archive/2026-09-12.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-09-12 - A misalignment of AI in m...</a></li><li style="margin-bottom: 2px;"><a href="archive/2026-09-11.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-09-11 - iPhone Duo...</a></li><li style="margin-bottom: 2px;"><a href="archive/2026-09-10.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-09-10 - iPhone Duo...</a></li>
+                        <li style="margin-bottom: 2px;"><a href="2026-09-13.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; background: #f1f5f9; font-weight: 600; color: #0f172a;">📅 2026-09-13 - We must pace the frontier...</a></li><li style="margin-bottom: 2px;"><a href="2026-09-12.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-09-12 - A misalignment of AI in m...</a></li><li style="margin-bottom: 2px;"><a href="2026-09-11.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-09-11 - iPhone Duo...</a></li><li style="margin-bottom: 2px;"><a href="2026-09-10.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-09-10 - iPhone Duo...</a></li>
                     </ul>
                 </div>
             </aside>
@@ -787,7 +787,7 @@
             }
         }
         function copyRssLink() {
-            const fullUrl = new URL("feed.xml", window.location.href).href;
+            const fullUrl = new URL("../feed.xml", window.location.href).href;
             navigator.clipboard.writeText(fullUrl).then(() => {
                 const toast = document.getElementById("toast");
                 toast.style.display = "block";
@@ -797,7 +797,7 @@
             });
         }
         window.addEventListener("DOMContentLoaded", () => {
-            document.getElementById("rssUrl").value = new URL("feed.xml", window.location.href).href;
+            document.getElementById("rssUrl").value = new URL("../feed.xml", window.location.href).href;
         });
     </script>
 </body>
