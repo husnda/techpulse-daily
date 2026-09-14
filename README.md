@@ -127,7 +127,7 @@ pip install -r requirements.txt
      - `WECOM_WEBHOOK`：企业微信机器人 Webhook
      - `OPENAI_API_KEY`：用于开启 AI 总结
 4. **效果**：
-   - 每天北京时间早上 08:30，GitHub Actions 会自动运行抓取。
+   - 每天北京时间早上 08:15，GitHub Actions 会自动运行抓取。
    - 你的全局 RSS 订阅地址为：`https://<你的GitHub用户名>.github.io/<仓库名>/feed.xml`。
    - 将该地址添加到你的 NetNewsWire、Follow、Reeder、Feedly 等阅读器中，每日即可自动刷新！
 
@@ -138,8 +138,8 @@ pip install -r requirements.txt
 如果你习惯在本地 Windows 电脑上运行，可直接通过本项目提供的 PowerShell 7 脚本一键注册 Windows 任务：
 
 ```powershell
-# 注册每天早上 08:30 自动静默运行任务
-pwsh scripts/setup_task_windows.ps1 -Time "08:30"
+# 注册每天早上 08:15 自动静默运行任务
+pwsh scripts/setup_task_windows.ps1 -Time "08:15"
 
 # 立即触发一次测试
 pwsh scripts/setup_task_windows.ps1 -RunNow

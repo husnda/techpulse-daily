@@ -46,7 +46,7 @@ def generate_html_content(digest_data):
             <span>·</span>
             <span>🔥 <strong>{len(hn_items)}</strong> 篇深度讨论 ({total_comments:,} 评论)</span>
             <span>·</span>
-            <span>每日 08:30 定时更新</span>
+            <span>每日 08:15 定时更新</span>
         </div>
     </div>
     ''')
@@ -152,7 +152,7 @@ def generate_html_content(digest_data):
         ''')
     html.append('</div></div>')
     
-    html.append(f'<div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;">由 TechPulse 自动化生成于 {digest_data.get("generated_at", "")} ｜ 每日 08:30 更新</div>')
+    html.append(f'<div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;">由 TechPulse 自动化生成于 {digest_data.get("generated_at", "")} ｜ 每日 08:15 更新</div>')
     html.append('</div>')
     return "\n".join(html)
 
@@ -282,7 +282,7 @@ def render_web_page(current_digest, history_digests, config, is_archive=False):
             <aside class="sidebar">
                 <div class="side-card">
                     <div class="side-title">📡 RSS 订阅指南</div>
-                    <p style="font-size: 12.5px; color: #64748b; margin-bottom: 10px; line-height: 1.5;">支持 NetNewsWire, Reeder, Follow, Feedly，每日 08:30 自动拉取更新。</p>
+                    <p style="font-size: 12.5px; color: #64748b; margin-bottom: 10px; line-height: 1.5;">支持 NetNewsWire, Reeder, Follow, Feedly，每日 08:15 自动拉取更新。</p>
                     <input type="text" id="rssUrl" readonly value="{rss_rel_url}" style="width: 100%; padding: 6px 10px; font-size: 12px; background: #f8fafc; border: 1px solid #d1d5db; border-radius: 4px; color: #374151; margin-bottom: 8px;">
                     <button class="btn btn-outline" style="width: 100%; justify-content: center;" onclick="copyRssLink()">点击一键复制</button>
                 </div>
