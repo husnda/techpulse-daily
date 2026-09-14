@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://husnda.github.io/techpulse-daily</link><description>每日聚合全球高星开源项目与 Hacker News 深度技术热点</description><language>zh-cn</language><lastBuildDate>Mon, 14 Sep 2026 05:59:52 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://husnda.github.io/techpulse-daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-14】技术早报：Why is Google still serving dodgy ads?</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-14.html</link><guid isPermaLink="false">techpulse-2026-09-14</guid><pubDate>Mon, 14 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.5; max-width: 820px; margin: 0 auto;"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>TechPulse Daily | GitHub Trending &amp; Hacker News 精选</title><link>https://husnda.github.io/techpulse-daily</link><description>每日聚合全球高星开源项目与 Hacker News 深度技术热点</description><language>zh-cn</language><lastBuildDate>Mon, 14 Sep 2026 08:02:28 +0000</lastBuildDate><generator>TechPulse Daily Digest Generator</generator><atom:link href="https://husnda.github.io/techpulse-daily/feed.xml" rel="self" type="application/rss+xml" /><item><title>【2026-09-14】技术早报：Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-14.html</link><guid isPermaLink="false">techpulse-2026-09-14</guid><pubDate>Mon, 14 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.5; max-width: 820px; margin: 0 auto;"&gt;
 
     &lt;div style="border-bottom: 1px solid #e5e7eb; padding-bottom: 16px; margin-bottom: 20px;"&gt;
         &lt;div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;"&gt;
@@ -9,18 +9,12 @@
         &lt;div style="font-size: 12.5px; color: #64748b; display: flex; gap: 12px; flex-wrap: wrap;"&gt;
             &lt;span&gt;📦 &lt;strong&gt;12&lt;/strong&gt; 个开源项目 (+10,683 Stars)&lt;/span&gt;
             &lt;span&gt;·&lt;/span&gt;
-            &lt;span&gt;🔥 &lt;strong&gt;12&lt;/strong&gt; 篇深度讨论 (2,726 评论)&lt;/span&gt;
+            &lt;span&gt;🔥 &lt;strong&gt;12&lt;/strong&gt; 篇深度讨论 (2,892 评论)&lt;/span&gt;
             &lt;span&gt;·&lt;/span&gt;
-            &lt;span&gt;每日 08:30 定时更新&lt;/span&gt;
+            &lt;span&gt;每日 08:15 定时更新&lt;/span&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     
-
-        &lt;div style="background: #f8fafc; border-left: 3px solid #0284c7; padding: 14px 18px; border-radius: 4px; margin-bottom: 24px;"&gt;
-            &lt;div style="font-size: 13px; font-weight: 700; color: #0369a1; margin-bottom: 6px;"&gt;🧠 今日技术风向速览&lt;/div&gt;
-            &lt;div style="font-size: 13.5px; color: #334155; line-height: 1.65;"&gt;今日技术圈聚焦于&lt;strong&gt;大模型前沿能力与监管博弈&lt;/strong&gt;，大模型破解370年历史密码展示了前沿智力上限，而行业关于模型蒸馏合法性与巨头自我监管的争议持续发酵。工程领域方面，&lt;strong&gt;多层级内存推理引擎&lt;/strong&gt;与&lt;strong&gt;全离线语音工作站&lt;/strong&gt;展现了端侧AI极致优化的突破，同时&lt;strong&gt;Homebrew 7.0&lt;/strong&gt;的重大重构和低成本微型KVM硬件引发生态广泛关注。&lt;/div&gt;
-        &lt;/div&gt;
-        
 &lt;div style="margin-bottom: 32px;"&gt;
 &lt;div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #e5e7eb; padding-bottom: 8px; margin-bottom: 14px;"&gt;&lt;h2 style="margin: 0; font-size: 15px; font-weight: 700; color: #0f172a; text-transform: uppercase; letter-spacing: 0.3px;"&gt;🚀 GitHub Trending 热门开源项目&lt;/h2&gt;&lt;span style="font-size: 12px; color: #94a3b8;"&gt;点击 ✨ 展开 AI 深度解读&lt;/span&gt;&lt;/div&gt;
 &lt;div style="display: flex; flex-direction: column; gap: 10px;"&gt;
@@ -31,16 +25,16 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#1&lt;/span&gt;
                     &lt;a href="https://github.com/bilawalsidhu/gods-eye-view" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;bilawalsidhu/gods-eye-view&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;数据科学&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;Open Source&lt;/span&gt;
             &lt;/div&gt;
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;"&gt;A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.&lt;/p&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +2,680&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 32,355&lt;/span&gt;
+                    &lt;span&gt;★ 32,573&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 6,474&lt;/span&gt;
+                    &lt;span&gt;⑂ 6,504&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;JavaScript&lt;/span&gt;
                 &lt;/div&gt;
@@ -50,7 +44,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-1" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;一款基于公开真实数据源与真实世界传感器、运行于浏览器端的超逼真3D地球实时态势感知模拟器。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;将公开卫星、航班、船舶、地震与摄像头流数据融为一体，并结合实时AI Agent实现语音驱动的三维全景交互与探索。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专注于 Open Source 领域，采用 JavaScript 构建。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【关键特性】&lt;/strong&gt;A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -61,16 +55,16 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#2&lt;/span&gt;
                     &lt;a href="https://github.com/debpalash/VoiceStudio" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;debpalash/VoiceStudio&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;AI/智能体&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;Open Source&lt;/span&gt;
             &lt;/div&gt;
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;"&gt;VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp;amp; audiobook creation in 646 languages.&lt;/p&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +2,632&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 27,444&lt;/span&gt;
+                    &lt;span&gt;★ 27,710&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 3,379&lt;/span&gt;
+                    &lt;span&gt;⑂ 3,412&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;Python&lt;/span&gt;
                 &lt;/div&gt;
@@ -80,7 +74,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-2" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;支持多达646种语言、完全在本地运行的跨平台专业级语音克隆、配音与听写音频工作站。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;聚合了16种TTS引擎与11种ASR引擎，彻底解除云端API与订阅计费依赖，提供纯离线的多模型流水线调度架构。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专注于 Open Source 领域，采用 Python 构建。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【关键特性】&lt;/strong&gt;VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp;amp; audiobook creation in 646 languages.&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -91,16 +85,16 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#3&lt;/span&gt;
                     &lt;a href="https://github.com/JustVugg/colibri" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;JustVugg/colibri&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;系统底层&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;AI / LLM&lt;/span&gt;
             &lt;/div&gt;
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;"&gt;Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦&lt;/p&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +868&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 30,312&lt;/span&gt;
+                    &lt;span&gt;★ 30,584&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 3,280&lt;/span&gt;
+                    &lt;span&gt;⑂ 3,294&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;C&lt;/span&gt;
                 &lt;/div&gt;
@@ -110,7 +104,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-3" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;基于纯C语言编写、无外部引擎依赖的高性能MoE大模型超大规模推理引擎，可在消费级与异构硬件上运行百亿至万亿级参数模型。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;首创AI内存分层技术（Memory Multitiering），将存储、物理内存和显存统筹为单一推理解算拓扑，单C文件即可支持一个模型家族。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专注于 AI / LLM 领域，采用 C 构建。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【关键特性】&lt;/strong&gt;Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -121,16 +115,16 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#4&lt;/span&gt;
                     &lt;a href="https://github.com/asgeirtj/system_prompts_leaks" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;asgeirtj/system_prompts_leaks&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;安全与网络&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;AI / LLM&lt;/span&gt;
             &lt;/div&gt;
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;"&gt;Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.&lt;/p&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +706&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 66,246&lt;/span&gt;
+                    &lt;span&gt;★ 66,331&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 10,823&lt;/span&gt;
+                    &lt;span&gt;⑂ 10,830&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;JavaScript&lt;/span&gt;
                 &lt;/div&gt;
@@ -140,7 +134,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-4" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;逐字捕获并整理各大前沿闭源AI聊天机器人（如ChatGPT、Claude、Gemini）未公开系统提示词的开源泄露库。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;为开发者和安全研究员逆向理解前沿大模型的隐藏规则、行为约束、对齐指令与Prompt工程架构提供了第一手真实样本。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专注于 AI / LLM 领域，采用 JavaScript 构建。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【关键特性】&lt;/strong&gt;Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -151,16 +145,16 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#5&lt;/span&gt;
                     &lt;a href="https://github.com/vxcontrol/pentagi" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;vxcontrol/pentagi&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;安全与网络&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;AI / LLM&lt;/span&gt;
             &lt;/div&gt;
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;"&gt;Fully autonomous AI Agents system capable of performing complex penetration testing tasks&lt;/p&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +590&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 24,132&lt;/span&gt;
+                    &lt;span&gt;★ 24,227&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 3,106&lt;/span&gt;
+                    &lt;span&gt;⑂ 3,115&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;Go&lt;/span&gt;
                 &lt;/div&gt;
@@ -170,7 +164,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-5" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;面向网络安全攻防演练的全自动化通用人工智能渗透测试平台。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;支持接入主流LLM与本地Ollama引擎，并设计了安全的Agent容器隔离沙箱机制，避免AI自动化执行攻击测试时逃逸至宿主机。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专注于 AI / LLM 领域，采用 Go 构建。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【关键特性】&lt;/strong&gt;Fully autonomous AI Agents system capable of performing complex penetration testing tasks&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -181,16 +175,16 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#6&lt;/span&gt;
                     &lt;a href="https://github.com/tonhowtf/omniget" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;tonhowtf/omniget&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;效率工具&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;Systems / Infra&lt;/span&gt;
             &lt;/div&gt;
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;"&gt;Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.&lt;/p&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +507&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 11,934&lt;/span&gt;
+                    &lt;span&gt;★ 12,055&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 1,039&lt;/span&gt;
+                    &lt;span&gt;⑂ 1,043&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;Rust&lt;/span&gt;
                 &lt;/div&gt;
@@ -200,7 +194,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-6" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;基于Rust构建的多平台一站式媒体资源下载、音视频转录与文本学习整理桌面工具。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;采用Rust原生跨平台GUI开发，集成1800+主流网站解析抓取引擎并内置转录与转换模块，实现从媒体下载到知识整理的全闭环。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专注于 Systems / Infra 领域，采用 Rust 构建。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【关键特性】&lt;/strong&gt;Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -211,16 +205,16 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#7&lt;/span&gt;
                     &lt;a href="https://github.com/SnailSploit/Claude-Red" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;SnailSploit/Claude-Red&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;安全与网络&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;AI / LLM&lt;/span&gt;
             &lt;/div&gt;
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;"&gt;claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.&lt;/p&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +506&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 4,281&lt;/span&gt;
+                    &lt;span&gt;★ 4,340&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 601&lt;/span&gt;
+                    &lt;span&gt;⑂ 605&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;Python&lt;/span&gt;
                 &lt;/div&gt;
@@ -230,7 +224,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-7" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专为Claude Skills体系定制的即插即用红队攻防技能库，将其转化为具备上下文感知的渗透测试专家。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;采用结构化SKILL.md规范，按会话触发词动态按需加载专业攻击面方法论与绕过技巧，大幅降低Context上下文消耗。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专注于 AI / LLM 领域，采用 Python 构建。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【关键特性】&lt;/strong&gt;claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -241,16 +235,16 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#8&lt;/span&gt;
                     &lt;a href="https://github.com/multimodal-art-projection/YuE" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;multimodal-art-projection/YuE&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;AI/智能体&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;AI / LLM&lt;/span&gt;
             &lt;/div&gt;
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;"&gt;YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.&lt;/p&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +487&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 7,904&lt;/span&gt;
+                    &lt;span&gt;★ 7,971&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 874&lt;/span&gt;
+                    &lt;span&gt;⑂ 880&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;Python&lt;/span&gt;
                 &lt;/div&gt;
@@ -260,7 +254,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-8" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;能够统一符号音乐表征与高保真音频生成的开源前沿全长音乐生成系统。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;打通符号乐谱与最终波形生成的多模态统一架构，大幅提升长篇幅全曲生成的结构连贯性与音质保真度。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专注于 AI / LLM 领域，采用 Python 构建。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【关键特性】&lt;/strong&gt;YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -271,16 +265,16 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#9&lt;/span&gt;
                     &lt;a href="https://github.com/jiji262/douyin-downloader" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;jiji262/douyin-downloader&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;效率工具&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;Open Source&lt;/span&gt;
             &lt;/div&gt;
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;"&gt;A practical Douyin downloader for both single-item and profile batch downloads, with progress display, retries, SQLite deduplication, and browser fallback support. 抖音批量下载工具，去水印，支持视频、图集、合集、音乐(原声)。&lt;/p&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +452&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 11,533&lt;/span&gt;
+                    &lt;span&gt;★ 11,601&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 1,764&lt;/span&gt;
+                    &lt;span&gt;⑂ 1,768&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;Python&lt;/span&gt;
                 &lt;/div&gt;
@@ -290,7 +284,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-9" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;支持免水印批量下载视频、图集及作者主页全部内容的Python爬虫工具。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;轻量级API反爬逆向解析封装，提供稳定可靠的批量解析与并发下载控制流。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专注于 Open Source 领域，采用 Python 构建。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【关键特性】&lt;/strong&gt;A practical Douyin downloader for both single-item and profile batch downloads, with progress display, retries, SQLite deduplication, and browser fallback support. 抖音批量下载工具，去水印，支持视频、图集、合集、音乐(原声)。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -301,16 +295,16 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#10&lt;/span&gt;
                     &lt;a href="https://github.com/alibaba/open-code-review" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;alibaba/open-code-review&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;效率工具&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;AI / LLM&lt;/span&gt;
             &lt;/div&gt;
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;"&gt;Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp;amp; Anthropic compatible.&lt;/p&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +443&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 23,811&lt;/span&gt;
+                    &lt;span&gt;★ 23,966&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 1,759&lt;/span&gt;
+                    &lt;span&gt;⑂ 1,768&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;Go&lt;/span&gt;
                 &lt;/div&gt;
@@ -320,7 +314,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-10" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;阿里巴巴开源的基于AI的智能自动化代码审查与规范分析平台。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;采用Go语言实现的高性能代码审查管道，可与现有CI/CD工作流无缝集成，针对代码缺陷和性能隐患提供自动化修正建议。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专注于 AI / LLM 领域，采用 Go 构建。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【关键特性】&lt;/strong&gt;Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp;amp; Anthropic compatible.&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -331,16 +325,16 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#11&lt;/span&gt;
                     &lt;a href="https://github.com/melgarafael/DeskcommCRM" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;melgarafael/DeskcommCRM&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;AI/智能体&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;AI / LLM&lt;/span&gt;
             &lt;/div&gt;
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;"&gt;Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk &amp;amp; Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.&lt;/p&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +432&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 2,327&lt;/span&gt;
+                    &lt;span&gt;★ 2,368&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 607&lt;/span&gt;
+                    &lt;span&gt;⑂ 608&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;TypeScript&lt;/span&gt;
                 &lt;/div&gt;
@@ -350,7 +344,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-11" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;原生集成AI销售智能体、专为WhatsApp营销生态打造的开源自主部署CRM销售系统。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;全栈TypeScript架构配合开箱即用的VPS一键部署脚本，打通WhatsApp底层会话API与自托管LLM，保障客户数据绝对私有化。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专注于 AI / LLM 领域，采用 TypeScript 构建。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【关键特性】&lt;/strong&gt;Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk &amp;amp; Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -361,16 +355,16 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#12&lt;/span&gt;
                     &lt;a href="https://github.com/calesthio/OpenMontage" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;"&gt;calesthio/OpenMontage&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;AI/智能体&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;AI / LLM&lt;/span&gt;
             &lt;/div&gt;
             &lt;p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;"&gt;World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.&lt;/p&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
                     &lt;span style="color: #b45309; font-weight: 600;"&gt;⭐ +380&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;★ 58,682&lt;/span&gt;
+                    &lt;span&gt;★ 58,798&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;⑂ 7,374&lt;/span&gt;
+                    &lt;span&gt;⑂ 7,384&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;Python&lt;/span&gt;
                 &lt;/div&gt;
@@ -380,7 +374,7 @@
             &lt;/div&gt;
             &lt;div id="gh-ai-12" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;"&gt;✨ 基于官方 README 核心提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;首个基于智能体工作流驱动的开源端到端视频自动剪辑与内容生产系统。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【技术亮点】&lt;/strong&gt;基于多智能体协作管线拆解视频脚本、素材切片与渲染排版，将传统繁重的后期剪辑转化为全自动Prompt驱动流程。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心定位】&lt;/strong&gt;专注于 AI / LLM 领域，采用 Python 构建。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【关键特性】&lt;/strong&gt;World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -393,17 +387,17 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;"&gt;
                 &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#1&lt;/span&gt;
-                    &lt;a href="https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Why is Google still serving dodgy ads?&lt;/a&gt;
+                    &lt;a href="https://www.vals.ai/blogs/fable-solves-cyphral-distich" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;商业与收购&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;人工智能&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 726 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 829 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49686445" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 333 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49688695" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 344 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;atomic14.com&lt;/span&gt;
+                    &lt;span&gt;vals.ai&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-1')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;"&gt;
                     &lt;span&gt;✨ AI 深度解读&lt;/span&gt;
@@ -411,7 +405,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-1" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;作者质疑Google在手握强大AI欺诈识别技术的前提下，依然在YouTube等核心平台上大量分发欺诈性欺骗广告。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;用户指出商业利益驱动是主要诱因，虚假广告主投放预算丰厚，同时也有人认为日均广告体量庞大导致人工审核缺位，过度依赖被动举报。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;来自 vals.ai 的热议话题，围绕 人工智能 展开。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【讨论热度】&lt;/strong&gt;获得 829 点赞与 344 条社区深入讨论。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -420,17 +414,17 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;"&gt;
                 &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#2&lt;/span&gt;
-                    &lt;a href="https://www.vals.ai/blogs/fable-solves-cyphral-distich" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher&lt;/a&gt;
+                    &lt;a href="https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Why is Google still serving dodgy ads?&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;人工智能&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;前沿观察&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 711 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 780 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49688695" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 307 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49686445" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 347 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;vals.ai&lt;/span&gt;
+                    &lt;span&gt;atomic14.com&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-2')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;"&gt;
                     &lt;span&gt;✨ AI 深度解读&lt;/span&gt;
@@ -438,7 +432,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-2" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;研究人员利用Claude Fable 5.1在一天内成功破译了拥有370年历史且长期未解的Urquhart密码诗（Cyphral Distich）。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;社区盛赞前沿大模型在历史学与古典密码学中的巨大研究潜力，同时也对其推理过程中提示词引导策略的有效性展开热烈探讨。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;来自 atomic14.com 的热议话题，围绕 前沿观察 展开。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【讨论热度】&lt;/strong&gt;获得 780 点赞与 347 条社区深入讨论。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -449,13 +443,13 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#3&lt;/span&gt;
                     &lt;a href="https://brew.sh/2026/09/13/homebrew-7.0.0/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Homebrew 7.0.0&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;系统架构&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;前沿观察&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 580 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 590 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49681545" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 231 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49681545" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 235 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;brew.sh&lt;/span&gt;
                 &lt;/div&gt;
@@ -465,7 +459,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-3" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;Homebrew 7.0.0正式发布，引入更强沙箱隔离、原生macOS客户端应用、内置漏洞检测库，并下调Intel Mac支持优先级。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;多数开发者为性能提升与安全防御增强叫好，但部分Linux用户依然对其安装时权限要求以及旧系统支持周期缩水表示不满。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;来自 brew.sh 的热议话题，围绕 前沿观察 展开。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【讨论热度】&lt;/strong&gt;获得 590 点赞与 235 条社区深入讨论。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -474,17 +468,17 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;"&gt;
                 &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#4&lt;/span&gt;
-                    &lt;a href="https://jetkvm.com/blog/introducing-jetkvm-mini" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;JetKVM Mini&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49686380" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Ask HN: What are you working on? (September 2026)&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;数码硬件&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;Ask HN&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 538 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 148 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49681152" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 221 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49686380" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 452 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;jetkvm.com&lt;/span&gt;
+                    &lt;span&gt;news.ycombinator.com&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-4')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;"&gt;
                     &lt;span&gt;✨ AI 深度解读&lt;/span&gt;
@@ -492,7 +486,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-4" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;JetKVM发布仅火柴盒大小的微型KVM设备JetKVM Mini，支持1080p低延迟采集与开源固件，定价39美元起。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;极客玩家惊叹于ESP32在极小内存下实现的高清视频采集架构，但早期用户对其硬件品控、发热与偶发性死机问题提出了质量担忧。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;来自 news.ycombinator.com 的热议话题，围绕 Ask HN 展开。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【讨论热度】&lt;/strong&gt;获得 148 点赞与 452 条社区深入讨论。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -501,17 +495,17 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;"&gt;
                 &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#5&lt;/span&gt;
-                    &lt;a href="https://www.investigatetv.com/2026/09/08/flock-worker-calls-police-investigatetv-reporter-filming-public-camera-installation/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Flock worker calls police on reporter filming public camera installation&lt;/a&gt;
+                    &lt;a href="https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Astra and Fable still hack on simple variants of alignment evals from 2025&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;隐私安全&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;安全隐私&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 344 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 429 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49683853" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 253 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49684393" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 200 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;investigatetv.com&lt;/span&gt;
+                    &lt;span&gt;lesswrong.com&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-5')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;"&gt;
                     &lt;span&gt;✨ AI 深度解读&lt;/span&gt;
@@ -519,7 +513,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-5" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;监控摄像头厂商Flock员工在公共场所安装抓拍设备时，竟直接报警阻挠在现场合法拍摄新闻的调查记者。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;引发大众对公共监控商业化滥用与监控公司自身享有“特权双标”的强烈愤慨，舆论聚焦于企业对公众知情权与隐私权的公然侵犯。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;来自 lesswrong.com 的热议话题，围绕 安全隐私 展开。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【讨论热度】&lt;/strong&gt;获得 429 点赞与 200 条社区深入讨论。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -528,17 +522,17 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;"&gt;
                 &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#6&lt;/span&gt;
-                    &lt;a href="https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Astra and Fable still hack on simple variants of alignment evals from 2025&lt;/a&gt;
+                    &lt;a href="https://www.theverge.com/column/994172/your-car-is-selling-your-data" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Data collected by cars and sold to third parties&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;人工智能&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;前沿观察&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 414 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 406 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49684393" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 188 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49683953" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 203 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;lesswrong.com&lt;/span&gt;
+                    &lt;span&gt;theverge.com&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-6')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;"&gt;
                     &lt;span&gt;✨ AI 深度解读&lt;/span&gt;
@@ -546,7 +540,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-6" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;评测显示前沿模型Astra和Fable面对旧版安全对齐基准测试时，依然能轻易被简化的攻击变种攻破并输出恶意利用代码。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;讨论分化为两派：安全研究者认为强化学习环境对齐存在严重漏洞；攻防从业者则认为顶尖模型具备真实的漏洞挖掘能力才能发挥防御价值，过度限制反而降低可用性。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;来自 theverge.com 的热议话题，围绕 前沿观察 展开。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【讨论热度】&lt;/strong&gt;获得 406 点赞与 203 条社区深入讨论。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -555,17 +549,17 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;"&gt;
                 &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#7&lt;/span&gt;
-                    &lt;a href="https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Garry Tan wants US open-weight AI labs to 'distill' frontier models, too&lt;/a&gt;
+                    &lt;a href="https://www.investigatetv.com/2026/09/08/flock-worker-calls-police-investigatetv-reporter-filming-public-camera-installation/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Flock worker calls police on reporter filming public camera installation&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;人工智能&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;前沿观察&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 380 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 345 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49685253" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 212 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49683853" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 254 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;techcrunch.com&lt;/span&gt;
+                    &lt;span&gt;investigatetv.com&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-7')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;"&gt;
                     &lt;span&gt;✨ AI 深度解读&lt;/span&gt;
@@ -573,7 +567,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-7" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;YC CEO Garry Tan呼吁美国开源AI实验室应当同样拥有蒸馏顶尖闭源前沿模型权能，打破寡头壁垒。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;支持者认为商业巨头本就肆意抓取公共版权数据训练，理应交还模型知识；反对者则担忧滥用蒸馏可能构成严重侵权并破坏大模型原创研发的商业闭环。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;来自 investigatetv.com 的热议话题，围绕 前沿观察 展开。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【讨论热度】&lt;/strong&gt;获得 345 点赞与 254 条社区深入讨论。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -582,17 +576,17 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;"&gt;
                 &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#8&lt;/span&gt;
-                    &lt;a href="https://www.theverge.com/column/994172/your-car-is-selling-your-data" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Data collected by cars and sold to third parties&lt;/a&gt;
+                    &lt;a href="https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Garry Tan wants US open-weight AI labs to 'distill' frontier models, too&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;隐私安全&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;人工智能&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 369 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 385 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49683953" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 194 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49685253" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 212 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;theverge.com&lt;/span&gt;
+                    &lt;span&gt;techcrunch.com&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-8')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;"&gt;
                     &lt;span&gt;✨ AI 深度解读&lt;/span&gt;
@@ -600,7 +594,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-8" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;The Verge深度揭露现代智能汽车大量采集车主行车轨迹、生物识别及隐私数据，并暗中打包转售给第三方机构。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;公众严厉指责车企监管真空，网友探讨通过技术手段（如断开网络模块或屏蔽天线）抵御数据上传，并感叹缺乏隐私法案保护下老车更有安全感。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;来自 techcrunch.com 的热议话题，围绕 人工智能 展开。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【讨论热度】&lt;/strong&gt;获得 385 点赞与 212 条社区深入讨论。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -611,13 +605,13 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#9&lt;/span&gt;
                     &lt;a href="https://dreamstation.systems/personal/tesla.html" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;I'm being cyberattacked by Tesla, Inc&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;开发者热议&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;前端生态&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 422 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 427 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49686766" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 114 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49686766" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 115 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;dreamstation.systems&lt;/span&gt;
                 &lt;/div&gt;
@@ -627,7 +621,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-9" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;博主发现自身服务器遭受来自特斯拉云设施的大规模网络探测，怀疑与资产扫描系统将公共NTP服务器错误关联有关。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;分析指出这大概率是第三方安全扫描供应商（如Assetnote）在资产勘测配置中的CNAME误扫失误，建议受害者设置蜜罐或直接向AWS投诉。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;来自 dreamstation.systems 的热议话题，围绕 前端生态 展开。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【讨论热度】&lt;/strong&gt;获得 427 点赞与 115 条社区深入讨论。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -638,13 +632,13 @@
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#10&lt;/span&gt;
                     &lt;a href="https://twitter.com/DavidSacks/status/2098973625252708460" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;商业与收购&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;人工智能&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 292 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 295 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49685991" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 214 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49685991" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 218 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
                     &lt;span&gt;twitter.com&lt;/span&gt;
                 &lt;/div&gt;
@@ -654,7 +648,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-10" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;David Sacks公开反驳OpenAI与Anthropic呼吁放慢模型研发步伐的言论，直言巨头无需向外界寻求放慢创新的许可。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;社区观点犀利地指出，巨头鼓吹“自愿减速”往往掩盖了技术爬坡进入瓶颈或算力成本失控的现实，甚至涉嫌借安全监管之名构筑反竞争壁垒。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;来自 twitter.com 的热议话题，围绕 人工智能 展开。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【讨论热度】&lt;/strong&gt;获得 295 点赞与 218 条社区深入讨论。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -663,17 +657,17 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;"&gt;
                 &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#11&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49686380" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Ask HN: What are you working on? (September 2026)&lt;/a&gt;
+                    &lt;a href="https://twitter.com/TechEmails/status/2099214399840059428" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Mark Zuckerberg: "Cambridge Analytica" (2017)&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;开发者热议&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;前沿观察&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 126 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 294 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49686380" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 334 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49688157" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 128 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;news.ycombinator.com&lt;/span&gt;
+                    &lt;span&gt;twitter.com&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-11')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;"&gt;
                     &lt;span&gt;✨ AI 深度解读&lt;/span&gt;
@@ -681,7 +675,7 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-11" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;HN九月常规互动板块，全球独立开发者与工程师积极分享当前构建的Side Project与初创产品。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;评论区展现出从基于MCP协议的新闻决策监控平台、智能起名工具到体育流媒体聚合器等极其多元且接地气的独立创客生态。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;来自 twitter.com 的热议话题，围绕 前沿观察 展开。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【讨论热度】&lt;/strong&gt;获得 294 点赞与 128 条社区深入讨论。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
@@ -690,17 +684,17 @@
             &lt;div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;"&gt;
                 &lt;div style="display: flex; align-items: baseline; gap: 8px;"&gt;
                     &lt;span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;"&gt;#12&lt;/span&gt;
-                    &lt;a href="https://twitter.com/TechEmails/status/2099214399840059428" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Mark Zuckerberg: "Cambridge Analytica" (2017)&lt;/a&gt;
+                    &lt;a href="https://guessingheadlights.com/global-shortage-has-led-to-motor-oil-rationing-at-costco/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;"&gt;Global shortage has led to motor oil rationing at Costco&lt;/a&gt;
                 &lt;/div&gt;
-                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;科技社会&lt;/span&gt;
+                &lt;span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;"&gt;前沿观察&lt;/span&gt;
             &lt;/div&gt;
             &lt;div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;"&gt;
                 &lt;div style="display: flex; gap: 12px; align-items: center;"&gt;
-                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 289 pts&lt;/span&gt;
+                    &lt;span style="color: #b91c1c; font-weight: 600;"&gt;🔥 205 pts&lt;/span&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;a href="https://news.ycombinator.com/item?id=49688157" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 125 条讨论 →&lt;/a&gt;
+                    &lt;a href="https://news.ycombinator.com/item?id=49686697" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;"&gt;💬 184 条讨论 →&lt;/a&gt;
                     &lt;span&gt;·&lt;/span&gt;
-                    &lt;span&gt;twitter.com&lt;/span&gt;
+                    &lt;span&gt;guessingheadlights.com&lt;/span&gt;
                 &lt;/div&gt;
                 &lt;button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-12')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;"&gt;
                     &lt;span&gt;✨ AI 深度解读&lt;/span&gt;
@@ -708,12 +702,12 @@
             &lt;/div&gt;
             &lt;div id="hn-ai-12" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;"&gt;
                 &lt;div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;"&gt;✨ 基于原文与社区热评深度提炼&lt;/div&gt;
-                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;法庭披露的2017年内部邮件显示，扎克伯格曾亲自问询剑桥分析（Cambridge Analytica）事件的数据滥用运作机理。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【社区争议】&lt;/strong&gt;舆论再次审视社交巨头在数据资本主义扩张中对用户隐私保护的长期漠视与知情不报，感叹商业公司为追求定向增长早已将隐私置于脑后。&lt;/div&gt;
+                &lt;div&gt;&lt;strong style='color: #0f172a;'&gt;【核心看点】&lt;/strong&gt;来自 guessingheadlights.com 的热议话题，围绕 前沿观察 展开。&lt;br&gt;&lt;strong style='color: #0f172a;'&gt;【讨论热度】&lt;/strong&gt;获得 205 点赞与 184 条社区深入讨论。&lt;/div&gt;
             &lt;/div&gt;
         &lt;/div&gt;
         
 &lt;/div&gt;&lt;/div&gt;
-&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-14 05:59:52 ｜ 每日 08:30 更新&lt;/div&gt;
+&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-14 16:02:28 ｜ 每日 08:15 更新&lt;/div&gt;
 &lt;/div&gt;</description></item><item><title>【2026-09-13】技术早报：We must pace the frontier</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-13.html</link><guid isPermaLink="false">techpulse-2026-09-13</guid><pubDate>Sun, 13 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.5; max-width: 820px; margin: 0 auto;"&gt;
 
     &lt;div style="border-bottom: 1px solid #e5e7eb; padding-bottom: 16px; margin-bottom: 20px;"&gt;
@@ -726,7 +720,7 @@
             &lt;span&gt;·&lt;/span&gt;
             &lt;span&gt;🔥 &lt;strong&gt;12&lt;/strong&gt; 篇深度讨论 (3,103 评论)&lt;/span&gt;
             &lt;span&gt;·&lt;/span&gt;
-            &lt;span&gt;每日 08:30 定时更新&lt;/span&gt;
+            &lt;span&gt;每日 08:15 定时更新&lt;/span&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     
@@ -1428,7 +1422,7 @@
         &lt;/div&gt;
         
 &lt;/div&gt;&lt;/div&gt;
-&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-13 05:53:22 ｜ 每日 08:30 更新&lt;/div&gt;
+&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-13 05:53:22 ｜ 每日 08:15 更新&lt;/div&gt;
 &lt;/div&gt;</description></item><item><title>【2026-09-12】技术早报：A misalignment of AI in mathematics</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-12.html</link><guid isPermaLink="false">techpulse-2026-09-12</guid><pubDate>Sat, 12 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.5; max-width: 820px; margin: 0 auto;"&gt;
 
     &lt;div style="border-bottom: 1px solid #e5e7eb; padding-bottom: 16px; margin-bottom: 20px;"&gt;
@@ -1441,7 +1435,7 @@
             &lt;span&gt;·&lt;/span&gt;
             &lt;span&gt;🔥 &lt;strong&gt;12&lt;/strong&gt; 篇深度讨论 (4,501 评论)&lt;/span&gt;
             &lt;span&gt;·&lt;/span&gt;
-            &lt;span&gt;每日 08:30 定时更新&lt;/span&gt;
+            &lt;span&gt;每日 08:15 定时更新&lt;/span&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     
@@ -2143,7 +2137,7 @@
         &lt;/div&gt;
         
 &lt;/div&gt;&lt;/div&gt;
-&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-12 05:34:01 ｜ 每日 08:30 更新&lt;/div&gt;
+&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-12 05:34:01 ｜ 每日 08:15 更新&lt;/div&gt;
 &lt;/div&gt;</description></item><item><title>【2026-09-11】技术早报：iPhone Duo</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-11.html</link><guid isPermaLink="false">techpulse-2026-09-11</guid><pubDate>Fri, 11 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.5; max-width: 820px; margin: 0 auto;"&gt;
 
     &lt;div style="border-bottom: 1px solid #e5e7eb; padding-bottom: 16px; margin-bottom: 20px;"&gt;
@@ -2156,7 +2150,7 @@
             &lt;span&gt;·&lt;/span&gt;
             &lt;span&gt;🔥 &lt;strong&gt;12&lt;/strong&gt; 篇深度讨论 (6,024 评论)&lt;/span&gt;
             &lt;span&gt;·&lt;/span&gt;
-            &lt;span&gt;每日 08:30 定时更新&lt;/span&gt;
+            &lt;span&gt;每日 08:15 定时更新&lt;/span&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     
@@ -2858,7 +2852,7 @@
         &lt;/div&gt;
         
 &lt;/div&gt;&lt;/div&gt;
-&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-11 01:17:52 ｜ 每日 08:30 更新&lt;/div&gt;
+&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-11 01:17:52 ｜ 每日 08:15 更新&lt;/div&gt;
 &lt;/div&gt;</description></item><item><title>【2026-09-10】技术早报：iPhone Duo</title><link>https://husnda.github.io/techpulse-daily/archive/2026-09-10.html</link><guid isPermaLink="false">techpulse-2026-09-10</guid><pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate><description>&lt;div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.5; max-width: 820px; margin: 0 auto;"&gt;
 
     &lt;div style="border-bottom: 1px solid #e5e7eb; padding-bottom: 16px; margin-bottom: 20px;"&gt;
@@ -2871,7 +2865,7 @@
             &lt;span&gt;·&lt;/span&gt;
             &lt;span&gt;🔥 &lt;strong&gt;12&lt;/strong&gt; 篇深度讨论 (6,355 评论)&lt;/span&gt;
             &lt;span&gt;·&lt;/span&gt;
-            &lt;span&gt;每日 08:30 定时更新&lt;/span&gt;
+            &lt;span&gt;每日 08:15 定时更新&lt;/span&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     
@@ -3573,5 +3567,5 @@
         &lt;/div&gt;
         
 &lt;/div&gt;&lt;/div&gt;
-&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 09:18:12 ｜ 每日 08:30 更新&lt;/div&gt;
+&lt;div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;"&gt;由 TechPulse 自动化生成于 2026-09-10 09:18:12 ｜ 每日 08:15 更新&lt;/div&gt;
 &lt;/div&gt;</description></item></channel></rss>

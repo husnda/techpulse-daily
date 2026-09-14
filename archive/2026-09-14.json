@@ -1,8 +1,8 @@
 {
   "date": "2026-09-14",
-  "generated_at": "2026-09-14 05:59:52",
-  "top_highlight": "Why is Google still serving dodgy ads?",
-  "ai_overview": "今日技术圈聚焦于**大模型前沿能力与监管博弈**，大模型破解370年历史密码展示了前沿智力上限，而行业关于模型蒸馏合法性与巨头自我监管的争议持续发酵。工程领域方面，**多层级内存推理引擎**与**全离线语音工作站**展现了端侧AI极致优化的突破，同时**Homebrew 7.0**的重大重构和低成本微型KVM硬件引发生态广泛关注。",
+  "generated_at": "2026-09-14 16:02:28",
+  "top_highlight": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+  "ai_overview": "",
   "github_items": [
     {
       "source": "github",
@@ -13,11 +13,10 @@
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
       "stars_today": 2680,
-      "stars_total": 32355,
-      "forks": 6474,
-      "topic": "数据科学",
-      "raw_context": "<div align=\"center\"> # 🌐 God's Eye View [](https://github.com/bilawalsidhu/gods-eye-view/actions/workflows/ci.yml) ### A spy-satellite simulator in your browser — then you realize the sources are public and the data is real. Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic, and public cameras. Hands-free voice control powered by a realtime AI agent. *No place left behind.* <a href=\"https://www.youtube.com/@bilawalsidhu\"> <img src=\"docs/media/youtube-popular-videos.png\" alt=\"The God's Eye View video series on YouTube\" width=\"100%\"> </a> ▶️ **From the project behind the viral God's Eye View series** *(formerly WorldView)* — [5M+ on YouTube](https://youtube.com/playlist?list=PL6qSg2I-7_koPbDnSMo0QeeHX_RknA2uv&si=nBGYMoHWQw41v93Q) · [25M+ across socials](https://www.google.com/search?q=god%27s+eye+view) [](https://x.com/bilawalsidhu/status/2093798887815348521) 🏆 **Reached #1 on GitHub Trending, daily and weekly · August 2026** **[#8 Product of the Day](https://www.producthunt.com/products/god-s-eye-view?launch=god-s-eye-view)** · Hunted by Chris Messina, creator of the hashtag *“pretty cool”* — [Brendan Eich](https://x.com/BrendanEich/status/2094592096401490266), creator of JavaScript and co-founder of Mozilla and Brave · Featured on **[Pinokio](https://pinokio.co/posts/01m1m4p9xxm3qw7dnnpj2wr93g)** ⚡ **Start without API keys.** Install with [Pinokio]",
-      "ai_summary": "【核心定位】一款基于公开真实数据源与真实世界传感器、运行于浏览器端的超逼真3D地球实时态势感知模拟器。\n【技术亮点】将公开卫星、航班、船舶、地震与摄像头流数据融为一体，并结合实时AI Agent实现语音驱动的三维全景交互与探索。"
+      "stars_total": 32573,
+      "forks": 6504,
+      "topic": "Open Source",
+      "ai_summary": "【核心定位】专注于 Open Source 领域，采用 JavaScript 构建。\n【关键特性】A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe."
     },
     {
       "source": "github",
@@ -28,11 +27,10 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "stars_today": 2632,
-      "stars_total": 27444,
-      "forks": 3379,
-      "topic": "AI/智能体",
-      "raw_context": "<div align=\"center\"> <h3>NOTE: Electron Rewrite Ongoing: Please dont't create desktop app related issues and pr</h3> <p><img src=\"docs/logo.png\" alt=\"VoiceStudio logo\" width=\"120\" height=\"120\" /></p> <h1>VoiceStudio</h1> <p> <a href=\"https://trendshift.io/repositories/28176?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-28176\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/28176\" alt=\"VoiceStudio ranking on Trendshift\" width=\"220\" height=\"48\" /></a> </p> <p><sub>Previously OmniVoice-Studio</sub></p> <h3>Clone voices, dub video, dictate, and produce long-form audio on your own hardware.</h3> <p>16 TTS engines · 11 ASR engines · 646-language catalogue · macOS, Windows, Linux, and Docker</p> <p>No account, API key, subscription, or usage meter for the local workflow.</p> <p> <a href=\"#install\">Install</a> · <a href=\"#features\">Features</a> · <a href=\"#comparison\">Compare</a> · <a href=\"#requirements\">Requirements</a> · <a href=\"#hardware-recommendations\">Hardware</a> · <a href=\"#engines\">Engines</a> · <a href=\"#architecture\">Architecture</a> · <a href=\"#api\">API</a> · <a href=\"#documentation\">Docs</a> · <a href=\"#faq\">FAQ</a> · <a href=\"README_CN.md\"><strong>简体中文</strong></a> </p> <p> <a href=\"https://github.com/debpalash/VoiceStudio/actions/workflows/ci.yml\"><img src=\"https://img.shields.io/gith",
-      "ai_summary": "【核心定位】支持多达646种语言、完全在本地运行的跨平台专业级语音克隆、配音与听写音频工作站。\n【技术亮点】聚合了16种TTS引擎与11种ASR引擎，彻底解除云端API与订阅计费依赖，提供纯离线的多模型流水线调度架构。"
+      "stars_total": 27710,
+      "forks": 3412,
+      "topic": "Open Source",
+      "ai_summary": "【核心定位】专注于 Open Source 领域，采用 Python 构建。\n【关键特性】VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
     },
     {
       "source": "github",
@@ -43,11 +41,10 @@
       "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "language": "C",
       "stars_today": 868,
-      "stars_total": 30312,
-      "forks": 3280,
-      "topic": "系统底层",
-      "raw_context": "<p align=\"center\"> <img src=\"assets/colibri-logo.svg\" width=\"560\" alt=\"colibrì — tiny engine, immense model\"> </p> <p align=\"center\"> <a href=\"https://justvugg.github.io/colibri\"><img src=\"https://img.shields.io/badge/website-justvugg.github.io%2Fcolibri-1f6feb\" alt=\"Website\"></a> <a href=\"https://github.com/JustVugg/colibri/releases\"><img src=\"https://img.shields.io/github/v/release/JustVugg/colibri?color=2ea043\" alt=\"Latest release\"></a> </p> <p align=\"center\"> <a href=\"https://justvugg.github.io/colibri\"><b>Website</b></a> · <a href=\"https://discord.gg/RXV83nSZdk\"><b>Discord</b></a> · English · <a href=\"README.zh-CN.md\">简体中文</a> · <a href=\"README.zh-TW.md\">繁體中文</a> · <a href=\"README.it.md\">Italiano</a> </p> **Tiny engine, immense model.** Run **frontier MoE models — 744B to 2.8T parameters** — on consumer and heterogeneous hardware, in pure C with zero engine dependencies, by treating storage, RAM, and VRAM as a single inference hierarchy (AI memory multitiering). Nine families run today: **GLM-5.2/5.3** (744B), **GLM-5.3-Flash** (321B, with vision), **Inkling** (975B), **Kimi K3** (2.8T), **DeepSeek V4 Flash** (284B), **DeepSeek V4.1 Flash** (552B, with vision), **Qwen3.8-Flash-Next** (125B + 51B n-gram), **Qwen3.6** (35B-A3B) and **OLMoE** (7B) — one C file each, the same `coli chat` / `coli serve` / `coli web` front end. [Full roster ↓](#other-supported-models) > **Colibr",
-      "ai_summary": "【核心定位】基于纯C语言编写、无外部引擎依赖的高性能MoE大模型超大规模推理引擎，可在消费级与异构硬件上运行百亿至万亿级参数模型。\n【技术亮点】首创AI内存分层技术（Memory Multitiering），将存储、物理内存和显存统筹为单一推理解算拓扑，单C文件即可支持一个模型家族。"
+      "stars_total": 30584,
+      "forks": 3294,
+      "topic": "AI / LLM",
+      "ai_summary": "【核心定位】专注于 AI / LLM 领域，采用 C 构建。\n【关键特性】Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦"
     },
     {
       "source": "github",
@@ -58,11 +55,10 @@
       "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
       "language": "JavaScript",
       "stars_today": 706,
-      "stars_total": 66246,
-      "forks": 10823,
-      "topic": "安全与网络",
-      "raw_context": "<p align=\"center\"> <sub>Thanks to</sub> </p> <p align=\"center\"> <a href=\"https://go.asgeirtj.workers.dev/latitude\"> <img src=\"assets/latitude-dark.png\" alt=\"Latitude Logo\" width=\"700\"/> </a> </p> <div align=\"center\" markdown=\"1\"> ### [Open Source Agent Analytics](https://go.asgeirtj.workers.dev/latitude) [Understand your agents in production](https://go.asgeirtj.workers.dev/latitude) </div> --- > **The Washington Post** built its interactive story on prompts from this repo: [See the hidden rules behind AI. Then use them to rewrite this article.](https://archive.today/pYtPk) (May 11, 2026) > > **CEPS' AI World** built a live data dashboard from this repo's files: [System prompts and what they tell us about the chat before the chat](https://aiworld.eu/story/system-prompts-and-what-they-tell-us-about-the-chat-before-the-chat) (July 10, 2026) # System Prompts Leaks Leaked system prompts, captured verbatim — the hidden instructions and rules that ChatGPT, Claude, Gemini, Grok and every other AI chatbot receives before your first message. [](http://makeapullrequest.com) ## Most recent additions/changes | What | Date | Link | |------|------|------| | **ChatGPT Work Codex (local)** | September 13, 2026 | [ChatGPT Work Codex local system prompt](OpenAI/Codex/gpt-6-astra-chatgpt-work-local.md) | | **Gemini 3.8 Flash** | September 13, 2026 | [Gemini 3.8 Flash System Prompt](Google/gemini-",
-      "ai_summary": "【核心定位】逐字捕获并整理各大前沿闭源AI聊天机器人（如ChatGPT、Claude、Gemini）未公开系统提示词的开源泄露库。\n【技术亮点】为开发者和安全研究员逆向理解前沿大模型的隐藏规则、行为约束、对齐指令与Prompt工程架构提供了第一手真实样本。"
+      "stars_total": 66331,
+      "forks": 10830,
+      "topic": "AI / LLM",
+      "ai_summary": "【核心定位】专注于 AI / LLM 领域，采用 JavaScript 构建。\n【关键特性】Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly."
     },
     {
       "source": "github",
@@ -73,11 +69,10 @@
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "language": "Go",
       "stars_today": 590,
-      "stars_total": 24132,
-      "forks": 3106,
-      "topic": "安全与网络",
-      "raw_context": "# PentAGI <div align=\"center\" style=\"font-size: 1.5em; margin: 20px 0;\"> <strong>P</strong>enetration testing <strong>A</strong>rtificial <strong>G</strong>eneral <strong>I</strong>ntelligence </div> <br> <div align=\"center\"> > **Join the Community!** Connect with security researchers, AI enthusiasts, and fellow ethical hackers. Get support, share insights, and stay updated with the latest PentAGI developments. [](https://discord.gg/2xrMh7qX6m)⠀[](https://t.me/+Ka9i6CNwe71hMWQy) <a href=\"https://trendshift.io/repositories/15161\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/15161\" alt=\"vxcontrol%2Fpentagi | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a> </div> ## Table of Contents - [Overview](#overview) - [Features](#features) - [Architecture](#architecture) - [Agent Supervision](#advanced-agent-supervision) - [Quick Start](#quick-start) - [Agent Docker Access](#giving-agents-docker-without-giving-away-the-host) - [Running Several Instances](#running-several-instances-tenant_id) - [How to Use PentAGI After Login](#how-to-use-pentagi-after-login) - [API Access](#api-access) - [LLM Provider Configuration](#custom-llm-provider-configuration) - [Ollama](#ollama-provider-configuration) - [OpenAI](#openai-provider-configuration) - [Anthropic](#anthropic-provider-configuration) - [Google AI (Gemini)](#google-ai-gemini-provider-c",
-      "ai_summary": "【核心定位】面向网络安全攻防演练的全自动化通用人工智能渗透测试平台。\n【技术亮点】支持接入主流LLM与本地Ollama引擎，并设计了安全的Agent容器隔离沙箱机制，避免AI自动化执行攻击测试时逃逸至宿主机。"
+      "stars_total": 24227,
+      "forks": 3115,
+      "topic": "AI / LLM",
+      "ai_summary": "【核心定位】专注于 AI / LLM 领域，采用 Go 构建。\n【关键特性】Fully autonomous AI Agents system capable of performing complex penetration testing tasks"
     },
     {
       "source": "github",
@@ -88,11 +83,10 @@
       "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
       "language": "Rust",
       "stars_today": 507,
-      "stars_total": 11934,
-      "forks": 1039,
-      "topic": "效率工具",
-      "raw_context": "<p align=\"center\"> <img src=\"assets/readme/hero.svg\" alt=\"OmniGet: paste a link, get the file. Downloads, tools and a study library in one desktop app for Windows, macOS and Linux.\" width=\"100%\" /> </p> <h1 align=\"center\">OmniGet</h1> <p align=\"center\"> <b>English</b> · <a href=\"README_pt_br.md\">Português (BR)</a> · <a href=\"README.ru.md\">Русский</a> · <a href=\"README_zh_CN.md\">简体中文</a> </p> <p align=\"center\"> <b>Download Udemy and Hotmart courses, YouTube, Instagram, X, Pinterest, TikTok and 1,800+ other sites.<br/>Then transcribe, convert, read and study what you saved. One free desktop app, no terminal.</b> </p> <p align=\"center\"> <a href=\"https://github.com/tonhowtf/omniget/releases/latest\"><img src=\"https://img.shields.io/github/v/release/tonhowtf/omniget?style=for-the-badge&label=release&color=F28500\" alt=\"Latest release\" /></a> <a href=\"https://github.com/tonhowtf/omniget/releases\"><img src=\"https://img.shields.io/github/downloads/tonhowtf/omniget/total?style=for-the-badge&label=downloads&color=1E6FE8\" alt=\"Total downloads\" /></a> <a href=\"https://github.com/tonhowtf/omniget/stargazers\"><img src=\"https://img.shields.io/github/stars/tonhowtf/omniget?style=for-the-badge&color=FFD426\" alt=\"GitHub stars\" /></a> <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-GPL--3.0-2AA845?style=for-the-badge\" alt=\"License GPL-3.0\" /></a> <a href=\"https://discord.gg/jgdxyPy",
-      "ai_summary": "【核心定位】基于Rust构建的多平台一站式媒体资源下载、音视频转录与文本学习整理桌面工具。\n【技术亮点】采用Rust原生跨平台GUI开发，集成1800+主流网站解析抓取引擎并内置转录与转换模块，实现从媒体下载到知识整理的全闭环。"
+      "stars_total": 12055,
+      "forks": 1043,
+      "topic": "Systems / Infra",
+      "ai_summary": "【核心定位】专注于 Systems / Infra 领域，采用 Rust 构建。\n【关键特性】Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer."
     },
     {
       "source": "github",
@@ -103,11 +97,10 @@
       "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
       "language": "Python",
       "stars_today": 506,
-      "stars_total": 4281,
-      "forks": 601,
-      "topic": "安全与网络",
-      "raw_context": "<div align=\"center\"> # claude-red **Offensive security skills for Claude — drop-in `SKILL.md` files that turn Claude into a context-aware red team operator.** [](LICENSE) [](#skill-index) [](#categories) [](https://github.com/SnailSploit/claude-red) [](https://github.com/SnailSploit/claude-red/network/members) [Overview](#overview) &bull; [Quickstart](#quickstart) &bull; [Categories](#categories) &bull; [Skill Index](#skill-index) &bull; [Roadmap](#roadmap) &bull; [Contributing](#contributing) </div> --- ## Overview `claude-red` is a curated library of offensive security skills for the [Claude Skills system](https://docs.claude.com). Each skill is a structured `SKILL.md` file that primes Claude with expert-level methodology for a specific attack surface — from SQL injection to shellcode, EDR evasion to ADCS abuse. Drop a skill into your Claude environment and it behaves like a domain specialist: it knows the techniques, the tooling, the edge cases, and the escalation paths. Skills load on demand based on conversational triggers — you don't pay context for skills you aren't using. **Use cases:** authorized red team engagements, bug bounty triage, security research, CTF preparation, operator training, and methodical attack surface exploration. --- ## Quickstart ### Claude Skills System (Recommended) ```bash git clone https://github.com/SnailSploit/claude-red ~/.claude/skills/clau",
-      "ai_summary": "【核心定位】专为Claude Skills体系定制的即插即用红队攻防技能库，将其转化为具备上下文感知的渗透测试专家。\n【技术亮点】采用结构化SKILL.md规范，按会话触发词动态按需加载专业攻击面方法论与绕过技巧，大幅降低Context上下文消耗。"
+      "stars_total": 4340,
+      "forks": 605,
+      "topic": "AI / LLM",
+      "ai_summary": "【核心定位】专注于 AI / LLM 领域，采用 Python 构建。\n【关键特性】claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development."
     },
     {
       "source": "github",
@@ -118,11 +111,10 @@
       "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
       "language": "Python",
       "stars_today": 487,
-      "stars_total": 7904,
-      "forks": 874,
-      "topic": "AI/智能体",
-      "raw_context": "> Looking for the original YuE? Its code, documentation, and license are preserved on the **[YuE-v1 branch](https://github.com/multimodal-art-projection/YuE/tree/YuE-v1)**. <p align=\"center\"> <img src=\"assets/logo.png\" alt=\"YuE\" width=\"150\" /> </p> <p align=\"center\"> <picture> <source media=\"(max-width: 600px)\" srcset=\"assets/institutions-mobile.svg\" /> <img src=\"assets/institutions.svg\" alt=\"HKUST, M·A·P, Tokenwave.AI, NYU, Stanford, MBZUAI, NOIZ, and ACE Studio\" width=\"760\" /> </picture> </p> <h1 align=\"center\">YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality</h1> <p align=\"center\"><strong>Compose in symbols. Create in sound.</strong></p> <p align=\"center\"> <a href=\"https://map-yue2.github.io/\">🎧 Demos</a> · <a href=\"https://huggingface.co/m-a-p/YuE2-3B\">🤗 YuE2</a> · <a href=\"#quick-start\">🚀 Quick start</a> · <a href=\"#agent-skill\">🤖 Agent skill</a> · <a href=\"#benchmarks\">📊 Benchmarks</a> · <a href=\"https://huggingface.co/m-a-p/MERT-v2-FullSong\">🤗 MERT2</a> · <a href=\"https://huggingface.co/m-a-p/SheetSage2\">🤗 SheetSage2</a> · <a href=\"https://huggingface.co/datasets/m-a-p/WildSongBench\">🤗 WSB</a> · <a href=\"https://github.com/multimodal-art-projection/YuE/releases/tag/yue2-v0.1.6\">📦 Release</a> · <a href=\"https://discord.gg/ssAyWMnMzu\"><img alt=\"Join us on Discord\" src=\"https://img.shields.io/discord/842440537755353128?color=5865F2&amp;logo=discord&amp",
-      "ai_summary": "【核心定位】能够统一符号音乐表征与高保真音频生成的开源前沿全长音乐生成系统。\n【技术亮点】打通符号乐谱与最终波形生成的多模态统一架构，大幅提升长篇幅全曲生成的结构连贯性与音质保真度。"
+      "stars_total": 7971,
+      "forks": 880,
+      "topic": "AI / LLM",
+      "ai_summary": "【核心定位】专注于 AI / LLM 领域，采用 Python 构建。\n【关键特性】YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing."
     },
     {
       "source": "github",
@@ -133,11 +125,10 @@
       "description": "A practical Douyin downloader for both single-item and profile batch downloads, with progress display, retries, SQLite deduplication, and browser fallback support. 抖音批量下载工具，去水印，支持视频、图集、合集、音乐(原声)。",
       "language": "Python",
       "stars_today": 452,
-      "stars_total": 11533,
-      "forks": 1764,
-      "topic": "效率工具",
-      "raw_context": "# Douyin Downloader V2.0 <p align=\"center\"> <img src=\"https://socialify.git.ci/jiji262/douyin-downloader/image?custom_description=Douyin+batch+download+tool%2C+remove+watermarks%2C+support+batch+download+of+videos%2C+gallery%2C+and+author+homepages.&description=1&font=Source+Code+Pro&forks=1&owner=1&pattern=Circuit+Board&stargazers=1&theme=Light\" alt=\"douyin-downloader\" width=\"820\" /> </p> <p align=\"center\"> <a href=\"https://linux.do\" alt=\"LINUX DO\"> <img src=\"https://img.shields.io/badge/LINUX-DO-FFB003.svg?logo=data:image/svg%2bxml;base64,DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiPjxwYXRoIGQ9Ik00Ni44Mi0uMDU1aDYuMjVxMjMuOTY5IDIuMDYyIDM4IDIxLjQyNmM1LjI1OCA3LjY3NiA4LjIxNSAxNi4xNTYgOC44NzUgMjUuNDV2Ni4yNXEtMi4wNjQgMjMuOTY4LTIxLjQzIDM4LTExLjUxMiA3Ljg4NS0yNS40NDUgOC44NzRoLTYuMjVxLTIzLjk3LTIuMDY0LTM4LjAwNC0yMS40M1EuOTcxIDY3LjA1Ni0uMDU0IDUzLjE4di02LjQ3M0MxLjM2MiAzMC43ODEgOC41MDMgMTguMTQ4IDIxLjM3IDguODE3IDI5LjA0NyAzLjU2MiAzNy41MjcuNjA0IDQ2LjgyMS0uMDU2IiBzdHlsZT0ic3Ryb2tlOm5vbmU7ZmlsbC1ydWxlOmV2ZW5vZGQ7ZmlsbDojZWNlY2VjO2ZpbGwtb3BhY2l0eToxIi8+PHBhdGggZD0iTTQ3LjI2NiAyLjk1N3EyMi41My0uNjUgMzcuNzc3IDE1LjczOGE0OS43IDQ5LjcgMCAwIDEgNi44NjcgMTAuMTU3cS00MS45NjQuMjIyLTgzLjkzIDAgOS43NS0xOC42MTYgMzAuMDI0LTI0LjM4N2E2MSA2MSAwIDAgMSA5LjI2Mi0xLjUwOCIgc3R5bGU9InN0cm9rZTpub25lO2ZpbGwtcnVsZTpldmVub2RkO2ZpbGw6IzE5MTkxOTtmaWxsLW9wYWNpdHk6MSIvPjxwYXRoIGQ9Ik03Ljk4I",
-      "ai_summary": "【核心定位】支持免水印批量下载视频、图集及作者主页全部内容的Python爬虫工具。\n【技术亮点】轻量级API反爬逆向解析封装，提供稳定可靠的批量解析与并发下载控制流。"
+      "stars_total": 11601,
+      "forks": 1768,
+      "topic": "Open Source",
+      "ai_summary": "【核心定位】专注于 Open Source 领域，采用 Python 构建。\n【关键特性】A practical Douyin downloader for both single-item and profile batch downloads, with progress display, retries, SQLite deduplication, and browser fallback support. 抖音批量下载工具，去水印，支持视频、图集、合集、音乐(原声)。"
     },
     {
       "source": "github",
@@ -148,11 +139,10 @@
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
       "stars_today": 443,
-      "stars_total": 23811,
-      "forks": 1759,
-      "topic": "效率工具",
-      "raw_context": "<div align=\"center\"> <a href=\"https://open-codereview.ai\"> <img src=\"imgs/logo-core.svg\" alt=\"OpenCodeReview logo\" width=\"180\" /> </a> <h1>OpenCodeReview</h1> </div> <p align=\"center\"> <a href=\"https://trendshift.io/repositories/41087?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-41087\" target=\"_blank\" rel=\"noopener noreferrer\"> <img src=\"https://trendshift.io/api/badge/repositories/41087\" alt=\"alibaba%2Fopen-code-review | Trendshift\" style=\"width: 280px; height: 60px;\" width=\"280\" height=\"60\" /> </a> <a href=\"https://trendshift.io/repositories/41087\" target=\"_blank\"> <img src=\"https://trendshift.io/api/badge/trendshift/repositories/41087/weekly?language=Go\" alt=\"alibaba%2Fopen-code-review | Trendshift\" style=\"width: 280px; height: 60px;\" width=\"280\" height=\"60\" /> </a> </p> <p align=\"center\"> <a href=\"https://www.npmjs.com/package/@alibaba-group/open-code-review\"><img alt=\"npm\" src=\"https://img.shields.io/npm/v/@alibaba-group/open-code-review?style=flat-square\" /></a> <a href=\"https://github.com/alibaba/open-code-review/actions/workflows/release.yml\"><img alt=\"Build status\" src=\"https://img.shields.io/github/actions/workflow/status/alibaba/open-code-review/release.yml?style=flat-square\" /></a> <a href=\"https://github.com/alibaba/open-code-review/blob/main/LICENSE\"><img alt=\"License\" src=\"https://img.shields.io/github/license/alibaba/open-co",
-      "ai_summary": "【核心定位】阿里巴巴开源的基于AI的智能自动化代码审查与规范分析平台。\n【技术亮点】采用Go语言实现的高性能代码审查管道，可与现有CI/CD工作流无缝集成，针对代码缺陷和性能隐患提供自动化修正建议。"
+      "stars_total": 23966,
+      "forks": 1768,
+      "topic": "AI / LLM",
+      "ai_summary": "【核心定位】专注于 AI / LLM 领域，采用 Go 构建。\n【关键特性】Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
     },
     {
       "source": "github",
@@ -163,11 +153,10 @@
       "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
       "language": "TypeScript",
       "stars_today": 432,
-      "stars_total": 2327,
-      "forks": 607,
-      "topic": "AI/智能体",
-      "raw_context": "<div align=\"center\"> 🇧🇷 Português · [🇺🇸 English](README.en.md) · [🇪🇸 Español](README.es.md) <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/brand/deskcomm-logo-dark.svg\"> <img src=\"docs/brand/deskcomm-logo.svg\" alt=\"Deskcomm CRM\" width=\"420\"> </picture> # 🛠️ DeskcommCRM — o Sistema Operacional de Vendas com IA, open source, pro WhatsApp **Agentes de IA que atendem, qualificam e vendem no WhatsApp — dentro de um CRM open source rodando no seu servidor.** **Sem mensalidade, sem feature travada, seus dados com você. A alternativa aberta a Kommo, Octadesk e Intercom.** [](https://nextjs.org) [](https://www.typescriptlang.org) [](https://supabase.com) [](hostgator-setup-kit/) [](https://github.com/melgarafael/DeskcommCRM/actions/workflows/ci.yml) [](LICENSE) [**⚡ Instalar**](#-instalar-na-sua-vps-o-caminho-principal) · [**🔄 Atualizar**](#-atualizar) · [**🧭 Visão**](VISION.md) · [**🏗️ Arquitetura**](ARCHITECTURE.md) · [**🤝 Contribuir**](CONTRIBUTING.md) · [**🗺️ Roadmap**](#%EF%B8%8F-roadmap) </div> --- > ### ☁️ Rode este CRM em produção com 1 comando > > O DeskcommCRM foi desenvolvido em **parceria com a HostGator**: o [`hostgator-setup-kit/`](hostgator-setup-kit/) > instala o CRM completo (app + WhatsApp + banco) numa VPS com um único comando, e o > [runbook de produção](docs/runbooks/waha-hostgator.md) já assume esse ambiente. > > **[👉 Assinar a VPS HostGator co",
-      "ai_summary": "【核心定位】原生集成AI销售智能体、专为WhatsApp营销生态打造的开源自主部署CRM销售系统。\n【技术亮点】全栈TypeScript架构配合开箱即用的VPS一键部署脚本，打通WhatsApp底层会话API与自托管LLM，保障客户数据绝对私有化。"
+      "stars_total": 2368,
+      "forks": 608,
+      "topic": "AI / LLM",
+      "ai_summary": "【核心定位】专注于 AI / LLM 领域，采用 TypeScript 构建。\n【关键特性】Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD."
     },
     {
       "source": "github",
@@ -178,29 +167,13 @@
       "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
       "stars_today": 380,
-      "stars_total": 58682,
-      "forks": 7374,
-      "topic": "AI/智能体",
-      "raw_context": "<p align=\"center\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/monty-dark.svg\"> <img src=\"assets/monty-light.svg\" alt=\"Monty the Clapper — the official mascot of OpenMontage\" width=\"200\"> </picture> </p> <p align=\"center\"><sub><em>Monty the Clapper — the official mascot of OpenMontage</em></sub></p> <h1 align=\"center\">OpenMontage</h1> <p align=\"center\"><strong>The first open-source, agentic video production system.</strong></p> <p align=\"center\"> <a href=\"https://openmontage.video\"><img src=\"https://img.shields.io/badge/Website-openmontage.video-d14a28?style=for-the-badge\" alt=\"openmontage.video\"></a> </p> <p align=\"center\"> <a href=\"#start-from-a-video-you-already-love\">Paste A Video</a> &nbsp;·&nbsp; <a href=\"#quick-start\">Quick Start</a> &nbsp;·&nbsp; <a href=\"#try-these-prompts\">Try These Prompts</a> &nbsp;·&nbsp; <a href=\"#pipelines\">Pipelines</a> &nbsp;·&nbsp; <a href=\"#how-it-works\">How It Works</a> &nbsp;·&nbsp; <a href=\"#sponsors\">Sponsors</a> &nbsp;·&nbsp; <a href=\"docs/PROVIDERS.md\">Providers</a> &nbsp;·&nbsp; <a href=\"docs/PR_REVIEW_GUIDE.md\">Review Guide</a> &nbsp;·&nbsp; <a href=\"AGENT_GUIDE.md\">Agent Guide</a> </p> <p align=\"center\"> <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-AGPLv3-blue.svg\" alt=\"License\"></a> </p> <p align=\"center\"> <a href=\"https://github.com/trending\"> <picture> <source media=\"(prefers-color-sch",
-      "ai_summary": "【核心定位】首个基于智能体工作流驱动的开源端到端视频自动剪辑与内容生产系统。\n【技术亮点】基于多智能体协作管线拆解视频脚本、素材切片与渲染排版，将传统繁重的后期剪辑转化为全自动Prompt驱动流程。"
+      "stars_total": 58798,
+      "forks": 7384,
+      "topic": "AI / LLM",
+      "ai_summary": "【核心定位】专注于 AI / LLM 领域，采用 Python 构建。\n【关键特性】World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio."
     }
   ],
   "hn_items": [
-    {
-      "source": "hackernews",
-      "id": "49686445",
-      "title": "Why is Google still serving dodgy ads?",
-      "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
-      "hn_url": "https://news.ycombinator.com/item?id=49686445",
-      "domain": "atomic14.com",
-      "points": 726,
-      "comments_count": 333,
-      "author": "iamflimflam1",
-      "created_at_i": 1789321064,
-      "topic": "商业与收购",
-      "raw_context": "【文章原文节选】: Why is Google still serving dodgy ads? | atomic14 🌈 ESP32-S3 Rainbow: ZX Spectrum Emulator Board! Get it on Crowd Supply → Why is Google still serving dodgy ads? View All Posts read Want to keep up to date with the latest posts and videos? Subscribe to the newsletter   ·     ·     ·     ·     ·   Posts   ·   Videos   ·   ESP32   ·   Tools   ·   Support « Detecting Claude and ChatGPT using letter counting. HELP SUPPORT MY WORK: If you're feeling flush then please stop by Patreon Or you can make a one off donation via ko-fi TLDR: AI is really good at detecting deceptive adverts - why isn’t Google using it? A couple of months ago I noticed this advert popping up in the YouTube app. The main reason I noticed it is that I accidentally clicked it - I knew I was running out of space on my iPhone and a minor lapse of concentration caught me out. These things can slip through even the best review processes, so I did my internet duty and reported the advert. The response I got back was less than satisfactory: Again, sometimes things slip through the net and people don’t always check things properly, so I reported it again. And got the same response. In fact, multiple people have reported thi\n\n【社区热评与争论】:\n- CqtGLRGcukpy: I have two guesses why Google does this: 1) Google wants the most money, so they don't care to let dodgy ads thru. 2) There are more ads going out then can be reviewed, so they would rather have people report them, then \n- andynrkri: My father saw a similar ad and got worried. The ad said you need to update your pdf version immediately. He uninstalled the YouTube because he knew it was irregular and thought his phone was hacked.\n- corranh: This one is not complicated…Because dodgy companies spend a lot of money on ads.",
-      "ai_summary": "【核心看点】作者质疑Google在手握强大AI欺诈识别技术的前提下，依然在YouTube等核心平台上大量分发欺诈性欺骗广告。\n【社区争议】用户指出商业利益驱动是主要诱因，虚假广告主投放预算丰厚，同时也有人认为日均广告体量庞大导致人工审核缺位，过度依赖被动举报。"
-    },
     {
       "source": "hackernews",
       "id": "49688695",
@@ -208,13 +181,26 @@
       "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
       "hn_url": "https://news.ycombinator.com/item?id=49688695",
       "domain": "vals.ai",
-      "points": 711,
-      "comments_count": 307,
+      "points": 829,
+      "comments_count": 344,
       "author": "u1hcw9nx",
       "created_at_i": 1789333573,
       "topic": "人工智能",
-      "raw_context": "【文章原文节选】: Claude Fable 5.1 Solves the Cyphral Distich Benchmarks Models Comparison Vals Smith App Reports Government News About Benchmarks Models Comparison Vals Smith App Reports Government News About Blog Research Claude Fable 5.1 Solves the Cyphral Distich We gave Claude Fable 5.1 an open task: solve an unsolved 370-year-old cipher. It solved it within a day. Geby Jaff • 08/31/2026 Problem We gave Claude Fable 5.1 an open task: solve Sir Thomas Urquhart’s Cyphral Distich. It appears to have actually solved it, and the solution is quite embarrassing for humans in hindsight. At the end of Urquhart’s Logopandecteision is a cryptogram consisting of two lines of 32 numbers each, called the Cyphral Distich . A cryptogram is a short message deliberately encoded so it can’t be read without knowing the rule that produced it. Here the entire puzzle input is these 64 numbers, and the goal is to recover the hidden plaintext: 5.3.27.38.32.14.21.8.66.8.70.39.5.9.12.18.2.3.56.5.1.7.3.2.13.19.3.25.9.3.16.6. 25.15.13.6.11.20.5.1.2.12.1.20.20.49.20.20.35.33.4.6.8.35.5.33.5.5.18.10.3.11.32.42. This cipher has remained seemingly unsolved for centuries. It was posed as an open problem in Notes and Queries in \n\n【社区热评与争论】:\n- Retr0id: > I told it to look online at some of Fable’s strongest feats, especially the math problems it has solved, and that something like this should be easy in comparison. Fascinating. I wonder if you could show \"fake news\" to\n- redfloatplane: A very neat problem and result. I often find myself swinging between \"It's so over\" and \"We're so back\" - some days I roll out of bed thinking I could have Claude solve some random unproven OEIS sequence before breakfast\n- humbleharbinger: Putting all controversy aside - this is a refreshing use of a model. Models are going to be a boon in the hands of historians.",
-      "ai_summary": "【核心看点】研究人员利用Claude Fable 5.1在一天内成功破译了拥有370年历史且长期未解的Urquhart密码诗（Cyphral Distich）。\n【社区争议】社区盛赞前沿大模型在历史学与古典密码学中的巨大研究潜力，同时也对其推理过程中提示词引导策略的有效性展开热烈探讨。"
+      "ai_summary": "【核心看点】来自 vals.ai 的热议话题，围绕 人工智能 展开。\n【讨论热度】获得 829 点赞与 344 条社区深入讨论。"
+    },
+    {
+      "source": "hackernews",
+      "id": "49686445",
+      "title": "Why is Google still serving dodgy ads?",
+      "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
+      "hn_url": "https://news.ycombinator.com/item?id=49686445",
+      "domain": "atomic14.com",
+      "points": 780,
+      "comments_count": 347,
+      "author": "iamflimflam1",
+      "created_at_i": 1789321064,
+      "topic": "前沿观察",
+      "ai_summary": "【核心看点】来自 atomic14.com 的热议话题，围绕 前沿观察 展开。\n【讨论热度】获得 780 点赞与 347 条社区深入讨论。"
     },
     {
       "source": "hackernews",
@@ -223,118 +209,12 @@
       "url": "https://brew.sh/2026/09/13/homebrew-7.0.0/",
       "hn_url": "https://news.ycombinator.com/item?id=49681545",
       "domain": "brew.sh",
-      "points": 580,
-      "comments_count": 231,
+      "points": 590,
+      "comments_count": 235,
       "author": "mikemcquaid",
       "created_at_i": 1789288877,
-      "topic": "系统架构",
-      "raw_context": "【文章原文节选】: Homebrew: 7.0.0 Homebrew 7.0.0 13 September 2026 MikeMcQuaid Today, I’m proud to announce Homebrew 7.0.0. The most significant changes since 6.0.0 are faster installations and upgrades, stronger sandboxing, a native macOS app, built-in vulnerability checks and an advisory database, the end of macOS 10.15 support and Intel Macs moving to Tier 3. Contents ⬆️ Upgrading 🍺 All Homebrew users 🏎️ Performance 🔒 Security Security advisories Installation and tap protection 🔎 Commands and configuration 🗃️ Casks 🍎 macOS users 🖥️ Homebrew app 🐧 Linux users 🍾 Non-default prefix users 🔍 Security teams and auditors 🐳 Homebrew users in CI 🛠️ Tap maintainers 🪜 Install steps 🙏 Finally ⬆️ Upgrading An auto-update or manual brew update (if you have $HOMEBREW_NO_AUTO_UPDATE set) will upgrade Homebrew for you. Now means 7.0.0. Deprecated interfaces warn until disablement; disabled interfaces reject use and removed interfaces are unavailable. Environment 7.0.0 behaviour and action Timing PR links macOS 10.15 or earlier Upgrade to macOS 11 or later Now Minimum version macOS Sonoma 14 Tier 3; upgrade to Sequoia 15+ for bottles and .pkg installations Now Support window macOS Golden Gate 27 on Apple Silicon F\n\n【社区热评与争论】:\n- mikemcquaid: Today, I’m proud to announce Homebrew 7.0.0. The most significant changes since 6.0.0 are faster installations and upgrades, stronger sandboxing, a native macOS app, built-in vulnerability checks and an advisory database\n- touwer: Fantastic, thx for the effort!\n- roger_: Does installation still require root and a dedicated user account on Linux? That really put me off.",
-      "ai_summary": "【核心看点】Homebrew 7.0.0正式发布，引入更强沙箱隔离、原生macOS客户端应用、内置漏洞检测库，并下调Intel Mac支持优先级。\n【社区争议】多数开发者为性能提升与安全防御增强叫好，但部分Linux用户依然对其安装时权限要求以及旧系统支持周期缩水表示不满。"
-    },
-    {
-      "source": "hackernews",
-      "id": "49681152",
-      "title": "JetKVM Mini",
-      "url": "https://jetkvm.com/blog/introducing-jetkvm-mini",
-      "hn_url": "https://news.ycombinator.com/item?id=49681152",
-      "domain": "jetkvm.com",
-      "points": 538,
-      "comments_count": 221,
-      "author": "taubek",
-      "created_at_i": 1789285786,
-      "topic": "数码硬件",
-      "raw_context": "【文章原文节选】: Introducing JetKVM Mini - JetKVM Skip to content Products Documentation Contact Blog Products Documentation Contact Blog Star 5.1K JetKVM Cloud Products Docs Blog Star 5.1K Cloud JetKVM Cloud Press release Sep 11, 2026 Share on Reddit Share on X Share on Bluesky Share on Mastodon Share on Hacker News Introducing JetKVM Mini JetKVM Mini is a matchbox-sized KVM, wired or wireless. 1080p video capture, the same web interface and cloud as JetKVM, and open-source firmware. Available October 26, 2026. JetKVM Mini is a smaller, more affordable JetKVM. It comes in two models: JetKVM Mini with Ethernet for $39 and JetKVM Mini W , wireless, for $42 . In packs of three, they become even more affordable and drop to $33 and $36 per unit. The case is aluminium, 42 × 42 × 23 mm (1.7 × 1.7 × 0.9 in), about the footprint of a matchbox. It does what a JetKVM does: native video capture at 1080p ( up to 4K with JetKVM OS Services ), keyboard and mouse over USB, the same web interface, the same cloud, the same updates. JetKVM Mini. The display is on top, the buttons on the side. Wired or wireless JetKVM Mini has an RJ45 port. Plug in Ethernet, video, and the USB cable to the target computer, read the I\n\n【社区热评与争论】:\n- teruakohatu: I am amazed that there is an ESP that can handle this and with just 32MB of RAM: https://docs.espressif.com/projects/esp-dev-kits/en/latest/e...\n- Shank: I own 3 JetKVMs, of which two of them stopped working, one of which doesn't boot at all and the other that never connects to network. The third I took out of service because the keyboard wouldn't send input when it was c\n- theanonymousone: It may be worth noting that this is not _that_ KVM, but this one: https://en.wikipedia.org/wiki/KVM_switch I learnt this first myself from HN, a few months ago.",
-      "ai_summary": "【核心看点】JetKVM发布仅火柴盒大小的微型KVM设备JetKVM Mini，支持1080p低延迟采集与开源固件，定价39美元起。\n【社区争议】极客玩家惊叹于ESP32在极小内存下实现的高清视频采集架构，但早期用户对其硬件品控、发热与偶发性死机问题提出了质量担忧。"
-    },
-    {
-      "source": "hackernews",
-      "id": "49683853",
-      "title": "Flock worker calls police on reporter filming public camera installation",
-      "url": "https://www.investigatetv.com/2026/09/08/flock-worker-calls-police-investigatetv-reporter-filming-public-camera-installation/",
-      "hn_url": "https://news.ycombinator.com/item?id=49683853",
-      "domain": "investigatetv.com",
-      "points": 344,
-      "comments_count": 253,
-      "author": "SanjayMehta",
-      "created_at_i": 1789306531,
-      "topic": "隐私安全",
-      "raw_context": "【文章原文节选】: Flock worker calls police on reporter filming public camera install Skip to content Investigations Local Listings Livestream Full Episodes Consumer In-Depth Inspire Health Contact Us About Us En Español Home mAnIpulated Investigations Watching the Watchers mAnIpulated Doctors of Defense Defective Cost of Beauty Healthcare Costs Air Travel Sports Railroaded Teens Targeted Rural Internet Livestream Local Listings Full Episodes Weekday Episodes Weekend Episodes Consumer Watching Your Wallet Investigations Be Your Own Investigator In-Depth Inspire Health Contact Us About Us Meet the Investigators Subscribe to Our Newsletter En Español Cuidando Su Billetera Investigaciones Episodios Completos Equipo InvestigateTV+ en Español Detalles de InvestigateTV+ en Español Donde mirar Flock worker calls police on InvestigateTV reporter filming public camera installation YouTubers also faced employee 911 call outside Flock facility A Flock worker called the police on InvestigateTV reporter Brendan Keefe as he was filming the public installation of one of the cameras. By Emily Featherston and Brendan Keefe Published : Sep. 8, 2026 at 11:15 AM CDT Share Add Us On Google Add as a preferred source on G\n\n【社区热评与争论】:\n- Zeetah: Privacy for me but not for thee - Flock",
-      "ai_summary": "【核心看点】监控摄像头厂商Flock员工在公共场所安装抓拍设备时，竟直接报警阻挠在现场合法拍摄新闻的调查记者。\n【社区争议】引发大众对公共监控商业化滥用与监控公司自身享有“特权双标”的强烈愤慨，舆论聚焦于企业对公众知情权与隐私权的公然侵犯。"
-    },
-    {
-      "source": "hackernews",
-      "id": "49684393",
-      "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
-      "url": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
-      "hn_url": "https://news.ycombinator.com/item?id=49684393",
-      "domain": "lesswrong.com",
-      "points": 414,
-      "comments_count": 188,
-      "author": "Levitating",
-      "created_at_i": 1789309716,
-      "topic": "人工智能",
-      "raw_context": "【社区热评与争论】:\n- blfr: Hacking model is the aligned model. I don't like it when the model refuses to sidestep some throttling limit or scan my own codebase for security issues. I want full-on exploits in my test suite. With LLMs the code going\n- throwup238: > Given that we are on the heels of the worst warning shot ever, and both OpenAI and Anthropic are ramping up their cleanups of internal RL environments, it seems like both a useful and conservative test of alignment, to\n- mooreslaw: It feels like there’s a missing nuance from this discussion of alignment that alignment is context dependent. An excellent hacking model is great in cybersecurity testing and military applications, and arguably less desi",
-      "ai_summary": "【核心看点】评测显示前沿模型Astra和Fable面对旧版安全对齐基准测试时，依然能轻易被简化的攻击变种攻破并输出恶意利用代码。\n【社区争议】讨论分化为两派：安全研究者认为强化学习环境对齐存在严重漏洞；攻防从业者则认为顶尖模型具备真实的漏洞挖掘能力才能发挥防御价值，过度限制反而降低可用性。"
-    },
-    {
-      "source": "hackernews",
-      "id": "49685253",
-      "title": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
-      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-      "hn_url": "https://news.ycombinator.com/item?id=49685253",
-      "domain": "techcrunch.com",
-      "points": 380,
-      "comments_count": 212,
-      "author": "TheJCDenton",
-      "created_at_i": 1789314278,
-      "topic": "人工智能",
-      "raw_context": "【文章原文节选】: Y Combinator's Garry Tan wants US open-weight AI labs to 'distill' frontier models, too | TechCrunch Disrupt 2026: OpenAI, Anthropic, Replit, and more take over 6 industry stages. 25% off tickets now Back by popular demand: Save up to $300 on Disrupt Close <header class=\"wp-block-template-part wp-block-template-part--header\n\n【社区热评与争论】:\n- TheJCDenton: > He also notes that the proprietary AI labs didn’t ask permission when they vacuumed up as much human knowledge as they could to train their models. I think this should desactivate the moral high ground from which Anthr\n- kelnos: I agree. The frontier models are based on training data from tons of copyrighted work. Some of that work was obtained illegally, even. They could not exist without strip-mining the commons. The labs have no moral or ethi\n- quicklywilliam: I see it as analogous to companies building fiber in the public ROW during the last big infrastructure bubble. Under the Telecoms Act, these companies had to allow competitors to use their fiber at a fair price. Similarl",
-      "ai_summary": "【核心看点】YC CEO Garry Tan呼吁美国开源AI实验室应当同样拥有蒸馏顶尖闭源前沿模型权能，打破寡头壁垒。\n【社区争议】支持者认为商业巨头本就肆意抓取公共版权数据训练，理应交还模型知识；反对者则担忧滥用蒸馏可能构成严重侵权并破坏大模型原创研发的商业闭环。"
-    },
-    {
-      "source": "hackernews",
-      "id": "49683953",
-      "title": "Data collected by cars and sold to third parties",
-      "url": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
-      "hn_url": "https://news.ycombinator.com/item?id=49683953",
-      "domain": "theverge.com",
-      "points": 369,
-      "comments_count": 194,
-      "author": "bookofjoe",
-      "created_at_i": 1789307108,
-      "topic": "隐私安全",
-      "raw_context": "【文章原文节选】: Your car is selling your data | The Verge Skip to main content The homepage The Verge The Verge logo. The Verge The Verge logo. Tech Reviews Science Entertainment AI Policy Notifications Notifications Hamburger Navigation Button The homepage The Verge The Verge logo. Notifications Notifications Hamburger Navigation Button Navigation Drawer The Verge The Verge logo. Login / Sign Up close Close Search Light System Dark Tech Expand Amazon Apple Facebook Google Microsoft Samsung Business See all tech Reviews Expand Smart Home Reviews Phone Reviews Tablet Reviews Headphone Reviews See all reviews Science Expand Space Energy Environment Health See all science Entertainment Expand TV Shows Movies Audio See all entertainment AI Expand OpenAI Anthropic See all AI Policy Expand Antitrust Politics Law Security See all policy Gadgets Expand Laptops Phones TVs Headphones Speakers Wearables See all gadgets Verge Shopping Expand Buying Guides Deals Gift Guides See all shopping Gaming Expand Xbox PlayStation Nintendo See all gaming Streaming Expand Disney HBO Netflix YouTube Creators See all streaming Transportation Expand Electric Cars Autonomous Cars Ride-sharing Scooters See all transportation \n\n【社区热评与争论】:\n- cc62cf4a4f20: That‘ll happen when you don‘t have meaningful data protection laws.\n- everyone: Another reason to use a car from 90's or 2000's.. Also they wont burn oil like a modern car + more durable and repairable metal parts. https://youtu.be/Ft12aZffCEg?si=qP1J5k6RXAxmZChf https://youtu.be/SeMZGICNSMg?si=-YLn\n- tomrod: How can this be stopped, from a technical perspective? Can I wrap the comms in a Faraday cage? Obviously it would be better to have this action be illegal. But with legal privacy protections eroding in the US and other c",
-      "ai_summary": "【核心看点】The Verge深度揭露现代智能汽车大量采集车主行车轨迹、生物识别及隐私数据，并暗中打包转售给第三方机构。\n【社区争议】公众严厉指责车企监管真空，网友探讨通过技术手段（如断开网络模块或屏蔽天线）抵御数据上传，并感叹缺乏隐私法案保护下老车更有安全感。"
-    },
-    {
-      "source": "hackernews",
-      "id": "49686766",
-      "title": "I'm being cyberattacked by Tesla, Inc",
-      "url": "https://dreamstation.systems/personal/tesla.html",
-      "hn_url": "https://news.ycombinator.com/item?id=49686766",
-      "domain": "dreamstation.systems",
-      "points": 422,
-      "comments_count": 114,
-      "author": "robinpie",
-      "created_at_i": 1789322589,
-      "topic": "开发者热议",
-      "raw_context": "【文章原文节选】: I’m being cyberattacked by Tesla, Inc. Skip to page content Using accessibility tools or a text browser? Switch to another theme to get rid of the chrome. dreamstation.systems Mon Sep 14, 5:59 AM UTC I’m being cyberattacked by Tesla, Inc. - Mozilla Firefox rather than :focus-within: the shared name makes the seven an exclusive group, so opening one closes the rest, and clicking an open menu closes it. Both behaviours are the browser's. A is focusable and announces its own expanded state, so no tabindex and no ARIA of ours. Entries that cannot do anything are inert s, not links to nowhere. --> F ile New Window Ctrl+N New Tab Ctrl+T Open Location… Ctrl+L Open File… Ctrl+O Save Page As… Ctrl+S Send Link… Page Setup… Print Preview Print… Ctrl+P Work Offline Quit Ctrl+Q E dit Undo Ctrl+Z Redo Ctrl+Shift+Z Cut Ctrl+X Copy Ctrl+C Paste Ctrl+V Delete Del Select All Ctrl+A Find in This Page… Ctrl+F Preferences V iew Toolbars ▸ Status Bar Sidebar ▸ Zoom ▸ Page Style ▸ Character Encoding ▸ Page Source Ctrl+U robin’s page blog my professional site OpenGET Hi s tory Back Alt+← Forward Alt+→ Home Alt+Home Recently Closed Tabs ▸ Show All History Ctrl+Shift+H B ookmarks Bookmark This Page Ctrl+D S\n\n【社区热评与争论】:\n- fred_is_fred: I'd report this to AWS instead since Tesla doesn't seem aware. It's AWS IPs as the source.\n- richwater: I would assume the fastest way to actually make this stop would be to setup a bunch of honeypot exploits, trigger their detection and someone will figure out what they did wrong. Other than not, with these huge companies\n- tekla: In case of the very likely title only reader posting: > Speculation: Assetnote pulled in everything it could find under tesla.com, including pool-ntp.tesla.com, which CNAMEs to pool.ntp.org, which can resolve to my machi",
-      "ai_summary": "【核心看点】博主发现自身服务器遭受来自特斯拉云设施的大规模网络探测，怀疑与资产扫描系统将公共NTP服务器错误关联有关。\n【社区争议】分析指出这大概率是第三方安全扫描供应商（如Assetnote）在资产勘测配置中的CNAME误扫失误，建议受害者设置蜜罐或直接向AWS投诉。"
-    },
-    {
-      "source": "hackernews",
-      "id": "49685991",
-      "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
-      "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
-      "hn_url": "https://news.ycombinator.com/item?id=49685991",
-      "domain": "twitter.com",
-      "points": 292,
-      "comments_count": 214,
-      "author": "kolanos",
-      "created_at_i": 1789318353,
-      "topic": "商业与收购",
-      "raw_context": "【文章原文节选】: David Sacks on X: \"Dario has written that we need to “pace the frontier,” and Sam has agreed. People may be surprised by my response: go ahead. You guys are the frontier. By any reasonable metric — market share, revenue growth, model capability — the two of you have a duopoly on frontier intellige… / X Post Log in Sign up Post Log in Sign up David Sacks on X: \"Dario has written that we need to “pace the frontier,” and Sam has agreed. People may be surprised by my response: go ahead. You guys are the frontier. By any reasonable metric — market share, revenue growth, model capability — the two of you have a duopoly on frontier intelligence. You’ve also claimed the lead is widening because of recursive self-improvement. I don’t see what you see in the lab. If the unreleased models are scary enough that you think you should slow down, I support your decision to be responsible. But stop pretending you need anyone else’s permission. Stop pretending antitrust law has to be suspended so you can form a cartel. Stop pretending you need a regulatory approval process that supersedes product liability. Stop pretending METR is independent when it is intertwined with Anthropic’s investors and sta\n\n【社区热评与争论】:\n- Insanity: They’ll slow down not because they “are worried” but because their improvements are stagnating as they hit financial and technical challenges.\n- socalgal2: Admits China won’t stop but says USA’s top should. Reminds me of City in the Edge of Forever\n- elicash: David Sachs wants to use government to punish people he disagrees with politically, like Dario. He supported the Department of War's illegal actions against Anthropic. He supported the Trump administration's temporary ex",
-      "ai_summary": "【核心看点】David Sacks公开反驳OpenAI与Anthropic呼吁放慢模型研发步伐的言论，直言巨头无需向外界寻求放慢创新的许可。\n【社区争议】社区观点犀利地指出，巨头鼓吹“自愿减速”往往掩盖了技术爬坡进入瓶颈或算力成本失控的现实，甚至涉嫌借安全监管之名构筑反竞争壁垒。"
+      "topic": "前沿观察",
+      "ai_summary": "【核心看点】来自 brew.sh 的热议话题，围绕 前沿观察 展开。\n【讨论热度】获得 590 点赞与 235 条社区深入讨论。"
     },
     {
       "source": "hackernews",
@@ -343,13 +223,96 @@
       "url": "https://news.ycombinator.com/item?id=49686380",
       "hn_url": "https://news.ycombinator.com/item?id=49686380",
       "domain": "news.ycombinator.com",
-      "points": 126,
-      "comments_count": 334,
+      "points": 148,
+      "comments_count": 452,
       "author": "david927",
       "created_at_i": 1789320698,
-      "topic": "开发者热议",
-      "raw_context": "【社区热评与争论】:\n- PopFlamingo: I’m building a website for discovering first names that’s enjoyable to explore: https://abracadanames.com It started with a family member telling me they were frustrated with existing websites. What I noticed is that in \n- MomohNobert: I've been working on https://pronto.stream/ , I wanted to mess around with MCP and building a world news system to power the decision making and surveillance of other systems I would likely curate. I was curious about fo\n- YoucefHQ: The 2026-27 soccer season just started. If you love catching up on highlights, check https://thepelota.tv/ It’s like Netflix but for soccer highlights, with all the major leagues in one place as soon as they are availabl",
-      "ai_summary": "【核心看点】HN九月常规互动板块，全球独立开发者与工程师积极分享当前构建的Side Project与初创产品。\n【社区争议】评论区展现出从基于MCP协议的新闻决策监控平台、智能起名工具到体育流媒体聚合器等极其多元且接地气的独立创客生态。"
+      "topic": "Ask HN",
+      "ai_summary": "【核心看点】来自 news.ycombinator.com 的热议话题，围绕 Ask HN 展开。\n【讨论热度】获得 148 点赞与 452 条社区深入讨论。"
+    },
+    {
+      "source": "hackernews",
+      "id": "49684393",
+      "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
+      "url": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
+      "hn_url": "https://news.ycombinator.com/item?id=49684393",
+      "domain": "lesswrong.com",
+      "points": 429,
+      "comments_count": 200,
+      "author": "Levitating",
+      "created_at_i": 1789309716,
+      "topic": "安全隐私",
+      "ai_summary": "【核心看点】来自 lesswrong.com 的热议话题，围绕 安全隐私 展开。\n【讨论热度】获得 429 点赞与 200 条社区深入讨论。"
+    },
+    {
+      "source": "hackernews",
+      "id": "49683953",
+      "title": "Data collected by cars and sold to third parties",
+      "url": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
+      "hn_url": "https://news.ycombinator.com/item?id=49683953",
+      "domain": "theverge.com",
+      "points": 406,
+      "comments_count": 203,
+      "author": "bookofjoe",
+      "created_at_i": 1789307108,
+      "topic": "前沿观察",
+      "ai_summary": "【核心看点】来自 theverge.com 的热议话题，围绕 前沿观察 展开。\n【讨论热度】获得 406 点赞与 203 条社区深入讨论。"
+    },
+    {
+      "source": "hackernews",
+      "id": "49683853",
+      "title": "Flock worker calls police on reporter filming public camera installation",
+      "url": "https://www.investigatetv.com/2026/09/08/flock-worker-calls-police-investigatetv-reporter-filming-public-camera-installation/",
+      "hn_url": "https://news.ycombinator.com/item?id=49683853",
+      "domain": "investigatetv.com",
+      "points": 345,
+      "comments_count": 254,
+      "author": "SanjayMehta",
+      "created_at_i": 1789306531,
+      "topic": "前沿观察",
+      "ai_summary": "【核心看点】来自 investigatetv.com 的热议话题，围绕 前沿观察 展开。\n【讨论热度】获得 345 点赞与 254 条社区深入讨论。"
+    },
+    {
+      "source": "hackernews",
+      "id": "49685253",
+      "title": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
+      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+      "hn_url": "https://news.ycombinator.com/item?id=49685253",
+      "domain": "techcrunch.com",
+      "points": 385,
+      "comments_count": 212,
+      "author": "TheJCDenton",
+      "created_at_i": 1789314278,
+      "topic": "人工智能",
+      "ai_summary": "【核心看点】来自 techcrunch.com 的热议话题，围绕 人工智能 展开。\n【讨论热度】获得 385 点赞与 212 条社区深入讨论。"
+    },
+    {
+      "source": "hackernews",
+      "id": "49686766",
+      "title": "I'm being cyberattacked by Tesla, Inc",
+      "url": "https://dreamstation.systems/personal/tesla.html",
+      "hn_url": "https://news.ycombinator.com/item?id=49686766",
+      "domain": "dreamstation.systems",
+      "points": 427,
+      "comments_count": 115,
+      "author": "robinpie",
+      "created_at_i": 1789322589,
+      "topic": "前端生态",
+      "ai_summary": "【核心看点】来自 dreamstation.systems 的热议话题，围绕 前端生态 展开。\n【讨论热度】获得 427 点赞与 115 条社区深入讨论。"
+    },
+    {
+      "source": "hackernews",
+      "id": "49685991",
+      "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+      "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
+      "hn_url": "https://news.ycombinator.com/item?id=49685991",
+      "domain": "twitter.com",
+      "points": 295,
+      "comments_count": 218,
+      "author": "kolanos",
+      "created_at_i": 1789318353,
+      "topic": "人工智能",
+      "ai_summary": "【核心看点】来自 twitter.com 的热议话题，围绕 人工智能 展开。\n【讨论热度】获得 295 点赞与 218 条社区深入讨论。"
     },
     {
       "source": "hackernews",
@@ -358,20 +321,33 @@
       "url": "https://twitter.com/TechEmails/status/2099214399840059428",
       "hn_url": "https://news.ycombinator.com/item?id=49688157",
       "domain": "twitter.com",
-      "points": 289,
-      "comments_count": 125,
+      "points": 294,
+      "comments_count": 128,
       "author": "mfiguiere",
       "created_at_i": 1789330125,
-      "topic": "科技社会",
-      "raw_context": "【文章原文节选】: Internal Tech Emails on X: \"Mark Zuckerberg: \"Cambridge Analytica\" January 30, 2017\" / X Post Log in Sign up Post Log in Sign up Internal Tech Emails on X: \"Mark Zuckerberg: \"Cambridge Analytica\" January 30, 2017\" Internal Tech Emails @TechEmails Mark Zuckerberg: \"Cambridge Analytica\" January 30, 2017 7:11 PM · Sep 13, 2026 121K Views 10 46 887 466 Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Relevant people Internal Tech Emails @ TechEmails Follow Trending now Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. Internal Tech Emails <path d=\"M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S\n\n【社区热评与争论】:\n- calldacopsidc: https://xcancel.com/TechEmails/status/2099214399840059428#m\n- dudefeliciano: > This document is from In re Facebook, Inc. Securities Litigation (2026).\n- pbalau: Zuk asked how the thing worked. Boz answered. Might be a challenge to some, but one can find out things if they pay enough attention to data.",
-      "ai_summary": "【核心看点】法庭披露的2017年内部邮件显示，扎克伯格曾亲自问询剑桥分析（Cambridge Analytica）事件的数据滥用运作机理。\n【社区争议】舆论再次审视社交巨头在数据资本主义扩张中对用户隐私保护的长期漠视与知情不报，感叹商业公司为追求定向增长早已将隐私置于脑后。"
+      "topic": "前沿观察",
+      "ai_summary": "【核心看点】来自 twitter.com 的热议话题，围绕 前沿观察 展开。\n【讨论热度】获得 294 点赞与 128 条社区深入讨论。"
+    },
+    {
+      "source": "hackernews",
+      "id": "49686697",
+      "title": "Global shortage has led to motor oil rationing at Costco",
+      "url": "https://guessingheadlights.com/global-shortage-has-led-to-motor-oil-rationing-at-costco/",
+      "hn_url": "https://news.ycombinator.com/item?id=49686697",
+      "domain": "guessingheadlights.com",
+      "points": 205,
+      "comments_count": 184,
+      "author": "mikhael",
+      "created_at_i": 1789322279,
+      "topic": "前沿观察",
+      "ai_summary": "【核心看点】来自 guessingheadlights.com 的热议话题，围绕 前沿观察 展开。\n【讨论热度】获得 205 点赞与 184 条社区深入讨论。"
     }
   ],
   "stats": {
     "github_count": 12,
     "hn_count": 12,
     "total_stars_today": 10683,
-    "total_hn_points": 5191,
-    "total_hn_comments": 2726
+    "total_hn_points": 5133,
+    "total_hn_comments": 2892
   }
 }
