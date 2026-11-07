@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPulse Daily 技术早报 (2026-11-07)</title>
+    <link rel="alternate" type="application/rss+xml" title="TechPulse RSS Feed" href="../feed.xml">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background: #fafafa; color: #0f172a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.5; padding: 16px; }
+        .container { max-width: 1040px; margin: 0 auto; }
+        .top-nav { display: flex; justify-content: space-between; align-items: center; padding: 12px 18px; background: #ffffff; border-radius: 6px; border: 1px solid #eaecf0; margin-bottom: 18px; flex-wrap: wrap; gap: 12px; }
+        .brand { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 16px; color: #0f172a; text-decoration: none; }
+        .nav-actions { display: flex; gap: 8px; align-items: center; }
+        .btn { display: inline-flex; align-items: center; gap: 5px; padding: 6px 12px; border-radius: 4px; font-size: 12.5px; font-weight: 500; text-decoration: none; cursor: pointer; border: 1px solid transparent; transition: all 0.15s ease; }
+        .btn-rss { background: #0f172a; color: #ffffff; }
+        .btn-rss:hover { background: #334155; }
+        .btn-outline { border-color: #d1d5db; background: #ffffff; color: #374151; }
+        .btn-outline:hover { background: #f3f4f6; }
+        .ai-toggle-btn:hover { background: #f1f5f9 !important; border-color: #cbd5e1 !important; color: #0f172a !important; }
+        .main-layout { display: grid; grid-template-columns: 1fr 260px; gap: 18px; }
+        @media (max-width: 820px) { .main-layout { grid-template-columns: 1fr; } }
+        .feed-container { background: #ffffff; border-radius: 6px; border: 1px solid #eaecf0; padding: 24px; }
+        .sidebar { display: flex; flex-direction: column; gap: 14px; }
+        .side-card { background: #ffffff; border-radius: 6px; border: 1px solid #eaecf0; padding: 16px; }
+        .side-title { font-size: 12px; font-weight: 700; color: #64748b; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .copy-toast { display: none; position: fixed; bottom: 24px; right: 24px; background: #0f172a; color: #f8fafc; padding: 10px 18px; border-radius: 4px; font-size: 13px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); z-index: 99; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="top-nav">
+            <a href="../index.html" class="brand">
+                <span>🛰️</span>
+                <span>TechPulse Daily</span>
+            </a>
+            <div class="nav-actions">
+                <a href="../index.html" class="btn btn-outline">← 返回今日最新</a>
+                <button class="btn btn-rss" onclick="copyRssLink()">📡 复制 RSS 订阅源</button>
+                <a href="../feed.xml" class="btn btn-outline" target="_blank">查看原始 XML</a>
+            </div>
+        </header>
+        <div class="main-layout">
+            <main class="feed-container">
+                <div style="font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color: #1e293b; line-height: 1.5; max-width: 820px; margin: 0 auto;">
+
+    <div style="border-bottom: 1px solid #e5e7eb; padding-bottom: 16px; margin-bottom: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
+            <h1 style="margin: 0; font-size: 20px; font-weight: 700; color: #0f172a; letter-spacing: 0;">🛰️ TechPulse Daily 技术早报</h1>
+            <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 13px; color: #64748b;">2026-11-07</span>
+        </div>
+        <div style="font-size: 12.5px; color: #64748b; display: flex; gap: 12px; flex-wrap: wrap;">
+            <span>📦 <strong>12</strong> 个开源项目 (+8,988 Stars)</span>
+            <span>·</span>
+            <span>🔥 <strong>12</strong> 篇深度讨论 (4,593 评论)</span>
+            <span>·</span>
+            <span>每日 08:15 定时更新</span>
+        </div>
+    </div>
+    
+<div style="margin-bottom: 32px;">
+<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #e5e7eb; padding-bottom: 8px; margin-bottom: 14px;"><h2 style="margin: 0; font-size: 15px; font-weight: 700; color: #0f172a; text-transform: uppercase; letter-spacing: 0.3px;">🚀 GitHub Trending 热门开源项目</h2><span style="font-size: 12px; color: #94a3b8;">点击 ✨ 展开 AI 深度解读</span></div>
+<div style="display: flex; flex-direction: column; gap: 10px;">
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#1</span>
+                    <a href="https://github.com/cloudflare/security-audit-skill" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;">cloudflare/security-audit-skill</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">AI / LLM</span>
+            </div>
+            <p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;">A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b45309; font-weight: 600;">⭐ +2,548</span>
+                    <span>·</span>
+                    <span>★ 64,384</span>
+                    <span>·</span>
+                    <span>⑂ 4,172</span>
+                    <span>·</span>
+                    <span>JavaScript</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-1')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="gh-ai-1" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;">✨ 基于官方 README 核心提炼</div>
+                <div><strong style='color: #0f172a;'>【核心定位】</strong>专注于 AI / LLM 领域，采用 JavaScript 构建。<br><strong style='color: #0f172a;'>【关键特性】</strong>A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#2</span>
+                    <a href="https://github.com/mattpocock/skills" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;">mattpocock/skills</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">AI / LLM</span>
+            </div>
+            <p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;">Skills for Real Engineers. Straight from my .agents directory.</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b45309; font-weight: 600;">⭐ +2,070</span>
+                    <span>·</span>
+                    <span>★ 316,905</span>
+                    <span>·</span>
+                    <span>⑂ 26,518</span>
+                    <span>·</span>
+                    <span>Shell</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-2')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="gh-ai-2" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;">✨ 基于官方 README 核心提炼</div>
+                <div><strong style='color: #0f172a;'>【核心定位】</strong>专注于 AI / LLM 领域，采用 Shell 构建。<br><strong style='color: #0f172a;'>【关键特性】</strong>Skills for Real Engineers. Straight from my .agents directory.</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#3</span>
+                    <a href="https://github.com/NVIDIA/auto-ontology" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;">NVIDIA/auto-ontology</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">AI / LLM</span>
+            </div>
+            <p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;">Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b45309; font-weight: 600;">⭐ +2,015</span>
+                    <span>·</span>
+                    <span>★ 9,289</span>
+                    <span>·</span>
+                    <span>⑂ 736</span>
+                    <span>·</span>
+                    <span>Python</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-3')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="gh-ai-3" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;">✨ 基于官方 README 核心提炼</div>
+                <div><strong style='color: #0f172a;'>【核心定位】</strong>专注于 AI / LLM 领域，采用 Python 构建。<br><strong style='color: #0f172a;'>【关键特性】</strong>Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#4</span>
+                    <a href="https://github.com/google/skills" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;">google/skills</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">AI / LLM</span>
+            </div>
+            <p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;">Agent Skills for Google products and technologies</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b45309; font-weight: 600;">⭐ +534</span>
+                    <span>·</span>
+                    <span>★ 22,934</span>
+                    <span>·</span>
+                    <span>⑂ 1,928</span>
+                    <span>·</span>
+                    <span>Python</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-4')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="gh-ai-4" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;">✨ 基于官方 README 核心提炼</div>
+                <div><strong style='color: #0f172a;'>【核心定位】</strong>专注于 AI / LLM 领域，采用 Python 构建。<br><strong style='color: #0f172a;'>【关键特性】</strong>Agent Skills for Google products and technologies</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#5</span>
+                    <a href="https://github.com/lz4/lz4" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;">lz4/lz4</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">Open Source</span>
+            </div>
+            <p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;">Extremely Fast Compression algorithm</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b45309; font-weight: 600;">⭐ +315</span>
+                    <span>·</span>
+                    <span>★ 12,644</span>
+                    <span>·</span>
+                    <span>⑂ 1,643</span>
+                    <span>·</span>
+                    <span>C</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-5')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="gh-ai-5" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;">✨ 基于官方 README 核心提炼</div>
+                <div><strong style='color: #0f172a;'>【核心定位】</strong>专注于 Open Source 领域，采用 C 构建。<br><strong style='color: #0f172a;'>【关键特性】</strong>Extremely Fast Compression algorithm</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#6</span>
+                    <a href="https://github.com/zed-industries/zed" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;">zed-industries/zed</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">Systems / Infra</span>
+            </div>
+            <p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;">Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b45309; font-weight: 600;">⭐ +306</span>
+                    <span>·</span>
+                    <span>★ 93,793</span>
+                    <span>·</span>
+                    <span>⑂ 11,511</span>
+                    <span>·</span>
+                    <span>Rust</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-6')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="gh-ai-6" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;">✨ 基于官方 README 核心提炼</div>
+                <div><strong style='color: #0f172a;'>【核心定位】</strong>专注于 Systems / Infra 领域，采用 Rust 构建。<br><strong style='color: #0f172a;'>【关键特性】</strong>Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#7</span>
+                    <a href="https://github.com/microsoft/vscode" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;">microsoft/vscode</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">Systems / Infra</span>
+            </div>
+            <p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;">Visual Studio Code</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b45309; font-weight: 600;">⭐ +301</span>
+                    <span>·</span>
+                    <span>★ 195,072</span>
+                    <span>·</span>
+                    <span>⑂ 44,433</span>
+                    <span>·</span>
+                    <span>TypeScript</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-7')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="gh-ai-7" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;">✨ 基于官方 README 核心提炼</div>
+                <div><strong style='color: #0f172a;'>【核心定位】</strong>专注于 Systems / Infra 领域，采用 TypeScript 构建。<br><strong style='color: #0f172a;'>【关键特性】</strong>Visual Studio Code</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#8</span>
+                    <a href="https://github.com/react/react" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;">react/react</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">Web / Frontend</span>
+            </div>
+            <p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;">The library for web and native user interfaces.</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b45309; font-weight: 600;">⭐ +248</span>
+                    <span>·</span>
+                    <span>★ 252,302</span>
+                    <span>·</span>
+                    <span>⑂ 51,825</span>
+                    <span>·</span>
+                    <span>JavaScript</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-8')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="gh-ai-8" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;">✨ 基于官方 README 核心提炼</div>
+                <div><strong style='color: #0f172a;'>【核心定位】</strong>专注于 Web / Frontend 领域，采用 JavaScript 构建。<br><strong style='color: #0f172a;'>【关键特性】</strong>The library for web and native user interfaces.</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#9</span>
+                    <a href="https://github.com/rust-lang/rust" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;">rust-lang/rust</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">Systems / Infra</span>
+            </div>
+            <p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;">Empowering everyone to build reliable and efficient software.</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b45309; font-weight: 600;">⭐ +192</span>
+                    <span>·</span>
+                    <span>★ 121,513</span>
+                    <span>·</span>
+                    <span>⑂ 17,369</span>
+                    <span>·</span>
+                    <span>Rust</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-9')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="gh-ai-9" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;">✨ 基于官方 README 核心提炼</div>
+                <div><strong style='color: #0f172a;'>【核心定位】</strong>专注于 Systems / Infra 领域，采用 Rust 构建。<br><strong style='color: #0f172a;'>【关键特性】</strong>Empowering everyone to build reliable and efficient software.</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#10</span>
+                    <a href="https://github.com/astral-sh/ruff" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;">astral-sh/ruff</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">Systems / Infra</span>
+            </div>
+            <p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;">An extremely fast Python linter and code formatter, written in Rust.</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b45309; font-weight: 600;">⭐ +169</span>
+                    <span>·</span>
+                    <span>★ 50,745</span>
+                    <span>·</span>
+                    <span>⑂ 2,615</span>
+                    <span>·</span>
+                    <span>Rust</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-10')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="gh-ai-10" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;">✨ 基于官方 README 核心提炼</div>
+                <div><strong style='color: #0f172a;'>【核心定位】</strong>专注于 Systems / Infra 领域，采用 Rust 构建。<br><strong style='color: #0f172a;'>【关键特性】</strong>An extremely fast Python linter and code formatter, written in Rust.</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#11</span>
+                    <a href="https://github.com/prometheus/prometheus" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;">prometheus/prometheus</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">Systems / Infra</span>
+            </div>
+            <p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;">The Prometheus monitoring system and time series database.</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b45309; font-weight: 600;">⭐ +148</span>
+                    <span>·</span>
+                    <span>★ 67,231</span>
+                    <span>·</span>
+                    <span>⑂ 10,989</span>
+                    <span>·</span>
+                    <span>Go</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-11')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="gh-ai-11" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;">✨ 基于官方 README 核心提炼</div>
+                <div><strong style='color: #0f172a;'>【核心定位】</strong>专注于 Systems / Infra 领域，采用 Go 构建。<br><strong style='color: #0f172a;'>【关键特性】</strong>The Prometheus monitoring system and time series database.</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#12</span>
+                    <a href="https://github.com/rails/rails" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none;">rails/rails</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">Open Source</span>
+            </div>
+            <p style="margin: 0 0 10px 0; font-size: 13.5px; color: #475569; line-height: 1.5;">Ruby on Rails</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b45309; font-weight: 600;">⭐ +142</span>
+                    <span>·</span>
+                    <span>★ 59,053</span>
+                    <span>·</span>
+                    <span>⑂ 23,833</span>
+                    <span>·</span>
+                    <span>Ruby</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('gh-ai-12')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="gh-ai-12" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #10b981; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #047857; margin-bottom: 6px;">✨ 基于官方 README 核心提炼</div>
+                <div><strong style='color: #0f172a;'>【核心定位】</strong>专注于 Open Source 领域，采用 Ruby 构建。<br><strong style='color: #0f172a;'>【关键特性】</strong>Ruby on Rails</div>
+            </div>
+        </div>
+        
+</div></div>
+<div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #e5e7eb; padding-bottom: 8px; margin-bottom: 14px;"><h2 style="margin: 0; font-size: 15px; font-weight: 700; color: #0f172a; text-transform: uppercase; letter-spacing: 0.3px;">🔥 Hacker News 科技前沿与深度讨论</h2><span style="font-size: 12px; color: #94a3b8;">点击 ✨ 展开 AI 深度解读</span></div>
+<div style="display: flex; flex-direction: column; gap: 10px;">
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#1</span>
+                    <a href="https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;">Tesla to wind down Cybertruck production</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">前沿观察</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b91c1c; font-weight: 600;">🔥 931 pts</span>
+                    <span>·</span>
+                    <a href="https://news.ycombinator.com/item?id=50391456" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 1,794 条讨论 →</a>
+                    <span>·</span>
+                    <span>nbcnews.com</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-1')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="hn-ai-1" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;">✨ 基于原文与社区热评深度提炼</div>
+                <div><strong style='color: #0f172a;'>【核心看点】</strong>来自 nbcnews.com 的热议话题，围绕 前沿观察 展开。<br><strong style='color: #0f172a;'>【讨论热度】</strong>获得 931 点赞与 1794 条社区深入讨论。</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#2</span>
+                    <a href="https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;">Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">前沿观察</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b91c1c; font-weight: 600;">🔥 628 pts</span>
+                    <span>·</span>
+                    <a href="https://news.ycombinator.com/item?id=50390124" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 410 条讨论 →</a>
+                    <span>·</span>
+                    <span>github.com</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-2')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="hn-ai-2" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;">✨ 基于原文与社区热评深度提炼</div>
+                <div><strong style='color: #0f172a;'>【核心看点】</strong>来自 github.com 的热议话题，围绕 前沿观察 展开。<br><strong style='color: #0f172a;'>【讨论热度】</strong>获得 628 点赞与 410 条社区深入讨论。</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#3</span>
+                    <a href="https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;">Britain to make salary disclosure in job ads mandatory</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">前沿观察</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b91c1c; font-weight: 600;">🔥 573 pts</span>
+                    <span>·</span>
+                    <a href="https://news.ycombinator.com/item?id=50389222" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 437 条讨论 →</a>
+                    <span>·</span>
+                    <span>reuters.com</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-3')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="hn-ai-3" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;">✨ 基于原文与社区热评深度提炼</div>
+                <div><strong style='color: #0f172a;'>【核心看点】</strong>来自 reuters.com 的热议话题，围绕 前沿观察 展开。<br><strong style='color: #0f172a;'>【讨论热度】</strong>获得 573 点赞与 437 条社区深入讨论。</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#4</span>
+                    <a href="https://github.com/ppmpreetham/BUI" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;">Blender's UI and Runtime: Much Faster Than GPUI</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">前沿观察</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b91c1c; font-weight: 600;">🔥 689 pts</span>
+                    <span>·</span>
+                    <a href="https://news.ycombinator.com/item?id=50389333" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 281 条讨论 →</a>
+                    <span>·</span>
+                    <span>github.com</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-4')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="hn-ai-4" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;">✨ 基于原文与社区热评深度提炼</div>
+                <div><strong style='color: #0f172a;'>【核心看点】</strong>来自 github.com 的热议话题，围绕 前沿观察 展开。<br><strong style='color: #0f172a;'>【讨论热度】</strong>获得 689 点赞与 281 条社区深入讨论。</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#5</span>
+                    <a href="https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;">Anthropic IPO buyers see valuation as low as $1.1T</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">人工智能</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b91c1c; font-weight: 600;">🔥 265 pts</span>
+                    <span>·</span>
+                    <a href="https://news.ycombinator.com/item?id=50394906" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 530 条讨论 →</a>
+                    <span>·</span>
+                    <span>bloomberg.com</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-5')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="hn-ai-5" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;">✨ 基于原文与社区热评深度提炼</div>
+                <div><strong style='color: #0f172a;'>【核心看点】</strong>来自 bloomberg.com 的热议话题，围绕 人工智能 展开。<br><strong style='color: #0f172a;'>【讨论热度】</strong>获得 265 点赞与 530 条社区深入讨论。</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#6</span>
+                    <a href="https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;">US FAA says it will phase out floppy disks from air traffic control by 2028</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">前沿观察</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b91c1c; font-weight: 600;">🔥 309 pts</span>
+                    <span>·</span>
+                    <a href="https://news.ycombinator.com/item?id=50388001" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 248 条讨论 →</a>
+                    <span>·</span>
+                    <span>reuters.com</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-6')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="hn-ai-6" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;">✨ 基于原文与社区热评深度提炼</div>
+                <div><strong style='color: #0f172a;'>【核心看点】</strong>来自 reuters.com 的热议话题，围绕 前沿观察 展开。<br><strong style='color: #0f172a;'>【讨论热度】</strong>获得 309 点赞与 248 条社区深入讨论。</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#7</span>
+                    <a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;">Gemini Omni 1.2 Flash</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">人工智能</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b91c1c; font-weight: 600;">🔥 311 pts</span>
+                    <span>·</span>
+                    <a href="https://news.ycombinator.com/item?id=50392118" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 225 条讨论 →</a>
+                    <span>·</span>
+                    <span>blog.google</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-7')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="hn-ai-7" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;">✨ 基于原文与社区热评深度提炼</div>
+                <div><strong style='color: #0f172a;'>【核心看点】</strong>来自 blog.google 的热议话题，围绕 人工智能 展开。<br><strong style='color: #0f172a;'>【讨论热度】</strong>获得 311 点赞与 225 条社区深入讨论。</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#8</span>
+                    <a href="https://www.filfre.net/2026/11/deus-ex/" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;">Deus Ex</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">前沿观察</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b91c1c; font-weight: 600;">🔥 348 pts</span>
+                    <span>·</span>
+                    <a href="https://news.ycombinator.com/item?id=50393758" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 184 条讨论 →</a>
+                    <span>·</span>
+                    <span>filfre.net</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-8')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="hn-ai-8" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;">✨ 基于原文与社区热评深度提炼</div>
+                <div><strong style='color: #0f172a;'>【核心看点】</strong>来自 filfre.net 的热议话题，围绕 前沿观察 展开。<br><strong style='color: #0f172a;'>【讨论热度】</strong>获得 348 点赞与 184 条社区深入讨论。</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#9</span>
+                    <a href="https://mitchellh.com/writing/libghostty-1-0" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;">Libghostty 1.0</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">前沿观察</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b91c1c; font-weight: 600;">🔥 432 pts</span>
+                    <span>·</span>
+                    <a href="https://news.ycombinator.com/item?id=50399933" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 70 条讨论 →</a>
+                    <span>·</span>
+                    <span>mitchellh.com</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-9')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="hn-ai-9" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;">✨ 基于原文与社区热评深度提炼</div>
+                <div><strong style='color: #0f172a;'>【核心看点】</strong>来自 mitchellh.com 的热议话题，围绕 前沿观察 展开。<br><strong style='color: #0f172a;'>【讨论热度】</strong>获得 432 点赞与 70 条社区深入讨论。</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#10</span>
+                    <a href="https://hightouch.com/blog/llm-judges-identity-resolution" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;">A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">人工智能</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b91c1c; font-weight: 600;">🔥 407 pts</span>
+                    <span>·</span>
+                    <a href="https://news.ycombinator.com/item?id=50397429" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 91 条讨论 →</a>
+                    <span>·</span>
+                    <span>hightouch.com</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-10')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="hn-ai-10" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;">✨ 基于原文与社区热评深度提炼</div>
+                <div><strong style='color: #0f172a;'>【核心看点】</strong>来自 hightouch.com 的热议话题，围绕 人工智能 展开。<br><strong style='color: #0f172a;'>【讨论热度】</strong>获得 407 点赞与 91 条社区深入讨论。</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#11</span>
+                    <a href="https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;">AI is dramatically accelerating AI research</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">人工智能</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b91c1c; font-weight: 600;">🔥 252 pts</span>
+                    <span>·</span>
+                    <a href="https://news.ycombinator.com/item?id=50397994" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 201 条讨论 →</a>
+                    <span>·</span>
+                    <span>planned-obsolescence.org</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-11')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="hn-ai-11" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;">✨ 基于原文与社区热评深度提炼</div>
+                <div><strong style='color: #0f172a;'>【核心看点】</strong>来自 planned-obsolescence.org 的热议话题，围绕 人工智能 展开。<br><strong style='color: #0f172a;'>【讨论热度】</strong>获得 252 点赞与 201 条社区深入讨论。</div>
+            </div>
+        </div>
+        
+
+        <div style="border: 1px solid #eaecf0; border-radius: 6px; padding: 14px 16px; background: #ffffff;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px;">
+                <div style="display: flex; align-items: baseline; gap: 8px;">
+                    <span style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 12.5px; font-weight: 600; color: #94a3b8;">#12</span>
+                    <a href="https://news.ycombinator.com/item?id=50393105" target="_blank" style="font-size: 15px; font-weight: 600; color: #0f172a; text-decoration: none; line-height: 1.4;">Ask HN: What in the world is taking Ubuntu so long?</a>
+                </div>
+                <span style="font-size: 11px; background: #f1f5f9; color: #475569; padding: 2px 7px; border-radius: 4px; font-weight: 500; white-space: nowrap;">Ask HN</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b; flex-wrap: wrap; gap: 8px; margin-top: 8px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                    <span style="color: #b91c1c; font-weight: 600;">🔥 192 pts</span>
+                    <span>·</span>
+                    <a href="https://news.ycombinator.com/item?id=50393105" target="_blank" style="color: #4f46e5; text-decoration: none; font-weight: 500;">💬 122 条讨论 →</a>
+                    <span>·</span>
+                    <span>news.ycombinator.com</span>
+                </div>
+                <button class="ai-toggle-btn" onclick="toggleAiBox('hn-ai-12')" style="background: transparent; border: 1px solid #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 4px; font-size: 11.5px; cursor: pointer;">
+                    <span>✨ AI 深度解读</span>
+                </button>
+            </div>
+            <div id="hn-ai-12" class="ai-summary-box" style="display: none; margin-top: 10px; padding: 12px 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-left: 3px solid #3b82f6; border-radius: 4px; font-size: 13px; color: #334155; line-height: 1.65;">
+                <div style="font-size: 11px; font-weight: 700; color: #1d4ed8; margin-bottom: 6px;">✨ 基于原文与社区热评深度提炼</div>
+                <div><strong style='color: #0f172a;'>【核心看点】</strong>来自 news.ycombinator.com 的热议话题，围绕 Ask HN 展开。<br><strong style='color: #0f172a;'>【讨论热度】</strong>获得 192 点赞与 122 条社区深入讨论。</div>
+            </div>
+        </div>
+        
+</div></div>
+<div style="margin-top: 28px; padding-top: 14px; border-top: 1px solid #eaecf0; font-size: 12px; color: #94a3b8; text-align: center;">由 TechPulse 自动化生成于 2026-11-07 05:53:54 ｜ 每日 08:15 更新</div>
+</div>
+            </main>
+            <aside class="sidebar">
+                <div class="side-card">
+                    <div class="side-title">📡 RSS 订阅指南</div>
+                    <p style="font-size: 12.5px; color: #64748b; margin-bottom: 10px; line-height: 1.5;">支持 NetNewsWire, Reeder, Follow, Feedly，每日 08:15 自动拉取更新。</p>
+                    <input type="text" id="rssUrl" readonly value="../feed.xml" style="width: 100%; padding: 6px 10px; font-size: 12px; background: #f8fafc; border: 1px solid #d1d5db; border-radius: 4px; color: #374151; margin-bottom: 8px;">
+                    <button class="btn btn-outline" style="width: 100%; justify-content: center;" onclick="copyRssLink()">点击一键复制</button>
+                </div>
+                <div class="side-card">
+                    <div class="side-title">🗂 往期早报归档</div>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="margin-bottom: 2px;"><a href="2026-11-07.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; background: #f1f5f9; font-weight: 600; color: #0f172a;">📅 2026-11-07 - Tesla to wind down Cybert...</a></li><li style="margin-bottom: 2px;"><a href="2026-11-06.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-11-06 - sshole...</a></li><li style="margin-bottom: 2px;"><a href="2026-11-05.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-11-05 - AI is forcing us to pay o...</a></li><li style="margin-bottom: 2px;"><a href="2026-11-04.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-11-04 - Postman silently auto-ins...</a></li><li style="margin-bottom: 2px;"><a href="2026-11-03.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-11-03 - Astra can read and write ...</a></li><li style="margin-bottom: 2px;"><a href="2026-11-02.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-11-02 - HackerTube: YouTube built...</a></li><li style="margin-bottom: 2px;"><a href="2026-11-01.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-11-01 - Serbia just elected the w...</a></li><li style="margin-bottom: 2px;"><a href="2026-10-31.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-10-31 - Backdoor in Claude Code f...</a></li><li style="margin-bottom: 2px;"><a href="2026-10-30.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-10-30 - Patrick Stewart has died...</a></li><li style="margin-bottom: 2px;"><a href="2026-10-29.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-10-29 - Evidence of a spying oper...</a></li><li style="margin-bottom: 2px;"><a href="2026-10-28.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-10-28 - Genie 4...</a></li><li style="margin-bottom: 2px;"><a href="2026-10-27.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-10-27 - Anthropic S-1...</a></li><li style="margin-bottom: 2px;"><a href="2026-10-26.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-10-26 - We should be more ambitio...</a></li><li style="margin-bottom: 2px;"><a href="2026-10-25.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-10-25 - Local Wikipedia: Wikipedi...</a></li><li style="margin-bottom: 2px;"><a href="2026-10-24.html" style="display: block; padding: 6px 10px; border-radius: 4px; text-decoration: none; font-size: 12.5px; color: #64748b;">📅 2026-10-24 - Local Wikipedia: Wikipedi...</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <div id="toast" class="copy-toast">✅ RSS 地址已复制到剪贴板！</div>
+    <script>
+        function toggleAiBox(id) {
+            const box = document.getElementById(id);
+            if (!box) return;
+            if (box.style.display === "none" || box.style.display === "") {
+                box.style.display = "block";
+            } else {
+                box.style.display = "none";
+            }
+        }
+        function copyRssLink() {
+            const fullUrl = new URL("../feed.xml", window.location.href).href;
+            navigator.clipboard.writeText(fullUrl).then(() => {
+                const toast = document.getElementById("toast");
+                toast.style.display = "block";
+                setTimeout(() => { toast.style.display = "none"; }, 2500);
+            }).catch(() => {
+                alert("RSS 地址: " + fullUrl);
+            });
+        }
+        window.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("rssUrl").value = new URL("../feed.xml", window.location.href).href;
+        });
+    </script>
+</body>
+</html>
